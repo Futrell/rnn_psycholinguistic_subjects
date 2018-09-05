@@ -1,0 +1,62 @@
+---
+title: "Center Embedding Completions"
+output: html_notebook
+---
+
+Can the LSTMs complete singly- and double-nested object relative clauses?
+
+```{r}
+rm(list=ls())
+library(tidyverse)
+library(plotrix)
+library(lme4)
+#DATA_DIR = "~/projects/rnnpsycholing/center-embedding-completions/"
+DATA_DIR = "./"
+d = read_tsv("output_for_richard.tsv") %>%
+  bind_rows(read_tsv(paste(DATA_DIR,"output_google_for_richard.tsv",sep=""))) %>%
+  bind_rows(read_tsv(paste(DATA_DIR,"output_for_roger.tsv",sep=""))) %>%
+  bind_rows(read_tsv(paste(DATA_DIR,"output_google_for_roger.tsv",sep=""))) %>%
+  bind_rows(read_tsv(paste(DATA_DIR,"output_for_ethan.tsv",sep=""))) %>%
+  bind_rows(read_tsv(paste(DATA_DIR,"output_google_for_ethan.tsv",sep=""))) %>%
+  filter(!is.na(grammatical)) %>%
+  mutate(unk = note == "UNK" | note == "Unk" | note == "unk") %>%
+  mutate(unk=if_else(is.na(unk), FALSE, unk))
+
+d %>% 
+  filter(!unk) %>%
+  mutate(depth=as.factor(depth)) %>%
+  group_by(lstm, depth) %>%
+    summarise(m=mean(grammatical),
+              s=std.error(grammatical),
+              upper=m+1.96*s,
+              lower=m-1.96*s) %>%
+    ungroup() %>%
+  ggplot(aes(x=lstm, y=m, ymin=lower, ymax=upper, fill=depth)) +
+    geom_bar(stat="identity", position="dodge") +
+    geom_errorbar(width=.1, position=position_dodge(0.9)) +
+    ylab("Proportion grammatical continuations") +
+    xlab("LSTM")
+ggsave("center-embeddings.pdf",height=4,width=5)
+
+```
+
+
+```{r}
+m_1 = d %>%
+  filter(!unk) %>%
+  filter(depth == 1) %>%
+  glmer(grammatical ~ lstm + (1|item), family="binomial", data=.)
+
+summary(m_1)
+
+m_2 = d %>%
+  filter(!unk) %>%
+  filter(depth == 2) %>%
+  glmer(grammatical ~ lstm + (1|item), family="binomial", data=.)
+
+summary(m_2)
+
+
+```
+Google LSTM does significantly better than Gulordava LSTM on embedding depth 1.
+No significant difference between them for embedding depth 2.

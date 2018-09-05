@@ -1,0 +1,229 @@
+---
+title: "rnnpsycholing Japanese NPI (no embedded sentences)"
+author: "Takashi Morita"
+output:
+  pdf_document:
+    latex_engine: lualatex
+    toc: true
+    toc_depth: 3
+  html_notebook: default
+documentclass: ltjsarticle
+---
+
+# Introduction
+
+We are looking for a 2x2 interaction of:
+
+- presence vs. absence of the Japanese NPI *shika* (しか)
+- affirmativeness vs. negativeness of main verb
+
+for each of the three grammatical cases (TOP, ACC, DAT) of the *shika*-attached NP.
+
+e.g.
+
+- TOP
+	- 渡辺-{しか,は} 家族-に 手紙-を {渡した,渡さなかった}。
+	- Watanabe-{*shika*,TOP} family-DAT letter-ACC {came, didn't come}.
+	- 'Only Watanabe handed letters to his family.'
+	- 'Watanabe handed/didn't hand letters to his family.'
+- ACC
+	- 渡辺-は 家族-に 手紙-{しか,を} {渡した,渡さなかった}。
+	- Watanabe-TOP family-DAT letter-{*shika*,ACC} {came, didn't.come.}
+	- 'Watanabe handed only letters to his family.'
+	- 'Watanabe handed/didn't hand letters to his family.'
+- DAT
+	- 渡辺-は 家族-{に-しか,に} 手紙-を {渡した,渡さなかった}。
+	- Watanabe-TOP family-{DAT-*shika*,DAT} letter-ACC {came, didn't.come.}
+	- 'Watanabe handed letters only to his family.'
+	- 'Watanabe handed/didn't hand letters to his family.'
+
+Why is this interesting?
+
+- A grammatical sentence with *shika* must have a negative verb.
+- Affirmative verbs would show significant increase in surprisal when *shika* precedes compared with its absence.
+
+
+
+# Methods
+
+For each pair $i$ of sentences with vs. without *shika*,
+we look at their difference in surprisal of the verb (`V`) region.
+
+\[
+D_i
+	 := 
+		S(\texttt{V}_i \mid \texttt{shika})
+		-
+		S(\texttt{V}_i \mid \texttt{no-shika})
+\]
+
+\[
+S(r) := - \log_2 P(r)
+\]
+
+And we perform a statistical analysis and check
+if the affirmativeness vs. negativeness of the verb
+have an effect on the surprisal difference $D$.
+
+
+# Load data
+
+```{r}
+rm(list = ls())
+library(tidyverse)
+library(lme4)
+library(lmerTest)
+library(plotrix)
+
+
+REGIONS = c('prefix', 'V', 'end')
+
+
+token_based_data_path = 'jp_shika_test_sentences_unembedded_surprisal-per-token.tsv'
+data_token_based = read_tsv(token_based_data_path)
+# Fill the initial surprisal by 0.
+data_token_based[is.na(data_token_based$surprisal),]$surprisal = 0
+data_token_based$region = factor(data_token_based$region, levels=REGIONS)
+
+
+
+data_region_based = data_token_based %>% 
+	group_by(sent_index, region, shika, verb_type, shika_case) %>% 
+		summarise(surprisal=sum(surprisal)) %>%
+		ungroup() %>% 
+	mutate(
+		shika=factor(shika, levels=c("shika", "no-shika")),
+		verb_type=factor(verb_type, levels=c("affirmative", "negative")),
+		shika_case=factor(shika_case, levels=c("TOP", "ACC", "DAT"))
+		)
+
+# Sum coding of the variables.
+contrasts(data_region_based$shika) = "contr.sum"
+contrasts(data_region_based$verb_type) = "contr.sum"
+
+# Make sure that the dataframe is sorted appropriately.
+# First by case
+data_region_based = data_region_based[order(data_region_based$shika_case),]
+# Second by verb_type (affirmative vs. negative)
+data_region_based = data_region_based[order(data_region_based$verb_type),]
+# Then by sent_index
+data_region_based = data_region_based[order(data_region_based$sent_index),]
+```
+
+# Visualization
+
+```{r}
+# Focus on the V (verb) region.
+data_V = subset(data_region_based, region == 'V')
+
+# Get difference in surprisal between shika vs. no-shika.
+data_V_shika = subset(data_V, shika == 'shika')
+data_V_no_shika = subset(data_V, shika == 'no-shika')
+data_V_shika$surprisal_diff = data_V_shika$surprisal - data_V_no_shika$surprisal
+
+# Visualize the difference in surprisal increase/dicrease between affirmative vs. negative verbs.
+data_V_shika %>% 
+<<<<<<< HEAD
+  group_by(sent_index) %>%
+    mutate(item_mean=mean(surprisal_diff)) %>%
+    ungroup() %>%
+	group_by(verb_type, shika_case) %>%
+	  summarise(m=mean(surprisal_diff),
+			s=std.error(surprisal_diff - item_mean),
+=======
+  
+  #Error Calculation
+  group_by(sent_index) %>%
+   mutate(across_condition_mean = mean(surprisal_diff)) %>%
+  ungroup() %>%
+  mutate(item_mean = surprisal_diff - across_condition_mean) %>%
+  group_by(verb_type, shika_case) %>%
+    mutate(err = std.error(item_mean, na.rm=T)) %>%
+  ungroup() %>%
+  select(-item_mean, -across_condition_mean) %>%
+  
+	group_by(verb_type, shika_case) %>%
+	summarise(m=mean(surprisal_diff),
+	    s=mean(err),
+			s2=std.error(surprisal_diff),
+>>>>>>> bd50d7cfee64e8333ab0c4ebc3b0f21229b24199
+			upper=m + 1.96*s,
+			lower=m - 1.96*s) %>%
+	  ungroup() %>%
+	ggplot(aes(x=shika_case, y=m, ymin=lower, ymax=upper, fill=verb_type)) +
+    ylab("Surprisal effect of shika in context") +
+    xlab("Case of shika-marked NP") +
+		geom_bar(stat = 'identity', position = "dodge") +
+		geom_errorbar(position=position_dodge(0.9), width=.1) +
+    theme(legend.position=c(0.15,0.9)) + 
+    guides(fill=guide_legend(title="Verb")) 
+    #annotate("text",x=1.5,y=-3,label="Unembedded")
+ggsave("shika-unembedded.pdf",height=4,width=3)
+```
+- TOP
+	- No visible increase in surprisal of the affirmative verbs.
+	- Visible decrease in surprisal of the negative verbs.
+- ACC
+	- Greatest increase in surprisal of the affirmative verbs.
+	- Small decrease in surprisal of the negative verbs.
+- DAT
+	- Visible increase in surprisal of the affirmative verbs.
+	- Greatest decrease in surprisal of the negative verbs.
+
+# Regressions
+
+## TOP
+
+```{r}
+sub_data = subset(data_V_shika, shika_case == 'TOP')
+
+m = lmer(
+		surprisal_diff
+			~ verb_type
+				+ (1 | sent_index)
+		,
+		data=sub_data
+		)
+summary(m)
+```
+
+- Statistically significant effect of the affirmativeness vs. negativeness of verbs.
+
+
+## ACC
+
+```{r}
+sub_data = subset(data_V_shika, shika_case == 'ACC')
+
+m = lmer(
+		surprisal_diff
+			~ verb_type
+				+ (1 | sent_index)
+		,
+		data=sub_data
+		)
+summary(m)
+```
+
+
+- Statistically significant effect of the affirmativeness vs. negativeness of verbs.
+- Greater effect than TOP.
+
+## DAT
+
+```{r}
+sub_data = subset(data_V_shika, shika_case == 'DAT')
+
+m = lmer(
+		surprisal_diff
+			~ verb_type
+				+ (1 | sent_index)
+		,
+		data=sub_data
+		)
+summary(m)
+```
+
+- Statistically significant effect of the affirmativeness vs. negativeness of verbs.
+- Greater effect than TOP, similar to ACC.
+

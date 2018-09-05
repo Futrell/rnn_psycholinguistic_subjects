@@ -1,0 +1,1661 @@
+	sent_index	word_index	word	region	condition
+0	0	0	The	Start	inanim_unreduced
+1	0	1	evidence	Inanimate noun	inanim_unreduced
+2	0	2	that	that-was	inanim_unreduced
+3	0	3	was	that-was	inanim_unreduced
+4	0	4	examined	verb	inanim_unreduced
+5	0	5	by	by-phrase	inanim_unreduced
+6	0	6	the	by-phrase	inanim_unreduced
+7	0	7	lawyer	by-phrase	inanim_unreduced
+8	0	8	turned	main verb	inanim_unreduced
+9	0	9	out	End	inanim_unreduced
+10	0	10	to	End	inanim_unreduced
+11	0	11	be	End	inanim_unreduced
+12	0	12	unreliable	End	inanim_unreduced
+13	0	13	.	End	inanim_unreduced
+14	0	14	<eos>	End	inanim_unreduced
+15	1	0	The	Start	inanim_unreduced
+16	1	1	gold	Inanimate noun	inanim_unreduced
+17	1	2	that	that-was	inanim_unreduced
+18	1	3	was	that-was	inanim_unreduced
+19	1	4	transported	verb	inanim_unreduced
+20	1	5	by	by-phrase	inanim_unreduced
+21	1	6	the	by-phrase	inanim_unreduced
+22	1	7	guards	by-phrase	inanim_unreduced
+23	1	8	was	main verb	inanim_unreduced
+24	1	9	closely	End	inanim_unreduced
+25	1	10	watched	End	inanim_unreduced
+26	1	11	.	End	inanim_unreduced
+27	1	12	<eos>	End	inanim_unreduced
+28	2	0	The	Start	inanim_unreduced
+29	2	1	textbook	Inanimate noun	inanim_unreduced
+30	2	2	that	that-was	inanim_unreduced
+31	2	3	was	that-was	inanim_unreduced
+32	2	4	loved	verb	inanim_unreduced
+33	2	5	by	by-phrase	inanim_unreduced
+34	2	6	the	by-phrase	inanim_unreduced
+35	2	7	class	by-phrase	inanim_unreduced
+36	2	8	was	main verb	inanim_unreduced
+37	2	9	very	End	inanim_unreduced
+38	2	10	easy	End	inanim_unreduced
+39	2	11	to	End	inanim_unreduced
+40	2	12	understand	End	inanim_unreduced
+41	2	13	.	End	inanim_unreduced
+42	2	14	<eos>	End	inanim_unreduced
+43	3	0	The	Start	inanim_unreduced
+44	3	1	bricks	Inanimate noun	inanim_unreduced
+45	3	2	that	that-was	inanim_unreduced
+46	3	3	were	that-was	inanim_unreduced
+47	3	4	lifted	verb	inanim_unreduced
+48	3	5	by	by-phrase	inanim_unreduced
+49	3	6	the	by-phrase	inanim_unreduced
+50	3	7	crane	by-phrase	inanim_unreduced
+51	3	8	were	main verb	inanim_unreduced
+52	3	9	deposited	End	inanim_unreduced
+53	3	10	on	End	inanim_unreduced
+54	3	11	the	End	inanim_unreduced
+55	3	12	roof	End	inanim_unreduced
+56	3	13	.	End	inanim_unreduced
+57	3	14	<eos>	End	inanim_unreduced
+58	4	0	The	Start	inanim_unreduced
+59	4	1	paper	Inanimate noun	inanim_unreduced
+60	4	2	that	that-was	inanim_unreduced
+61	4	3	was	that-was	inanim_unreduced
+62	4	4	graded	verb	inanim_unreduced
+63	4	5	by	by-phrase	inanim_unreduced
+64	4	6	the	by-phrase	inanim_unreduced
+65	4	7	professor	by-phrase	inanim_unreduced
+66	4	8	received	main verb	inanim_unreduced
+67	4	9	a	End	inanim_unreduced
+68	4	10	low	End	inanim_unreduced
+69	4	11	mark	End	inanim_unreduced
+70	4	12	.	End	inanim_unreduced
+71	4	13	<eos>	End	inanim_unreduced
+72	5	0	The	Start	inanim_unreduced
+73	5	1	recipe	Inanimate noun	inanim_unreduced
+74	5	2	that	that-was	inanim_unreduced
+75	5	3	was	that-was	inanim_unreduced
+76	5	4	selected	verb	inanim_unreduced
+77	5	5	by	by-phrase	inanim_unreduced
+78	5	6	the	by-phrase	inanim_unreduced
+79	5	7	judges	by-phrase	inanim_unreduced
+80	5	8	did	main verb	inanim_unreduced
+81	5	9	not	End	inanim_unreduced
+82	5	10	deserve	End	inanim_unreduced
+83	5	11	to	End	inanim_unreduced
+84	5	12	win	End	inanim_unreduced
+85	5	13	.	End	inanim_unreduced
+86	5	14	<eos>	End	inanim_unreduced
+87	6	0	The	Start	inanim_unreduced
+88	6	1	equipment	Inanimate noun	inanim_unreduced
+89	6	2	that	that-was	inanim_unreduced
+90	6	3	was	that-was	inanim_unreduced
+91	6	4	requested	verb	inanim_unreduced
+92	6	5	by	by-phrase	inanim_unreduced
+93	6	6	the	by-phrase	inanim_unreduced
+94	6	7	hospital	by-phrase	inanim_unreduced
+95	6	8	arrived	main verb	inanim_unreduced
+96	6	9	two	End	inanim_unreduced
+97	6	10	weeks	End	inanim_unreduced
+98	6	11	late	End	inanim_unreduced
+99	6	12	.	End	inanim_unreduced
+100	6	13	<eos>	End	inanim_unreduced
+101	7	0	The	Start	inanim_unreduced
+102	7	1	jewelry	Inanimate noun	inanim_unreduced
+103	7	2	that	that-was	inanim_unreduced
+104	7	3	was	that-was	inanim_unreduced
+105	7	4	identified	verb	inanim_unreduced
+106	7	5	by	by-phrase	inanim_unreduced
+107	7	6	the	by-phrase	inanim_unreduced
+108	7	7	victim	by-phrase	inanim_unreduced
+109	7	8	was	main verb	inanim_unreduced
+110	7	9	held	End	inanim_unreduced
+111	7	10	by	End	inanim_unreduced
+112	7	11	the	End	inanim_unreduced
+113	7	12	police	End	inanim_unreduced
+114	7	13	.	End	inanim_unreduced
+115	7	14	<eos>	End	inanim_unreduced
+116	8	0	The	Start	inanim_unreduced
+117	8	1	valley	Inanimate noun	inanim_unreduced
+118	8	2	that	that-was	inanim_unreduced
+119	8	3	was	that-was	inanim_unreduced
+120	8	4	captured	verb	inanim_unreduced
+121	8	5	by	by-phrase	inanim_unreduced
+122	8	6	the	by-phrase	inanim_unreduced
+123	8	7	enemy	by-phrase	inanim_unreduced
+124	8	8	was	main verb	inanim_unreduced
+125	8	9	closely	End	inanim_unreduced
+126	8	10	guarded	End	inanim_unreduced
+127	8	11	.	End	inanim_unreduced
+128	8	12	<eos>	End	inanim_unreduced
+129	9	0	The	Start	inanim_unreduced
+130	9	1	power	Inanimate noun	inanim_unreduced
+131	9	2	plants	Inanimate noun	inanim_unreduced
+132	9	3	that	that-was	inanim_unreduced
+133	9	4	were	that-was	inanim_unreduced
+134	9	5	attacked	verb	inanim_unreduced
+135	9	6	by	by-phrase	inanim_unreduced
+136	9	7	the	by-phrase	inanim_unreduced
+137	9	8	terrorists	by-phrase	inanim_unreduced
+138	9	9	suffered	main verb	inanim_unreduced
+139	9	10	heavy	End	inanim_unreduced
+140	9	11	losses	End	inanim_unreduced
+141	9	12	.	End	inanim_unreduced
+142	9	13	<eos>	End	inanim_unreduced
+143	10	0	The	Start	inanim_unreduced
+144	10	1	painting	Inanimate noun	inanim_unreduced
+145	10	2	that	that-was	inanim_unreduced
+146	10	3	was	that-was	inanim_unreduced
+147	10	4	studied	verb	inanim_unreduced
+148	10	5	by	by-phrase	inanim_unreduced
+149	10	6	the	by-phrase	inanim_unreduced
+150	10	7	historian	by-phrase	inanim_unreduced
+151	10	8	was	main verb	inanim_unreduced
+152	10	9	a	End	inanim_unreduced
+153	10	10	complete	End	inanim_unreduced
+154	10	11	unknown	End	inanim_unreduced
+155	10	12	.	End	inanim_unreduced
+156	10	13	<eos>	End	inanim_unreduced
+157	11	0	The	Start	inanim_unreduced
+158	11	1	necklace	Inanimate noun	inanim_unreduced
+159	11	2	that	that-was	inanim_unreduced
+160	11	3	was	that-was	inanim_unreduced
+161	11	4	described	verb	inanim_unreduced
+162	11	5	by	by-phrase	inanim_unreduced
+163	11	6	the	by-phrase	inanim_unreduced
+164	11	7	lady	by-phrase	inanim_unreduced
+165	11	8	was	main verb	inanim_unreduced
+166	11	9	quite	End	inanim_unreduced
+167	11	10	beautiful	End	inanim_unreduced
+168	11	11	.	End	inanim_unreduced
+169	11	12	<eos>	End	inanim_unreduced
+170	12	0	The	Start	inanim_unreduced
+171	12	1	package	Inanimate noun	inanim_unreduced
+172	12	2	that	that-was	inanim_unreduced
+173	12	3	was	that-was	inanim_unreduced
+174	12	4	expected	verb	inanim_unreduced
+175	12	5	by	by-phrase	inanim_unreduced
+176	12	6	the	by-phrase	inanim_unreduced
+177	12	7	secretary	by-phrase	inanim_unreduced
+178	12	8	arrived	main verb	inanim_unreduced
+179	12	9	too	End	inanim_unreduced
+180	12	10	late	End	inanim_unreduced
+181	12	11	.	End	inanim_unreduced
+182	12	12	<eos>	End	inanim_unreduced
+183	13	0	The	Start	inanim_unreduced
+184	13	1	sofa	Inanimate noun	inanim_unreduced
+185	13	2	that	that-was	inanim_unreduced
+186	13	3	was	that-was	inanim_unreduced
+187	13	4	scratched	verb	inanim_unreduced
+188	13	5	by	by-phrase	inanim_unreduced
+189	13	6	the	by-phrase	inanim_unreduced
+190	13	7	cat	by-phrase	inanim_unreduced
+191	13	8	was	main verb	inanim_unreduced
+192	13	9	none	End	inanim_unreduced
+193	13	10	the	End	inanim_unreduced
+194	13	11	worse	End	inanim_unreduced
+195	13	12	for	End	inanim_unreduced
+196	13	13	wear	End	inanim_unreduced
+197	13	14	.	End	inanim_unreduced
+198	13	15	<eos>	End	inanim_unreduced
+199	14	0	The	Start	inanim_unreduced
+200	14	1	van	Inanimate noun	inanim_unreduced
+201	14	2	that	that-was	inanim_unreduced
+202	14	3	was	that-was	inanim_unreduced
+203	14	4	recognized	verb	inanim_unreduced
+204	14	5	by	by-phrase	inanim_unreduced
+205	14	6	the	by-phrase	inanim_unreduced
+206	14	7	spy	by-phrase	inanim_unreduced
+207	14	8	took	main verb	inanim_unreduced
+208	14	9	off	End	inanim_unreduced
+209	14	10	down	End	inanim_unreduced
+210	14	11	the	End	inanim_unreduced
+211	14	12	street	End	inanim_unreduced
+212	14	13	.	End	inanim_unreduced
+213	14	14	<eos>	End	inanim_unreduced
+214	15	0	The	Start	inanim_unreduced
+215	15	1	account	Inanimate noun	inanim_unreduced
+216	15	2	that	that-was	inanim_unreduced
+217	15	3	was	that-was	inanim_unreduced
+218	15	4	wanted	verb	inanim_unreduced
+219	15	5	by	by-phrase	inanim_unreduced
+220	15	6	the	by-phrase	inanim_unreduced
+221	15	7	advertiser	by-phrase	inanim_unreduced
+222	15	8	was	main verb	inanim_unreduced
+223	15	9	worth	End	inanim_unreduced
+224	15	10	a	End	inanim_unreduced
+225	15	11	lot	End	inanim_unreduced
+226	15	12	of	End	inanim_unreduced
+227	15	13	money	End	inanim_unreduced
+228	15	14	.	End	inanim_unreduced
+229	15	15	<eos>	End	inanim_unreduced
+230	16	0	The	Start	inanim_unreduced
+231	16	1	explosives	Inanimate noun	inanim_unreduced
+232	16	2	that	that-was	inanim_unreduced
+233	16	3	were	that-was	inanim_unreduced
+234	16	4	removed	verb	inanim_unreduced
+235	16	5	by	by-phrase	inanim_unreduced
+236	16	6	the	by-phrase	inanim_unreduced
+237	16	7	police	by-phrase	inanim_unreduced
+238	16	8	were	main verb	inanim_unreduced
+239	16	9	reported	End	inanim_unreduced
+240	16	10	on	End	inanim_unreduced
+241	16	11	in	End	inanim_unreduced
+242	16	12	the	End	inanim_unreduced
+243	16	13	newspaper	End	inanim_unreduced
+244	16	14	.	End	inanim_unreduced
+245	16	15	<eos>	End	inanim_unreduced
+246	17	0	The	Start	inanim_unreduced
+247	17	1	diamonds	Inanimate noun	inanim_unreduced
+248	17	2	that	that-was	inanim_unreduced
+249	17	3	were	that-was	inanim_unreduced
+250	17	4	discovered	verb	inanim_unreduced
+251	17	5	by	by-phrase	inanim_unreduced
+252	17	6	the	by-phrase	inanim_unreduced
+253	17	7	detective	by-phrase	inanim_unreduced
+254	17	8	were	main verb	inanim_unreduced
+255	17	9	hidden	End	inanim_unreduced
+256	17	10	in	End	inanim_unreduced
+257	17	11	the	End	inanim_unreduced
+258	17	12	basement	End	inanim_unreduced
+259	17	13	.	End	inanim_unreduced
+260	17	14	<eos>	End	inanim_unreduced
+261	18	0	The	Start	inanim_unreduced
+262	18	1	flowers	Inanimate noun	inanim_unreduced
+263	18	2	that	that-was	inanim_unreduced
+264	18	3	were	that-was	inanim_unreduced
+265	18	4	painted	verb	inanim_unreduced
+266	18	5	by	by-phrase	inanim_unreduced
+267	18	6	the	by-phrase	inanim_unreduced
+268	18	7	artist	by-phrase	inanim_unreduced
+269	18	8	appeared	main verb	inanim_unreduced
+270	18	9	larger	End	inanim_unreduced
+271	18	10	in	End	inanim_unreduced
+272	18	11	real	End	inanim_unreduced
+273	18	12	life	End	inanim_unreduced
+274	18	13	.	End	inanim_unreduced
+275	18	14	<eos>	End	inanim_unreduced
+276	19	0	The	Start	inanim_unreduced
+277	19	1	car	Inanimate noun	inanim_unreduced
+278	19	2	that	that-was	inanim_unreduced
+279	19	3	was	that-was	inanim_unreduced
+280	19	4	washed	verb	inanim_unreduced
+281	19	5	by	by-phrase	inanim_unreduced
+282	19	6	the	by-phrase	inanim_unreduced
+283	19	7	maid	by-phrase	inanim_unreduced
+284	19	8	grew	main verb	inanim_unreduced
+285	19	9	dirty	End	inanim_unreduced
+286	19	10	again	End	inanim_unreduced
+287	19	11	quickly	End	inanim_unreduced
+288	19	12	.	End	inanim_unreduced
+289	19	13	<eos>	End	inanim_unreduced
+290	20	0	The	Start	inanim_unreduced
+291	20	1	artwork	Inanimate noun	inanim_unreduced
+292	20	2	that	that-was	inanim_unreduced
+293	20	3	was	that-was	inanim_unreduced
+294	20	4	protected	verb	inanim_unreduced
+295	20	5	by	by-phrase	inanim_unreduced
+296	20	6	guards	by-phrase	inanim_unreduced
+297	20	7	was	main verb	inanim_unreduced
+298	20	8	from	End	inanim_unreduced
+299	20	9	a	End	inanim_unreduced
+300	20	10	foreign	End	inanim_unreduced
+301	20	11	country	End	inanim_unreduced
+302	20	12	.	End	inanim_unreduced
+303	20	13	<eos>	End	inanim_unreduced
+304	21	0	The	Start	inanim_unreduced
+305	21	1	law	Inanimate noun	inanim_unreduced
+306	21	2	that	that-was	inanim_unreduced
+307	21	3	was	that-was	inanim_unreduced
+308	21	4	parodied	verb	inanim_unreduced
+309	21	5	by	by-phrase	inanim_unreduced
+310	21	6	the	by-phrase	inanim_unreduced
+311	21	7	comedian	by-phrase	inanim_unreduced
+312	21	8	helped	main verb	inanim_unreduced
+313	21	9	working	End	inanim_unreduced
+314	21	10	class	End	inanim_unreduced
+315	21	11	Americans	End	inanim_unreduced
+316	21	12	.	End	inanim_unreduced
+317	21	13	<eos>	End	inanim_unreduced
+318	22	0	The	Start	inanim_unreduced
+319	22	1	wallet	Inanimate noun	inanim_unreduced
+320	22	2	that	that-was	inanim_unreduced
+321	22	3	was	that-was	inanim_unreduced
+322	22	4	lost	verb	inanim_unreduced
+323	22	5	by	by-phrase	inanim_unreduced
+324	22	6	the	by-phrase	inanim_unreduced
+325	22	7	tourist	by-phrase	inanim_unreduced
+326	22	8	was	main verb	inanim_unreduced
+327	22	9	found	End	inanim_unreduced
+328	22	10	by	End	inanim_unreduced
+329	22	11	the	End	inanim_unreduced
+330	22	12	local	End	inanim_unreduced
+331	22	13	police	End	inanim_unreduced
+332	22	14	.	End	inanim_unreduced
+333	22	15	<eos>	End	inanim_unreduced
+334	23	0	The	Start	inanim_unreduced
+335	23	1	building	Inanimate noun	inanim_unreduced
+336	23	2	that	that-was	inanim_unreduced
+337	23	3	was	that-was	inanim_unreduced
+338	23	4	sketched	verb	inanim_unreduced
+339	23	5	by	by-phrase	inanim_unreduced
+340	23	6	the	by-phrase	inanim_unreduced
+341	23	7	designer	by-phrase	inanim_unreduced
+342	23	8	was	main verb	inanim_unreduced
+343	23	9	never	End	inanim_unreduced
+344	23	10	identified	End	inanim_unreduced
+345	23	11	.	End	inanim_unreduced
+346	23	12	<eos>	End	inanim_unreduced
+347	24	0	The	Start	inanim_unreduced
+348	24	1	landscape	Inanimate noun	inanim_unreduced
+349	24	2	that	that-was	inanim_unreduced
+350	24	3	was	that-was	inanim_unreduced
+351	24	4	photographed	verb	inanim_unreduced
+352	24	5	by	by-phrase	inanim_unreduced
+353	24	6	the	by-phrase	inanim_unreduced
+354	24	7	amateur	by-phrase	inanim_unreduced
+355	24	8	was	main verb	inanim_unreduced
+356	24	9	bathed	End	inanim_unreduced
+357	24	10	in	End	inanim_unreduced
+358	24	11	sunlight	End	inanim_unreduced
+359	24	12	.	End	inanim_unreduced
+360	24	13	<eos>	End	inanim_unreduced
+361	25	0	The	Start	inanim_unreduced
+362	25	1	coffee	Inanimate noun	inanim_unreduced
+363	25	2	machine	Inanimate noun	inanim_unreduced
+364	25	3	that	that-was	inanim_unreduced
+365	25	4	was	that-was	inanim_unreduced
+366	25	5	adored	verb	inanim_unreduced
+367	25	6	by	by-phrase	inanim_unreduced
+368	25	7	the	by-phrase	inanim_unreduced
+369	25	8	clerks	by-phrase	inanim_unreduced
+370	25	9	was	main verb	inanim_unreduced
+371	25	10	moved	End	inanim_unreduced
+372	25	11	to	End	inanim_unreduced
+373	25	12	a	End	inanim_unreduced
+374	25	13	different	End	inanim_unreduced
+375	25	14	office	End	inanim_unreduced
+376	25	15	.	End	inanim_unreduced
+377	25	16	<eos>	End	inanim_unreduced
+378	26	0	The	Start	inanim_unreduced
+379	26	1	building	Inanimate noun	inanim_unreduced
+380	26	2	that	that-was	inanim_unreduced
+381	26	3	was	that-was	inanim_unreduced
+382	26	4	monitored	verb	inanim_unreduced
+383	26	5	by	by-phrase	inanim_unreduced
+384	26	6	the	by-phrase	inanim_unreduced
+385	26	7	authorities	by-phrase	inanim_unreduced
+386	26	8	turned	main verb	inanim_unreduced
+387	26	9	out	End	inanim_unreduced
+388	26	10	to	End	inanim_unreduced
+389	26	11	be	End	inanim_unreduced
+390	26	12	a	End	inanim_unreduced
+391	26	13	false	End	inanim_unreduced
+392	26	14	lead	End	inanim_unreduced
+393	26	15	.	End	inanim_unreduced
+394	26	16	<eos>	End	inanim_unreduced
+395	27	0	The	Start	inanim_unreduced
+396	27	1	crops	Inanimate noun	inanim_unreduced
+397	27	2	that	that-was	inanim_unreduced
+398	27	3	were	that-was	inanim_unreduced
+399	27	4	devastated	verb	inanim_unreduced
+400	27	5	by	by-phrase	inanim_unreduced
+401	27	6	the	by-phrase	inanim_unreduced
+402	27	7	dust	by-phrase	inanim_unreduced
+403	27	8	bowl	by-phrase	inanim_unreduced
+404	27	9	were	main verb	inanim_unreduced
+405	27	10	not	End	inanim_unreduced
+406	27	11	insured	End	inanim_unreduced
+407	27	12	by	End	inanim_unreduced
+408	27	13	the	End	inanim_unreduced
+409	27	14	bank	End	inanim_unreduced
+410	27	15	.	End	inanim_unreduced
+411	27	16	<eos>	End	inanim_unreduced
+412	28	0	The	Start	inanim_unreduced
+413	28	1	machines	Inanimate noun	inanim_unreduced
+414	28	2	that	that-was	inanim_unreduced
+415	28	3	were	that-was	inanim_unreduced
+416	28	4	insured	verb	inanim_unreduced
+417	28	5	by	by-phrase	inanim_unreduced
+418	28	6	the	by-phrase	inanim_unreduced
+419	28	7	company	by-phrase	inanim_unreduced
+420	28	8	worked	main verb	inanim_unreduced
+421	28	9	for	End	inanim_unreduced
+422	28	10	longer	End	inanim_unreduced
+423	28	11	than	End	inanim_unreduced
+424	28	12	those	End	inanim_unreduced
+425	28	13	that	End	inanim_unreduced
+426	28	14	were	End	inanim_unreduced
+427	28	15	not	End	inanim_unreduced
+428	28	16	.	End	inanim_unreduced
+429	28	17	<eos>	End	inanim_unreduced
+430	29	0	The	Start	inanim_unreduced
+431	29	1	looms	Inanimate noun	inanim_unreduced
+432	29	2	that	that-was	inanim_unreduced
+433	29	3	were	that-was	inanim_unreduced
+434	29	4	replaced	verb	inanim_unreduced
+435	29	5	by	by-phrase	inanim_unreduced
+436	29	6	robots	by-phrase	inanim_unreduced
+437	29	7	cost	main verb	inanim_unreduced
+438	29	8	a	End	inanim_unreduced
+439	29	9	lot	End	inanim_unreduced
+440	29	10	of	End	inanim_unreduced
+441	29	11	money	End	inanim_unreduced
+442	29	12	to	End	inanim_unreduced
+443	29	13	decommission	End	inanim_unreduced
+444	29	14	.	End	inanim_unreduced
+445	29	15	<eos>	End	inanim_unreduced
+446	0	0	The	Start	anim_unreduced
+447	0	1	defendant	Animate noun	anim_unreduced
+448	0	2	that	that-was	anim_unreduced
+449	0	3	was	that-was	anim_unreduced
+450	0	4	examined	verb	anim_unreduced
+451	0	5	by	by-phrase	anim_unreduced
+452	0	6	the	by-phrase	anim_unreduced
+453	0	7	lawyer	by-phrase	anim_unreduced
+454	0	8	turned	main verb	anim_unreduced
+455	0	9	out	End	anim_unreduced
+456	0	10	to	End	anim_unreduced
+457	0	11	be	End	anim_unreduced
+458	0	12	unreliable	End	anim_unreduced
+459	0	13	.	End	anim_unreduced
+460	0	14	<eos>	End	anim_unreduced
+461	1	0	The	Start	anim_unreduced
+462	1	1	prisoner	Animate noun	anim_unreduced
+463	1	2	that	that-was	anim_unreduced
+464	1	3	was	that-was	anim_unreduced
+465	1	4	transported	verb	anim_unreduced
+466	1	5	by	by-phrase	anim_unreduced
+467	1	6	the	by-phrase	anim_unreduced
+468	1	7	guards	by-phrase	anim_unreduced
+469	1	8	was	main verb	anim_unreduced
+470	1	9	closely	End	anim_unreduced
+471	1	10	watched	End	anim_unreduced
+472	1	11	.	End	anim_unreduced
+473	1	12	<eos>	End	anim_unreduced
+474	2	0	The	Start	anim_unreduced
+475	2	1	teacher	Animate noun	anim_unreduced
+476	2	2	that	that-was	anim_unreduced
+477	2	3	was	that-was	anim_unreduced
+478	2	4	loved	verb	anim_unreduced
+479	2	5	by	by-phrase	anim_unreduced
+480	2	6	the	by-phrase	anim_unreduced
+481	2	7	class	by-phrase	anim_unreduced
+482	2	8	was	main verb	anim_unreduced
+483	2	9	very	End	anim_unreduced
+484	2	10	easy	End	anim_unreduced
+485	2	11	to	End	anim_unreduced
+486	2	12	understand	End	anim_unreduced
+487	2	13	.	End	anim_unreduced
+488	2	14	<eos>	End	anim_unreduced
+489	3	0	The	Start	anim_unreduced
+490	3	1	workers	Animate noun	anim_unreduced
+491	3	2	that	that-was	anim_unreduced
+492	3	3	were	that-was	anim_unreduced
+493	3	4	lifted	verb	anim_unreduced
+494	3	5	by	by-phrase	anim_unreduced
+495	3	6	the	by-phrase	anim_unreduced
+496	3	7	crane	by-phrase	anim_unreduced
+497	3	8	were	main verb	anim_unreduced
+498	3	9	deposited	End	anim_unreduced
+499	3	10	on	End	anim_unreduced
+500	3	11	the	End	anim_unreduced
+501	3	12	roof	End	anim_unreduced
+502	3	13	.	End	anim_unreduced
+503	3	14	<eos>	End	anim_unreduced
+504	4	0	The	Start	anim_unreduced
+505	4	1	student	Animate noun	anim_unreduced
+506	4	2	that	that-was	anim_unreduced
+507	4	3	was	that-was	anim_unreduced
+508	4	4	graded	verb	anim_unreduced
+509	4	5	by	by-phrase	anim_unreduced
+510	4	6	the	by-phrase	anim_unreduced
+511	4	7	professor	by-phrase	anim_unreduced
+512	4	8	received	main verb	anim_unreduced
+513	4	9	a	End	anim_unreduced
+514	4	10	low	End	anim_unreduced
+515	4	11	mark	End	anim_unreduced
+516	4	12	.	End	anim_unreduced
+517	4	13	<eos>	End	anim_unreduced
+518	5	0	The	Start	anim_unreduced
+519	5	1	contestant	Animate noun	anim_unreduced
+520	5	2	that	that-was	anim_unreduced
+521	5	3	was	that-was	anim_unreduced
+522	5	4	selected	verb	anim_unreduced
+523	5	5	by	by-phrase	anim_unreduced
+524	5	6	the	by-phrase	anim_unreduced
+525	5	7	judges	by-phrase	anim_unreduced
+526	5	8	did	main verb	anim_unreduced
+527	5	9	not	End	anim_unreduced
+528	5	10	deserve	End	anim_unreduced
+529	5	11	to	End	anim_unreduced
+530	5	12	win	End	anim_unreduced
+531	5	13	.	End	anim_unreduced
+532	5	14	<eos>	End	anim_unreduced
+533	6	0	The	Start	anim_unreduced
+534	6	1	specialist	Animate noun	anim_unreduced
+535	6	2	that	that-was	anim_unreduced
+536	6	3	was	that-was	anim_unreduced
+537	6	4	requested	verb	anim_unreduced
+538	6	5	by	by-phrase	anim_unreduced
+539	6	6	the	by-phrase	anim_unreduced
+540	6	7	hospital	by-phrase	anim_unreduced
+541	6	8	arrived	main verb	anim_unreduced
+542	6	9	two	End	anim_unreduced
+543	6	10	weeks	End	anim_unreduced
+544	6	11	late	End	anim_unreduced
+545	6	12	.	End	anim_unreduced
+546	6	13	<eos>	End	anim_unreduced
+547	7	0	The	Start	anim_unreduced
+548	7	1	thief	Animate noun	anim_unreduced
+549	7	2	that	that-was	anim_unreduced
+550	7	3	was	that-was	anim_unreduced
+551	7	4	identified	verb	anim_unreduced
+552	7	5	by	by-phrase	anim_unreduced
+553	7	6	the	by-phrase	anim_unreduced
+554	7	7	victim	by-phrase	anim_unreduced
+555	7	8	was	main verb	anim_unreduced
+556	7	9	held	End	anim_unreduced
+557	7	10	by	End	anim_unreduced
+558	7	11	the	End	anim_unreduced
+559	7	12	police	End	anim_unreduced
+560	7	13	.	End	anim_unreduced
+561	7	14	<eos>	End	anim_unreduced
+562	8	0	The	Start	anim_unreduced
+563	8	1	soldier	Animate noun	anim_unreduced
+564	8	2	that	that-was	anim_unreduced
+565	8	3	was	that-was	anim_unreduced
+566	8	4	captured	verb	anim_unreduced
+567	8	5	by	by-phrase	anim_unreduced
+568	8	6	the	by-phrase	anim_unreduced
+569	8	7	enemy	by-phrase	anim_unreduced
+570	8	8	was	main verb	anim_unreduced
+571	8	9	closely	End	anim_unreduced
+572	8	10	guarded	End	anim_unreduced
+573	8	11	.	End	anim_unreduced
+574	8	12	<eos>	End	anim_unreduced
+575	9	0	The	Start	anim_unreduced
+576	9	1	troops	Animate noun	anim_unreduced
+577	9	2	that	that-was	anim_unreduced
+578	9	3	were	that-was	anim_unreduced
+579	9	4	attacked	verb	anim_unreduced
+580	9	5	by	by-phrase	anim_unreduced
+581	9	6	the	by-phrase	anim_unreduced
+582	9	7	terrorists	by-phrase	anim_unreduced
+583	9	8	suffered	main verb	anim_unreduced
+584	9	9	heavy	End	anim_unreduced
+585	9	10	losses	End	anim_unreduced
+586	9	11	.	End	anim_unreduced
+587	9	12	<eos>	End	anim_unreduced
+588	10	0	The	Start	anim_unreduced
+589	10	1	artist	Animate noun	anim_unreduced
+590	10	2	that	that-was	anim_unreduced
+591	10	3	was	that-was	anim_unreduced
+592	10	4	studied	verb	anim_unreduced
+593	10	5	by	by-phrase	anim_unreduced
+594	10	6	the	by-phrase	anim_unreduced
+595	10	7	historian	by-phrase	anim_unreduced
+596	10	8	was	main verb	anim_unreduced
+597	10	9	a	End	anim_unreduced
+598	10	10	complete	End	anim_unreduced
+599	10	11	unknown	End	anim_unreduced
+600	10	12	.	End	anim_unreduced
+601	10	13	<eos>	End	anim_unreduced
+602	11	0	The	Start	anim_unreduced
+603	11	1	girl	Animate noun	anim_unreduced
+604	11	2	that	that-was	anim_unreduced
+605	11	3	was	that-was	anim_unreduced
+606	11	4	described	verb	anim_unreduced
+607	11	5	by	by-phrase	anim_unreduced
+608	11	6	the	by-phrase	anim_unreduced
+609	11	7	lady	by-phrase	anim_unreduced
+610	11	8	was	main verb	anim_unreduced
+611	11	9	quite	End	anim_unreduced
+612	11	10	beautiful	End	anim_unreduced
+613	11	11	.	End	anim_unreduced
+614	11	12	<eos>	End	anim_unreduced
+615	12	0	The	Start	anim_unreduced
+616	12	1	mailman	Animate noun	anim_unreduced
+617	12	2	that	that-was	anim_unreduced
+618	12	3	was	that-was	anim_unreduced
+619	12	4	expected	verb	anim_unreduced
+620	12	5	by	by-phrase	anim_unreduced
+621	12	6	the	by-phrase	anim_unreduced
+622	12	7	secretary	by-phrase	anim_unreduced
+623	12	8	arrived	main verb	anim_unreduced
+624	12	9	too	End	anim_unreduced
+625	12	10	late	End	anim_unreduced
+626	12	11	.	End	anim_unreduced
+627	12	12	<eos>	End	anim_unreduced
+628	13	0	The	Start	anim_unreduced
+629	13	1	woman	Animate noun	anim_unreduced
+630	13	2	that	that-was	anim_unreduced
+631	13	3	was	that-was	anim_unreduced
+632	13	4	scratched	verb	anim_unreduced
+633	13	5	by	by-phrase	anim_unreduced
+634	13	6	the	by-phrase	anim_unreduced
+635	13	7	cat	by-phrase	anim_unreduced
+636	13	8	was	main verb	anim_unreduced
+637	13	9	none	End	anim_unreduced
+638	13	10	the	End	anim_unreduced
+639	13	11	worse	End	anim_unreduced
+640	13	12	for	End	anim_unreduced
+641	13	13	wear	End	anim_unreduced
+642	13	14	.	End	anim_unreduced
+643	13	15	<eos>	End	anim_unreduced
+644	14	0	The	Start	anim_unreduced
+645	14	1	man	Animate noun	anim_unreduced
+646	14	2	that	that-was	anim_unreduced
+647	14	3	was	that-was	anim_unreduced
+648	14	4	recognized	verb	anim_unreduced
+649	14	5	by	by-phrase	anim_unreduced
+650	14	6	the	by-phrase	anim_unreduced
+651	14	7	spy	by-phrase	anim_unreduced
+652	14	8	took	main verb	anim_unreduced
+653	14	9	off	End	anim_unreduced
+654	14	10	down	End	anim_unreduced
+655	14	11	the	End	anim_unreduced
+656	14	12	street	End	anim_unreduced
+657	14	13	.	End	anim_unreduced
+658	14	14	<eos>	End	anim_unreduced
+659	15	0	The	Start	anim_unreduced
+660	15	1	client	Animate noun	anim_unreduced
+661	15	2	that	that-was	anim_unreduced
+662	15	3	was	that-was	anim_unreduced
+663	15	4	wanted	verb	anim_unreduced
+664	15	5	by	by-phrase	anim_unreduced
+665	15	6	the	by-phrase	anim_unreduced
+666	15	7	advertiser	by-phrase	anim_unreduced
+667	15	8	was	main verb	anim_unreduced
+668	15	9	worth	End	anim_unreduced
+669	15	10	a	End	anim_unreduced
+670	15	11	lot	End	anim_unreduced
+671	15	12	of	End	anim_unreduced
+672	15	13	money	End	anim_unreduced
+673	15	14	.	End	anim_unreduced
+674	15	15	<eos>	End	anim_unreduced
+675	16	0	The	Start	anim_unreduced
+676	16	1	hecklers	Animate noun	anim_unreduced
+677	16	2	that	that-was	anim_unreduced
+678	16	3	were	that-was	anim_unreduced
+679	16	4	removed	verb	anim_unreduced
+680	16	5	by	by-phrase	anim_unreduced
+681	16	6	the	by-phrase	anim_unreduced
+682	16	7	police	by-phrase	anim_unreduced
+683	16	8	were	main verb	anim_unreduced
+684	16	9	reported	End	anim_unreduced
+685	16	10	on	End	anim_unreduced
+686	16	11	in	End	anim_unreduced
+687	16	12	the	End	anim_unreduced
+688	16	13	newspaper	End	anim_unreduced
+689	16	14	.	End	anim_unreduced
+690	16	15	<eos>	End	anim_unreduced
+691	17	0	The	Start	anim_unreduced
+692	17	1	lovers	Animate noun	anim_unreduced
+693	17	2	that	that-was	anim_unreduced
+694	17	3	were	that-was	anim_unreduced
+695	17	4	discovered	verb	anim_unreduced
+696	17	5	by	by-phrase	anim_unreduced
+697	17	6	the	by-phrase	anim_unreduced
+698	17	7	detective	by-phrase	anim_unreduced
+699	17	8	were	main verb	anim_unreduced
+700	17	9	hidden	End	anim_unreduced
+701	17	10	in	End	anim_unreduced
+702	17	11	the	End	anim_unreduced
+703	17	12	basement	End	anim_unreduced
+704	17	13	.	End	anim_unreduced
+705	17	14	<eos>	End	anim_unreduced
+706	18	0	The	Start	anim_unreduced
+707	18	1	children	Animate noun	anim_unreduced
+708	18	2	that	that-was	anim_unreduced
+709	18	3	were	that-was	anim_unreduced
+710	18	4	painted	verb	anim_unreduced
+711	18	5	by	by-phrase	anim_unreduced
+712	18	6	the	by-phrase	anim_unreduced
+713	18	7	artist	by-phrase	anim_unreduced
+714	18	8	appeared	main verb	anim_unreduced
+715	18	9	larger	End	anim_unreduced
+716	18	10	in	End	anim_unreduced
+717	18	11	real	End	anim_unreduced
+718	18	12	life	End	anim_unreduced
+719	18	13	.	End	anim_unreduced
+720	18	14	<eos>	End	anim_unreduced
+721	19	0	The	Start	anim_unreduced
+722	19	1	boy	Animate noun	anim_unreduced
+723	19	2	that	that-was	anim_unreduced
+724	19	3	was	that-was	anim_unreduced
+725	19	4	washed	verb	anim_unreduced
+726	19	5	by	by-phrase	anim_unreduced
+727	19	6	the	by-phrase	anim_unreduced
+728	19	7	maid	by-phrase	anim_unreduced
+729	19	8	grew	main verb	anim_unreduced
+730	19	9	dirty	End	anim_unreduced
+731	19	10	again	End	anim_unreduced
+732	19	11	quickly	End	anim_unreduced
+733	19	12	.	End	anim_unreduced
+734	19	13	<eos>	End	anim_unreduced
+735	20	0	The	Start	anim_unreduced
+736	20	1	diplomat	Animate noun	anim_unreduced
+737	20	2	that	that-was	anim_unreduced
+738	20	3	was	that-was	anim_unreduced
+739	20	4	protected	verb	anim_unreduced
+740	20	5	by	by-phrase	anim_unreduced
+741	20	6	guards	by-phrase	anim_unreduced
+742	20	7	was	main verb	anim_unreduced
+743	20	8	from	End	anim_unreduced
+744	20	9	a	End	anim_unreduced
+745	20	10	foreign	End	anim_unreduced
+746	20	11	country	End	anim_unreduced
+747	20	12	.	End	anim_unreduced
+748	20	13	<eos>	End	anim_unreduced
+749	21	0	The	Start	anim_unreduced
+750	21	1	politician	Animate noun	anim_unreduced
+751	21	2	that	that-was	anim_unreduced
+752	21	3	was	that-was	anim_unreduced
+753	21	4	parodied	verb	anim_unreduced
+754	21	5	by	by-phrase	anim_unreduced
+755	21	6	the	by-phrase	anim_unreduced
+756	21	7	comedian	by-phrase	anim_unreduced
+757	21	8	helped	main verb	anim_unreduced
+758	21	9	working	End	anim_unreduced
+759	21	10	class	End	anim_unreduced
+760	21	11	Americans	End	anim_unreduced
+761	21	12	.	End	anim_unreduced
+762	21	13	<eos>	End	anim_unreduced
+763	22	0	The	Start	anim_unreduced
+764	22	1	child	Animate noun	anim_unreduced
+765	22	2	that	that-was	anim_unreduced
+766	22	3	was	that-was	anim_unreduced
+767	22	4	lost	verb	anim_unreduced
+768	22	5	by	by-phrase	anim_unreduced
+769	22	6	the	by-phrase	anim_unreduced
+770	22	7	tourist	by-phrase	anim_unreduced
+771	22	8	was	main verb	anim_unreduced
+772	22	9	found	End	anim_unreduced
+773	22	10	by	End	anim_unreduced
+774	22	11	the	End	anim_unreduced
+775	22	12	local	End	anim_unreduced
+776	22	13	police	End	anim_unreduced
+777	22	14	.	End	anim_unreduced
+778	22	15	<eos>	End	anim_unreduced
+779	23	0	The	Start	anim_unreduced
+780	23	1	lady	Animate noun	anim_unreduced
+781	23	2	that	that-was	anim_unreduced
+782	23	3	was	that-was	anim_unreduced
+783	23	4	sketched	verb	anim_unreduced
+784	23	5	by	by-phrase	anim_unreduced
+785	23	6	the	by-phrase	anim_unreduced
+786	23	7	designer	by-phrase	anim_unreduced
+787	23	8	was	main verb	anim_unreduced
+788	23	9	never	End	anim_unreduced
+789	23	10	identified	End	anim_unreduced
+790	23	11	.	End	anim_unreduced
+791	23	12	<eos>	End	anim_unreduced
+792	24	0	The	Start	anim_unreduced
+793	24	1	couple	Animate noun	anim_unreduced
+794	24	2	that	that-was	anim_unreduced
+795	24	3	was	that-was	anim_unreduced
+796	24	4	photographed	verb	anim_unreduced
+797	24	5	by	by-phrase	anim_unreduced
+798	24	6	the	by-phrase	anim_unreduced
+799	24	7	amateur	by-phrase	anim_unreduced
+800	24	8	was	main verb	anim_unreduced
+801	24	9	bathed	End	anim_unreduced
+802	24	10	in	End	anim_unreduced
+803	24	11	sunlight	End	anim_unreduced
+804	24	12	.	End	anim_unreduced
+805	24	13	<eos>	End	anim_unreduced
+806	25	0	The	Start	anim_unreduced
+807	25	1	secretary	Animate noun	anim_unreduced
+808	25	2	that	that-was	anim_unreduced
+809	25	3	was	that-was	anim_unreduced
+810	25	4	adored	verb	anim_unreduced
+811	25	5	by	by-phrase	anim_unreduced
+812	25	6	the	by-phrase	anim_unreduced
+813	25	7	clerks	by-phrase	anim_unreduced
+814	25	8	was	main verb	anim_unreduced
+815	25	9	moved	End	anim_unreduced
+816	25	10	to	End	anim_unreduced
+817	25	11	a	End	anim_unreduced
+818	25	12	different	End	anim_unreduced
+819	25	13	office	End	anim_unreduced
+820	25	14	.	End	anim_unreduced
+821	25	15	<eos>	End	anim_unreduced
+822	26	0	The	Start	anim_unreduced
+823	26	1	organizer	Animate noun	anim_unreduced
+824	26	2	that	that-was	anim_unreduced
+825	26	3	was	that-was	anim_unreduced
+826	26	4	monitored	verb	anim_unreduced
+827	26	5	by	by-phrase	anim_unreduced
+828	26	6	the	by-phrase	anim_unreduced
+829	26	7	authorities	by-phrase	anim_unreduced
+830	26	8	turned	main verb	anim_unreduced
+831	26	9	out	End	anim_unreduced
+832	26	10	to	End	anim_unreduced
+833	26	11	be	End	anim_unreduced
+834	26	12	a	End	anim_unreduced
+835	26	13	false	End	anim_unreduced
+836	26	14	lead	End	anim_unreduced
+837	26	15	.	End	anim_unreduced
+838	26	16	<eos>	End	anim_unreduced
+839	27	0	The	Start	anim_unreduced
+840	27	1	farmers	Animate noun	anim_unreduced
+841	27	2	that	that-was	anim_unreduced
+842	27	3	were	that-was	anim_unreduced
+843	27	4	devastated	verb	anim_unreduced
+844	27	5	by	by-phrase	anim_unreduced
+845	27	6	the	by-phrase	anim_unreduced
+846	27	7	dust	by-phrase	anim_unreduced
+847	27	8	bowl	by-phrase	anim_unreduced
+848	27	9	were	main verb	anim_unreduced
+849	27	10	not	End	anim_unreduced
+850	27	11	insured	End	anim_unreduced
+851	27	12	by	End	anim_unreduced
+852	27	13	the	End	anim_unreduced
+853	27	14	bank	End	anim_unreduced
+854	27	15	.	End	anim_unreduced
+855	27	16	<eos>	End	anim_unreduced
+856	28	0	The	Start	anim_unreduced
+857	28	1	mechanics	Animate noun	anim_unreduced
+858	28	2	that	that-was	anim_unreduced
+859	28	3	were	that-was	anim_unreduced
+860	28	4	insured	verb	anim_unreduced
+861	28	5	by	by-phrase	anim_unreduced
+862	28	6	the	by-phrase	anim_unreduced
+863	28	7	company	by-phrase	anim_unreduced
+864	28	8	worked	main verb	anim_unreduced
+865	28	9	for	End	anim_unreduced
+866	28	10	longer	End	anim_unreduced
+867	28	11	than	End	anim_unreduced
+868	28	12	those	End	anim_unreduced
+869	28	13	that	End	anim_unreduced
+870	28	14	were	End	anim_unreduced
+871	28	15	not	End	anim_unreduced
+872	28	16	.	End	anim_unreduced
+873	28	17	<eos>	End	anim_unreduced
+874	29	0	The	Start	anim_unreduced
+875	29	1	tellers	Animate noun	anim_unreduced
+876	29	2	that	that-was	anim_unreduced
+877	29	3	were	that-was	anim_unreduced
+878	29	4	replaced	verb	anim_unreduced
+879	29	5	by	by-phrase	anim_unreduced
+880	29	6	robots	by-phrase	anim_unreduced
+881	29	7	cost	main verb	anim_unreduced
+882	29	8	a	End	anim_unreduced
+883	29	9	lot	End	anim_unreduced
+884	29	10	of	End	anim_unreduced
+885	29	11	money	End	anim_unreduced
+886	29	12	to	End	anim_unreduced
+887	29	13	decommission	End	anim_unreduced
+888	29	14	.	End	anim_unreduced
+889	29	15	<eos>	End	anim_unreduced
+890	0	0	The	Start	inanim_reduced
+891	0	1	evidence	Inanimate noun	inanim_reduced
+892	0	2	examined	verb	inanim_reduced
+893	0	3	by	by-phrase	inanim_reduced
+894	0	4	the	by-phrase	inanim_reduced
+895	0	5	lawyer	by-phrase	inanim_reduced
+896	0	6	turned	main verb	inanim_reduced
+897	0	7	out	End	inanim_reduced
+898	0	8	to	End	inanim_reduced
+899	0	9	be	End	inanim_reduced
+900	0	10	unreliable	End	inanim_reduced
+901	0	11	.	End	inanim_reduced
+902	0	12	<eos>	End	inanim_reduced
+903	1	0	The	Start	inanim_reduced
+904	1	1	gold	Inanimate noun	inanim_reduced
+905	1	2	transported	verb	inanim_reduced
+906	1	3	by	by-phrase	inanim_reduced
+907	1	4	the	by-phrase	inanim_reduced
+908	1	5	guards	by-phrase	inanim_reduced
+909	1	6	was	main verb	inanim_reduced
+910	1	7	closely	End	inanim_reduced
+911	1	8	watched	End	inanim_reduced
+912	1	9	.	End	inanim_reduced
+913	1	10	<eos>	End	inanim_reduced
+914	2	0	The	Start	inanim_reduced
+915	2	1	textbook	Inanimate noun	inanim_reduced
+916	2	2	loved	verb	inanim_reduced
+917	2	3	by	by-phrase	inanim_reduced
+918	2	4	the	by-phrase	inanim_reduced
+919	2	5	class	by-phrase	inanim_reduced
+920	2	6	was	main verb	inanim_reduced
+921	2	7	very	End	inanim_reduced
+922	2	8	easy	End	inanim_reduced
+923	2	9	to	End	inanim_reduced
+924	2	10	understand	End	inanim_reduced
+925	2	11	.	End	inanim_reduced
+926	2	12	<eos>	End	inanim_reduced
+927	3	0	The	Start	inanim_reduced
+928	3	1	bricks	Inanimate noun	inanim_reduced
+929	3	2	lifted	verb	inanim_reduced
+930	3	3	by	by-phrase	inanim_reduced
+931	3	4	the	by-phrase	inanim_reduced
+932	3	5	crane	by-phrase	inanim_reduced
+933	3	6	were	main verb	inanim_reduced
+934	3	7	deposited	End	inanim_reduced
+935	3	8	on	End	inanim_reduced
+936	3	9	the	End	inanim_reduced
+937	3	10	roof	End	inanim_reduced
+938	3	11	.	End	inanim_reduced
+939	3	12	<eos>	End	inanim_reduced
+940	4	0	The	Start	inanim_reduced
+941	4	1	paper	Inanimate noun	inanim_reduced
+942	4	2	graded	verb	inanim_reduced
+943	4	3	by	by-phrase	inanim_reduced
+944	4	4	the	by-phrase	inanim_reduced
+945	4	5	professor	by-phrase	inanim_reduced
+946	4	6	received	main verb	inanim_reduced
+947	4	7	a	End	inanim_reduced
+948	4	8	low	End	inanim_reduced
+949	4	9	mark	End	inanim_reduced
+950	4	10	.	End	inanim_reduced
+951	4	11	<eos>	End	inanim_reduced
+952	5	0	The	Start	inanim_reduced
+953	5	1	recipe	Inanimate noun	inanim_reduced
+954	5	2	selected	verb	inanim_reduced
+955	5	3	by	by-phrase	inanim_reduced
+956	5	4	the	by-phrase	inanim_reduced
+957	5	5	judges	by-phrase	inanim_reduced
+958	5	6	did	main verb	inanim_reduced
+959	5	7	not	End	inanim_reduced
+960	5	8	deserve	End	inanim_reduced
+961	5	9	to	End	inanim_reduced
+962	5	10	win	End	inanim_reduced
+963	5	11	.	End	inanim_reduced
+964	5	12	<eos>	End	inanim_reduced
+965	6	0	The	Start	inanim_reduced
+966	6	1	equipment	Inanimate noun	inanim_reduced
+967	6	2	requested	verb	inanim_reduced
+968	6	3	by	by-phrase	inanim_reduced
+969	6	4	the	by-phrase	inanim_reduced
+970	6	5	hospital	by-phrase	inanim_reduced
+971	6	6	arrived	main verb	inanim_reduced
+972	6	7	two	End	inanim_reduced
+973	6	8	weeks	End	inanim_reduced
+974	6	9	late	End	inanim_reduced
+975	6	10	.	End	inanim_reduced
+976	6	11	<eos>	End	inanim_reduced
+977	7	0	The	Start	inanim_reduced
+978	7	1	jewelry	Inanimate noun	inanim_reduced
+979	7	2	identified	verb	inanim_reduced
+980	7	3	by	by-phrase	inanim_reduced
+981	7	4	the	by-phrase	inanim_reduced
+982	7	5	victim	by-phrase	inanim_reduced
+983	7	6	was	main verb	inanim_reduced
+984	7	7	held	End	inanim_reduced
+985	7	8	by	End	inanim_reduced
+986	7	9	the	End	inanim_reduced
+987	7	10	police	End	inanim_reduced
+988	7	11	.	End	inanim_reduced
+989	7	12	<eos>	End	inanim_reduced
+990	8	0	The	Start	inanim_reduced
+991	8	1	valley	Inanimate noun	inanim_reduced
+992	8	2	captured	verb	inanim_reduced
+993	8	3	by	by-phrase	inanim_reduced
+994	8	4	the	by-phrase	inanim_reduced
+995	8	5	enemy	by-phrase	inanim_reduced
+996	8	6	was	main verb	inanim_reduced
+997	8	7	closely	End	inanim_reduced
+998	8	8	guarded	End	inanim_reduced
+999	8	9	.	End	inanim_reduced
+1000	8	10	<eos>	End	inanim_reduced
+1001	9	0	The	Start	inanim_reduced
+1002	9	1	power	Inanimate noun	inanim_reduced
+1003	9	2	plants	Inanimate noun	inanim_reduced
+1004	9	3	attacked	verb	inanim_reduced
+1005	9	4	by	by-phrase	inanim_reduced
+1006	9	5	the	by-phrase	inanim_reduced
+1007	9	6	terrorists	by-phrase	inanim_reduced
+1008	9	7	suffered	main verb	inanim_reduced
+1009	9	8	heavy	End	inanim_reduced
+1010	9	9	losses	End	inanim_reduced
+1011	9	10	.	End	inanim_reduced
+1012	9	11	<eos>	End	inanim_reduced
+1013	10	0	The	Start	inanim_reduced
+1014	10	1	painting	Inanimate noun	inanim_reduced
+1015	10	2	studied	verb	inanim_reduced
+1016	10	3	by	by-phrase	inanim_reduced
+1017	10	4	the	by-phrase	inanim_reduced
+1018	10	5	historian	by-phrase	inanim_reduced
+1019	10	6	was	main verb	inanim_reduced
+1020	10	7	a	End	inanim_reduced
+1021	10	8	complete	End	inanim_reduced
+1022	10	9	unknown	End	inanim_reduced
+1023	10	10	.	End	inanim_reduced
+1024	10	11	<eos>	End	inanim_reduced
+1025	11	0	The	Start	inanim_reduced
+1026	11	1	necklace	Inanimate noun	inanim_reduced
+1027	11	2	described	verb	inanim_reduced
+1028	11	3	by	by-phrase	inanim_reduced
+1029	11	4	the	by-phrase	inanim_reduced
+1030	11	5	lady	by-phrase	inanim_reduced
+1031	11	6	was	main verb	inanim_reduced
+1032	11	7	quite	End	inanim_reduced
+1033	11	8	beautiful	End	inanim_reduced
+1034	11	9	.	End	inanim_reduced
+1035	11	10	<eos>	End	inanim_reduced
+1036	12	0	The	Start	inanim_reduced
+1037	12	1	package	Inanimate noun	inanim_reduced
+1038	12	2	expected	verb	inanim_reduced
+1039	12	3	by	by-phrase	inanim_reduced
+1040	12	4	the	by-phrase	inanim_reduced
+1041	12	5	secretary	by-phrase	inanim_reduced
+1042	12	6	arrived	main verb	inanim_reduced
+1043	12	7	too	End	inanim_reduced
+1044	12	8	late	End	inanim_reduced
+1045	12	9	.	End	inanim_reduced
+1046	12	10	<eos>	End	inanim_reduced
+1047	13	0	The	Start	inanim_reduced
+1048	13	1	sofa	Inanimate noun	inanim_reduced
+1049	13	2	scratched	verb	inanim_reduced
+1050	13	3	by	by-phrase	inanim_reduced
+1051	13	4	the	by-phrase	inanim_reduced
+1052	13	5	cat	by-phrase	inanim_reduced
+1053	13	6	was	main verb	inanim_reduced
+1054	13	7	none	End	inanim_reduced
+1055	13	8	the	End	inanim_reduced
+1056	13	9	worse	End	inanim_reduced
+1057	13	10	for	End	inanim_reduced
+1058	13	11	wear	End	inanim_reduced
+1059	13	12	.	End	inanim_reduced
+1060	13	13	<eos>	End	inanim_reduced
+1061	14	0	The	Start	inanim_reduced
+1062	14	1	van	Inanimate noun	inanim_reduced
+1063	14	2	recognized	verb	inanim_reduced
+1064	14	3	by	by-phrase	inanim_reduced
+1065	14	4	the	by-phrase	inanim_reduced
+1066	14	5	spy	by-phrase	inanim_reduced
+1067	14	6	took	main verb	inanim_reduced
+1068	14	7	off	End	inanim_reduced
+1069	14	8	down	End	inanim_reduced
+1070	14	9	the	End	inanim_reduced
+1071	14	10	street	End	inanim_reduced
+1072	14	11	.	End	inanim_reduced
+1073	14	12	<eos>	End	inanim_reduced
+1074	15	0	The	Start	inanim_reduced
+1075	15	1	account	Inanimate noun	inanim_reduced
+1076	15	2	wanted	verb	inanim_reduced
+1077	15	3	by	by-phrase	inanim_reduced
+1078	15	4	the	by-phrase	inanim_reduced
+1079	15	5	advertiser	by-phrase	inanim_reduced
+1080	15	6	was	main verb	inanim_reduced
+1081	15	7	worth	End	inanim_reduced
+1082	15	8	a	End	inanim_reduced
+1083	15	9	lot	End	inanim_reduced
+1084	15	10	of	End	inanim_reduced
+1085	15	11	money	End	inanim_reduced
+1086	15	12	.	End	inanim_reduced
+1087	15	13	<eos>	End	inanim_reduced
+1088	16	0	The	Start	inanim_reduced
+1089	16	1	explosives	Inanimate noun	inanim_reduced
+1090	16	2	removed	verb	inanim_reduced
+1091	16	3	by	by-phrase	inanim_reduced
+1092	16	4	the	by-phrase	inanim_reduced
+1093	16	5	police	by-phrase	inanim_reduced
+1094	16	6	were	main verb	inanim_reduced
+1095	16	7	reported	End	inanim_reduced
+1096	16	8	on	End	inanim_reduced
+1097	16	9	in	End	inanim_reduced
+1098	16	10	the	End	inanim_reduced
+1099	16	11	newspaper	End	inanim_reduced
+1100	16	12	.	End	inanim_reduced
+1101	16	13	<eos>	End	inanim_reduced
+1102	17	0	The	Start	inanim_reduced
+1103	17	1	diamonds	Inanimate noun	inanim_reduced
+1104	17	2	discovered	verb	inanim_reduced
+1105	17	3	by	by-phrase	inanim_reduced
+1106	17	4	the	by-phrase	inanim_reduced
+1107	17	5	detective	by-phrase	inanim_reduced
+1108	17	6	were	main verb	inanim_reduced
+1109	17	7	hidden	End	inanim_reduced
+1110	17	8	in	End	inanim_reduced
+1111	17	9	the	End	inanim_reduced
+1112	17	10	basement	End	inanim_reduced
+1113	17	11	.	End	inanim_reduced
+1114	17	12	<eos>	End	inanim_reduced
+1115	18	0	The	Start	inanim_reduced
+1116	18	1	flowers	Inanimate noun	inanim_reduced
+1117	18	2	painted	verb	inanim_reduced
+1118	18	3	by	by-phrase	inanim_reduced
+1119	18	4	the	by-phrase	inanim_reduced
+1120	18	5	artist	by-phrase	inanim_reduced
+1121	18	6	appeared	main verb	inanim_reduced
+1122	18	7	larger	End	inanim_reduced
+1123	18	8	in	End	inanim_reduced
+1124	18	9	real	End	inanim_reduced
+1125	18	10	life	End	inanim_reduced
+1126	18	11	.	End	inanim_reduced
+1127	18	12	<eos>	End	inanim_reduced
+1128	19	0	The	Start	inanim_reduced
+1129	19	1	car	Inanimate noun	inanim_reduced
+1130	19	2	washed	verb	inanim_reduced
+1131	19	3	by	by-phrase	inanim_reduced
+1132	19	4	the	by-phrase	inanim_reduced
+1133	19	5	maid	by-phrase	inanim_reduced
+1134	19	6	grew	main verb	inanim_reduced
+1135	19	7	dirty	End	inanim_reduced
+1136	19	8	again	End	inanim_reduced
+1137	19	9	quickly	End	inanim_reduced
+1138	19	10	.	End	inanim_reduced
+1139	19	11	<eos>	End	inanim_reduced
+1140	20	0	The	Start	inanim_reduced
+1141	20	1	artwork	Inanimate noun	inanim_reduced
+1142	20	2	protected	verb	inanim_reduced
+1143	20	3	by	by-phrase	inanim_reduced
+1144	20	4	guards	by-phrase	inanim_reduced
+1145	20	5	was	main verb	inanim_reduced
+1146	20	6	from	End	inanim_reduced
+1147	20	7	a	End	inanim_reduced
+1148	20	8	foreign	End	inanim_reduced
+1149	20	9	country	End	inanim_reduced
+1150	20	10	.	End	inanim_reduced
+1151	20	11	<eos>	End	inanim_reduced
+1152	21	0	The	Start	inanim_reduced
+1153	21	1	law	Inanimate noun	inanim_reduced
+1154	21	2	parodied	verb	inanim_reduced
+1155	21	3	by	by-phrase	inanim_reduced
+1156	21	4	the	by-phrase	inanim_reduced
+1157	21	5	comedian	by-phrase	inanim_reduced
+1158	21	6	helped	main verb	inanim_reduced
+1159	21	7	working	End	inanim_reduced
+1160	21	8	class	End	inanim_reduced
+1161	21	9	Americans	End	inanim_reduced
+1162	21	10	.	End	inanim_reduced
+1163	21	11	<eos>	End	inanim_reduced
+1164	22	0	The	Start	inanim_reduced
+1165	22	1	wallet	Inanimate noun	inanim_reduced
+1166	22	2	lost	verb	inanim_reduced
+1167	22	3	by	by-phrase	inanim_reduced
+1168	22	4	the	by-phrase	inanim_reduced
+1169	22	5	tourist	by-phrase	inanim_reduced
+1170	22	6	was	main verb	inanim_reduced
+1171	22	7	found	End	inanim_reduced
+1172	22	8	by	End	inanim_reduced
+1173	22	9	the	End	inanim_reduced
+1174	22	10	local	End	inanim_reduced
+1175	22	11	police	End	inanim_reduced
+1176	22	12	.	End	inanim_reduced
+1177	22	13	<eos>	End	inanim_reduced
+1178	23	0	The	Start	inanim_reduced
+1179	23	1	building	Inanimate noun	inanim_reduced
+1180	23	2	sketched	verb	inanim_reduced
+1181	23	3	by	by-phrase	inanim_reduced
+1182	23	4	the	by-phrase	inanim_reduced
+1183	23	5	designer	by-phrase	inanim_reduced
+1184	23	6	was	main verb	inanim_reduced
+1185	23	7	never	End	inanim_reduced
+1186	23	8	identified	End	inanim_reduced
+1187	23	9	.	End	inanim_reduced
+1188	23	10	<eos>	End	inanim_reduced
+1189	24	0	The	Start	inanim_reduced
+1190	24	1	landscape	Inanimate noun	inanim_reduced
+1191	24	2	photographed	verb	inanim_reduced
+1192	24	3	by	by-phrase	inanim_reduced
+1193	24	4	the	by-phrase	inanim_reduced
+1194	24	5	amateur	by-phrase	inanim_reduced
+1195	24	6	was	main verb	inanim_reduced
+1196	24	7	bathed	End	inanim_reduced
+1197	24	8	in	End	inanim_reduced
+1198	24	9	sunlight	End	inanim_reduced
+1199	24	10	.	End	inanim_reduced
+1200	24	11	<eos>	End	inanim_reduced
+1201	25	0	The	Start	inanim_reduced
+1202	25	1	coffee	Inanimate noun	inanim_reduced
+1203	25	2	machine	Inanimate noun	inanim_reduced
+1204	25	3	adored	verb	inanim_reduced
+1205	25	4	by	by-phrase	inanim_reduced
+1206	25	5	the	by-phrase	inanim_reduced
+1207	25	6	clerks	by-phrase	inanim_reduced
+1208	25	7	was	main verb	inanim_reduced
+1209	25	8	moved	End	inanim_reduced
+1210	25	9	to	End	inanim_reduced
+1211	25	10	a	End	inanim_reduced
+1212	25	11	different	End	inanim_reduced
+1213	25	12	office	End	inanim_reduced
+1214	25	13	.	End	inanim_reduced
+1215	25	14	<eos>	End	inanim_reduced
+1216	26	0	The	Start	inanim_reduced
+1217	26	1	building	Inanimate noun	inanim_reduced
+1218	26	2	monitored	verb	inanim_reduced
+1219	26	3	by	by-phrase	inanim_reduced
+1220	26	4	the	by-phrase	inanim_reduced
+1221	26	5	authorities	by-phrase	inanim_reduced
+1222	26	6	turned	main verb	inanim_reduced
+1223	26	7	out	End	inanim_reduced
+1224	26	8	to	End	inanim_reduced
+1225	26	9	be	End	inanim_reduced
+1226	26	10	a	End	inanim_reduced
+1227	26	11	false	End	inanim_reduced
+1228	26	12	lead	End	inanim_reduced
+1229	26	13	.	End	inanim_reduced
+1230	26	14	<eos>	End	inanim_reduced
+1231	27	0	The	Start	inanim_reduced
+1232	27	1	crops	Inanimate noun	inanim_reduced
+1233	27	2	devastated	verb	inanim_reduced
+1234	27	3	by	by-phrase	inanim_reduced
+1235	27	4	the	by-phrase	inanim_reduced
+1236	27	5	dust	by-phrase	inanim_reduced
+1237	27	6	bowl	by-phrase	inanim_reduced
+1238	27	7	were	main verb	inanim_reduced
+1239	27	8	not	End	inanim_reduced
+1240	27	9	insured	End	inanim_reduced
+1241	27	10	by	End	inanim_reduced
+1242	27	11	the	End	inanim_reduced
+1243	27	12	bank	End	inanim_reduced
+1244	27	13	.	End	inanim_reduced
+1245	27	14	<eos>	End	inanim_reduced
+1246	28	0	The	Start	inanim_reduced
+1247	28	1	machines	Inanimate noun	inanim_reduced
+1248	28	2	insured	verb	inanim_reduced
+1249	28	3	by	by-phrase	inanim_reduced
+1250	28	4	the	by-phrase	inanim_reduced
+1251	28	5	company	by-phrase	inanim_reduced
+1252	28	6	worked	main verb	inanim_reduced
+1253	28	7	for	End	inanim_reduced
+1254	28	8	longer	End	inanim_reduced
+1255	28	9	than	End	inanim_reduced
+1256	28	10	those	End	inanim_reduced
+1257	28	11	that	End	inanim_reduced
+1258	28	12	were	End	inanim_reduced
+1259	28	13	not	End	inanim_reduced
+1260	28	14	.	End	inanim_reduced
+1261	28	15	<eos>	End	inanim_reduced
+1262	29	0	The	Start	inanim_reduced
+1263	29	1	looms	Inanimate noun	inanim_reduced
+1264	29	2	replaced	verb	inanim_reduced
+1265	29	3	by	by-phrase	inanim_reduced
+1266	29	4	robots	by-phrase	inanim_reduced
+1267	29	5	cost	main verb	inanim_reduced
+1268	29	6	a	End	inanim_reduced
+1269	29	7	lot	End	inanim_reduced
+1270	29	8	of	End	inanim_reduced
+1271	29	9	money	End	inanim_reduced
+1272	29	10	to	End	inanim_reduced
+1273	29	11	decommission	End	inanim_reduced
+1274	29	12	.	End	inanim_reduced
+1275	29	13	<eos>	End	inanim_reduced
+1276	0	0	The	Start	anim_reduced
+1277	0	1	defendant	Animate noun	anim_reduced
+1278	0	2	examined	verb	anim_reduced
+1279	0	3	by	by-phrase	anim_reduced
+1280	0	4	the	by-phrase	anim_reduced
+1281	0	5	lawyer	by-phrase	anim_reduced
+1282	0	6	turned	main verb	anim_reduced
+1283	0	7	out	End	anim_reduced
+1284	0	8	to	End	anim_reduced
+1285	0	9	be	End	anim_reduced
+1286	0	10	unreliable	End	anim_reduced
+1287	0	11	.	End	anim_reduced
+1288	0	12	<eos>	End	anim_reduced
+1289	1	0	The	Start	anim_reduced
+1290	1	1	prisoner	Animate noun	anim_reduced
+1291	1	2	transported	verb	anim_reduced
+1292	1	3	by	by-phrase	anim_reduced
+1293	1	4	the	by-phrase	anim_reduced
+1294	1	5	guards	by-phrase	anim_reduced
+1295	1	6	was	main verb	anim_reduced
+1296	1	7	closely	End	anim_reduced
+1297	1	8	watched	End	anim_reduced
+1298	1	9	.	End	anim_reduced
+1299	1	10	<eos>	End	anim_reduced
+1300	2	0	The	Start	anim_reduced
+1301	2	1	teacher	Animate noun	anim_reduced
+1302	2	2	loved	verb	anim_reduced
+1303	2	3	by	by-phrase	anim_reduced
+1304	2	4	the	by-phrase	anim_reduced
+1305	2	5	class	by-phrase	anim_reduced
+1306	2	6	was	main verb	anim_reduced
+1307	2	7	very	End	anim_reduced
+1308	2	8	easy	End	anim_reduced
+1309	2	9	to	End	anim_reduced
+1310	2	10	understand	End	anim_reduced
+1311	2	11	.	End	anim_reduced
+1312	2	12	<eos>	End	anim_reduced
+1313	3	0	The	Start	anim_reduced
+1314	3	1	workers	Animate noun	anim_reduced
+1315	3	2	lifted	verb	anim_reduced
+1316	3	3	by	by-phrase	anim_reduced
+1317	3	4	the	by-phrase	anim_reduced
+1318	3	5	crane	by-phrase	anim_reduced
+1319	3	6	were	main verb	anim_reduced
+1320	3	7	deposited	End	anim_reduced
+1321	3	8	on	End	anim_reduced
+1322	3	9	the	End	anim_reduced
+1323	3	10	roof	End	anim_reduced
+1324	3	11	.	End	anim_reduced
+1325	3	12	<eos>	End	anim_reduced
+1326	4	0	The	Start	anim_reduced
+1327	4	1	student	Animate noun	anim_reduced
+1328	4	2	graded	verb	anim_reduced
+1329	4	3	by	by-phrase	anim_reduced
+1330	4	4	the	by-phrase	anim_reduced
+1331	4	5	professor	by-phrase	anim_reduced
+1332	4	6	received	main verb	anim_reduced
+1333	4	7	a	End	anim_reduced
+1334	4	8	low	End	anim_reduced
+1335	4	9	mark	End	anim_reduced
+1336	4	10	.	End	anim_reduced
+1337	4	11	<eos>	End	anim_reduced
+1338	5	0	The	Start	anim_reduced
+1339	5	1	contestant	Animate noun	anim_reduced
+1340	5	2	selected	verb	anim_reduced
+1341	5	3	by	by-phrase	anim_reduced
+1342	5	4	the	by-phrase	anim_reduced
+1343	5	5	judges	by-phrase	anim_reduced
+1344	5	6	did	main verb	anim_reduced
+1345	5	7	not	End	anim_reduced
+1346	5	8	deserve	End	anim_reduced
+1347	5	9	to	End	anim_reduced
+1348	5	10	win	End	anim_reduced
+1349	5	11	.	End	anim_reduced
+1350	5	12	<eos>	End	anim_reduced
+1351	6	0	The	Start	anim_reduced
+1352	6	1	specialist	Animate noun	anim_reduced
+1353	6	2	requested	verb	anim_reduced
+1354	6	3	by	by-phrase	anim_reduced
+1355	6	4	the	by-phrase	anim_reduced
+1356	6	5	hospital	by-phrase	anim_reduced
+1357	6	6	arrived	main verb	anim_reduced
+1358	6	7	two	End	anim_reduced
+1359	6	8	weeks	End	anim_reduced
+1360	6	9	late	End	anim_reduced
+1361	6	10	.	End	anim_reduced
+1362	6	11	<eos>	End	anim_reduced
+1363	7	0	The	Start	anim_reduced
+1364	7	1	thief	Animate noun	anim_reduced
+1365	7	2	identified	verb	anim_reduced
+1366	7	3	by	by-phrase	anim_reduced
+1367	7	4	the	by-phrase	anim_reduced
+1368	7	5	victim	by-phrase	anim_reduced
+1369	7	6	was	main verb	anim_reduced
+1370	7	7	held	End	anim_reduced
+1371	7	8	by	End	anim_reduced
+1372	7	9	the	End	anim_reduced
+1373	7	10	police	End	anim_reduced
+1374	7	11	.	End	anim_reduced
+1375	7	12	<eos>	End	anim_reduced
+1376	8	0	The	Start	anim_reduced
+1377	8	1	soldier	Animate noun	anim_reduced
+1378	8	2	captured	verb	anim_reduced
+1379	8	3	by	by-phrase	anim_reduced
+1380	8	4	the	by-phrase	anim_reduced
+1381	8	5	enemy	by-phrase	anim_reduced
+1382	8	6	was	main verb	anim_reduced
+1383	8	7	closely	End	anim_reduced
+1384	8	8	guarded	End	anim_reduced
+1385	8	9	.	End	anim_reduced
+1386	8	10	<eos>	End	anim_reduced
+1387	9	0	The	Start	anim_reduced
+1388	9	1	troops	Animate noun	anim_reduced
+1389	9	2	attacked	verb	anim_reduced
+1390	9	3	by	by-phrase	anim_reduced
+1391	9	4	the	by-phrase	anim_reduced
+1392	9	5	terrorists	by-phrase	anim_reduced
+1393	9	6	suffered	main verb	anim_reduced
+1394	9	7	heavy	End	anim_reduced
+1395	9	8	losses	End	anim_reduced
+1396	9	9	.	End	anim_reduced
+1397	9	10	<eos>	End	anim_reduced
+1398	10	0	The	Start	anim_reduced
+1399	10	1	artist	Animate noun	anim_reduced
+1400	10	2	studied	verb	anim_reduced
+1401	10	3	by	by-phrase	anim_reduced
+1402	10	4	the	by-phrase	anim_reduced
+1403	10	5	historian	by-phrase	anim_reduced
+1404	10	6	was	main verb	anim_reduced
+1405	10	7	a	End	anim_reduced
+1406	10	8	complete	End	anim_reduced
+1407	10	9	unknown	End	anim_reduced
+1408	10	10	.	End	anim_reduced
+1409	10	11	<eos>	End	anim_reduced
+1410	11	0	The	Start	anim_reduced
+1411	11	1	girl	Animate noun	anim_reduced
+1412	11	2	described	verb	anim_reduced
+1413	11	3	by	by-phrase	anim_reduced
+1414	11	4	the	by-phrase	anim_reduced
+1415	11	5	lady	by-phrase	anim_reduced
+1416	11	6	was	main verb	anim_reduced
+1417	11	7	quite	End	anim_reduced
+1418	11	8	beautiful	End	anim_reduced
+1419	11	9	.	End	anim_reduced
+1420	11	10	<eos>	End	anim_reduced
+1421	12	0	The	Start	anim_reduced
+1422	12	1	mailman	Animate noun	anim_reduced
+1423	12	2	expected	verb	anim_reduced
+1424	12	3	by	by-phrase	anim_reduced
+1425	12	4	the	by-phrase	anim_reduced
+1426	12	5	secretary	by-phrase	anim_reduced
+1427	12	6	arrived	main verb	anim_reduced
+1428	12	7	too	End	anim_reduced
+1429	12	8	late	End	anim_reduced
+1430	12	9	.	End	anim_reduced
+1431	12	10	<eos>	End	anim_reduced
+1432	13	0	The	Start	anim_reduced
+1433	13	1	woman	Animate noun	anim_reduced
+1434	13	2	scratched	verb	anim_reduced
+1435	13	3	by	by-phrase	anim_reduced
+1436	13	4	the	by-phrase	anim_reduced
+1437	13	5	cat	by-phrase	anim_reduced
+1438	13	6	was	main verb	anim_reduced
+1439	13	7	none	End	anim_reduced
+1440	13	8	the	End	anim_reduced
+1441	13	9	worse	End	anim_reduced
+1442	13	10	for	End	anim_reduced
+1443	13	11	wear	End	anim_reduced
+1444	13	12	.	End	anim_reduced
+1445	13	13	<eos>	End	anim_reduced
+1446	14	0	The	Start	anim_reduced
+1447	14	1	man	Animate noun	anim_reduced
+1448	14	2	recognized	verb	anim_reduced
+1449	14	3	by	by-phrase	anim_reduced
+1450	14	4	the	by-phrase	anim_reduced
+1451	14	5	spy	by-phrase	anim_reduced
+1452	14	6	took	main verb	anim_reduced
+1453	14	7	off	End	anim_reduced
+1454	14	8	down	End	anim_reduced
+1455	14	9	the	End	anim_reduced
+1456	14	10	street	End	anim_reduced
+1457	14	11	.	End	anim_reduced
+1458	14	12	<eos>	End	anim_reduced
+1459	15	0	The	Start	anim_reduced
+1460	15	1	client	Animate noun	anim_reduced
+1461	15	2	wanted	verb	anim_reduced
+1462	15	3	by	by-phrase	anim_reduced
+1463	15	4	the	by-phrase	anim_reduced
+1464	15	5	advertiser	by-phrase	anim_reduced
+1465	15	6	was	main verb	anim_reduced
+1466	15	7	worth	End	anim_reduced
+1467	15	8	a	End	anim_reduced
+1468	15	9	lot	End	anim_reduced
+1469	15	10	of	End	anim_reduced
+1470	15	11	money	End	anim_reduced
+1471	15	12	.	End	anim_reduced
+1472	15	13	<eos>	End	anim_reduced
+1473	16	0	The	Start	anim_reduced
+1474	16	1	hecklers	Animate noun	anim_reduced
+1475	16	2	removed	verb	anim_reduced
+1476	16	3	by	by-phrase	anim_reduced
+1477	16	4	the	by-phrase	anim_reduced
+1478	16	5	police	by-phrase	anim_reduced
+1479	16	6	were	main verb	anim_reduced
+1480	16	7	reported	End	anim_reduced
+1481	16	8	on	End	anim_reduced
+1482	16	9	in	End	anim_reduced
+1483	16	10	the	End	anim_reduced
+1484	16	11	newspaper	End	anim_reduced
+1485	16	12	.	End	anim_reduced
+1486	16	13	<eos>	End	anim_reduced
+1487	17	0	The	Start	anim_reduced
+1488	17	1	lovers	Animate noun	anim_reduced
+1489	17	2	discovered	verb	anim_reduced
+1490	17	3	by	by-phrase	anim_reduced
+1491	17	4	the	by-phrase	anim_reduced
+1492	17	5	detective	by-phrase	anim_reduced
+1493	17	6	were	main verb	anim_reduced
+1494	17	7	hidden	End	anim_reduced
+1495	17	8	in	End	anim_reduced
+1496	17	9	the	End	anim_reduced
+1497	17	10	basement	End	anim_reduced
+1498	17	11	.	End	anim_reduced
+1499	17	12	<eos>	End	anim_reduced
+1500	18	0	The	Start	anim_reduced
+1501	18	1	children	Animate noun	anim_reduced
+1502	18	2	painted	verb	anim_reduced
+1503	18	3	by	by-phrase	anim_reduced
+1504	18	4	the	by-phrase	anim_reduced
+1505	18	5	artist	by-phrase	anim_reduced
+1506	18	6	appeared	main verb	anim_reduced
+1507	18	7	larger	End	anim_reduced
+1508	18	8	in	End	anim_reduced
+1509	18	9	real	End	anim_reduced
+1510	18	10	life	End	anim_reduced
+1511	18	11	.	End	anim_reduced
+1512	18	12	<eos>	End	anim_reduced
+1513	19	0	The	Start	anim_reduced
+1514	19	1	boy	Animate noun	anim_reduced
+1515	19	2	washed	verb	anim_reduced
+1516	19	3	by	by-phrase	anim_reduced
+1517	19	4	the	by-phrase	anim_reduced
+1518	19	5	maid	by-phrase	anim_reduced
+1519	19	6	grew	main verb	anim_reduced
+1520	19	7	dirty	End	anim_reduced
+1521	19	8	again	End	anim_reduced
+1522	19	9	quickly	End	anim_reduced
+1523	19	10	.	End	anim_reduced
+1524	19	11	<eos>	End	anim_reduced
+1525	20	0	The	Start	anim_reduced
+1526	20	1	diplomat	Animate noun	anim_reduced
+1527	20	2	protected	verb	anim_reduced
+1528	20	3	by	by-phrase	anim_reduced
+1529	20	4	guards	by-phrase	anim_reduced
+1530	20	5	was	main verb	anim_reduced
+1531	20	6	from	End	anim_reduced
+1532	20	7	a	End	anim_reduced
+1533	20	8	foreign	End	anim_reduced
+1534	20	9	country	End	anim_reduced
+1535	20	10	.	End	anim_reduced
+1536	20	11	<eos>	End	anim_reduced
+1537	21	0	The	Start	anim_reduced
+1538	21	1	politician	Animate noun	anim_reduced
+1539	21	2	parodied	verb	anim_reduced
+1540	21	3	by	by-phrase	anim_reduced
+1541	21	4	the	by-phrase	anim_reduced
+1542	21	5	comedian	by-phrase	anim_reduced
+1543	21	6	helped	main verb	anim_reduced
+1544	21	7	working	End	anim_reduced
+1545	21	8	class	End	anim_reduced
+1546	21	9	Americans	End	anim_reduced
+1547	21	10	.	End	anim_reduced
+1548	21	11	<eos>	End	anim_reduced
+1549	22	0	The	Start	anim_reduced
+1550	22	1	child	Animate noun	anim_reduced
+1551	22	2	lost	verb	anim_reduced
+1552	22	3	by	by-phrase	anim_reduced
+1553	22	4	the	by-phrase	anim_reduced
+1554	22	5	tourist	by-phrase	anim_reduced
+1555	22	6	was	main verb	anim_reduced
+1556	22	7	found	End	anim_reduced
+1557	22	8	by	End	anim_reduced
+1558	22	9	the	End	anim_reduced
+1559	22	10	local	End	anim_reduced
+1560	22	11	police	End	anim_reduced
+1561	22	12	.	End	anim_reduced
+1562	22	13	<eos>	End	anim_reduced
+1563	23	0	The	Start	anim_reduced
+1564	23	1	lady	Animate noun	anim_reduced
+1565	23	2	sketched	verb	anim_reduced
+1566	23	3	by	by-phrase	anim_reduced
+1567	23	4	the	by-phrase	anim_reduced
+1568	23	5	designer	by-phrase	anim_reduced
+1569	23	6	was	main verb	anim_reduced
+1570	23	7	never	End	anim_reduced
+1571	23	8	identified	End	anim_reduced
+1572	23	9	.	End	anim_reduced
+1573	23	10	<eos>	End	anim_reduced
+1574	24	0	The	Start	anim_reduced
+1575	24	1	couple	Animate noun	anim_reduced
+1576	24	2	photographed	verb	anim_reduced
+1577	24	3	by	by-phrase	anim_reduced
+1578	24	4	the	by-phrase	anim_reduced
+1579	24	5	amateur	by-phrase	anim_reduced
+1580	24	6	was	main verb	anim_reduced
+1581	24	7	bathed	End	anim_reduced
+1582	24	8	in	End	anim_reduced
+1583	24	9	sunlight	End	anim_reduced
+1584	24	10	.	End	anim_reduced
+1585	24	11	<eos>	End	anim_reduced
+1586	25	0	The	Start	anim_reduced
+1587	25	1	secretary	Animate noun	anim_reduced
+1588	25	2	adored	verb	anim_reduced
+1589	25	3	by	by-phrase	anim_reduced
+1590	25	4	the	by-phrase	anim_reduced
+1591	25	5	clerks	by-phrase	anim_reduced
+1592	25	6	was	main verb	anim_reduced
+1593	25	7	moved	End	anim_reduced
+1594	25	8	to	End	anim_reduced
+1595	25	9	a	End	anim_reduced
+1596	25	10	different	End	anim_reduced
+1597	25	11	office	End	anim_reduced
+1598	25	12	.	End	anim_reduced
+1599	25	13	<eos>	End	anim_reduced
+1600	26	0	The	Start	anim_reduced
+1601	26	1	organizer	Animate noun	anim_reduced
+1602	26	2	monitored	verb	anim_reduced
+1603	26	3	by	by-phrase	anim_reduced
+1604	26	4	the	by-phrase	anim_reduced
+1605	26	5	authorities	by-phrase	anim_reduced
+1606	26	6	turned	main verb	anim_reduced
+1607	26	7	out	End	anim_reduced
+1608	26	8	to	End	anim_reduced
+1609	26	9	be	End	anim_reduced
+1610	26	10	a	End	anim_reduced
+1611	26	11	false	End	anim_reduced
+1612	26	12	lead	End	anim_reduced
+1613	26	13	.	End	anim_reduced
+1614	26	14	<eos>	End	anim_reduced
+1615	27	0	The	Start	anim_reduced
+1616	27	1	farmers	Animate noun	anim_reduced
+1617	27	2	devastated	verb	anim_reduced
+1618	27	3	by	by-phrase	anim_reduced
+1619	27	4	the	by-phrase	anim_reduced
+1620	27	5	dust	by-phrase	anim_reduced
+1621	27	6	bowl	by-phrase	anim_reduced
+1622	27	7	were	main verb	anim_reduced
+1623	27	8	not	End	anim_reduced
+1624	27	9	insured	End	anim_reduced
+1625	27	10	by	End	anim_reduced
+1626	27	11	the	End	anim_reduced
+1627	27	12	bank	End	anim_reduced
+1628	27	13	.	End	anim_reduced
+1629	27	14	<eos>	End	anim_reduced
+1630	28	0	The	Start	anim_reduced
+1631	28	1	mechanics	Animate noun	anim_reduced
+1632	28	2	insured	verb	anim_reduced
+1633	28	3	by	by-phrase	anim_reduced
+1634	28	4	the	by-phrase	anim_reduced
+1635	28	5	company	by-phrase	anim_reduced
+1636	28	6	worked	main verb	anim_reduced
+1637	28	7	for	End	anim_reduced
+1638	28	8	longer	End	anim_reduced
+1639	28	9	than	End	anim_reduced
+1640	28	10	those	End	anim_reduced
+1641	28	11	that	End	anim_reduced
+1642	28	12	were	End	anim_reduced
+1643	28	13	not	End	anim_reduced
+1644	28	14	.	End	anim_reduced
+1645	28	15	<eos>	End	anim_reduced
+1646	29	0	The	Start	anim_reduced
+1647	29	1	tellers	Animate noun	anim_reduced
+1648	29	2	replaced	verb	anim_reduced
+1649	29	3	by	by-phrase	anim_reduced
+1650	29	4	robots	by-phrase	anim_reduced
+1651	29	5	cost	main verb	anim_reduced
+1652	29	6	a	End	anim_reduced
+1653	29	7	lot	End	anim_reduced
+1654	29	8	of	End	anim_reduced
+1655	29	9	money	End	anim_reduced
+1656	29	10	to	End	anim_reduced
+1657	29	11	decommission	End	anim_reduced
+1658	29	12	.	End	anim_reduced
+1659	29	13	<eos>	End	anim_reduced

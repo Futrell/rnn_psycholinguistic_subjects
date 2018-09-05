@@ -1,0 +1,270 @@
+---
+title: "rnnpsycholing Japanese NPI (sentences with embedding and matrix shika)"
+author: "Takashi Morita"
+output:
+  pdf_document:
+    latex_engine: lualatex
+    toc: true
+    toc_depth: 3
+  html_notebook: default
+documentclass: ltjsarticle
+---
+
+# Introduction
+
+We are looking for a 2x2x2 interaction of:
+
+- presence vs. absence of the Japanese NPI *shika* (しか) in the main clause.
+- affirmativeness vs. negativeness of main verb
+- affirmativeness vs. negativeness of embedded verb
+
+for each of the three grammatical cases (TOP, DAT) of the *shika*-attached NP.
+
+e.g.
+
+- TOP
+	- 佐藤-{しか, は} 社長-が パーティ-に 友人-を {呼んだ, 呼ばなかった} と {思った,思わなかった}。
+	- Sato-{*shika*, TOP} CEO-NOM party-DAT friend-ACC {invited, didn't invite} that {thought, didn't think}.
+- DAT
+	- 同僚-{にしか, に} 佐藤は 社長-が パーティ-に 友人-を {呼んだ, 呼ばなかった} と {思った,思わなかった}。
+	- colleague-{DAT-*shika*, DAT} Sato-TOP CEO-NOM party-DAT friend-ACC {invited, didn't invite} that {thought, didn't think}.
+
+Why is this interesting?
+
+1. A grammatical sentence with *shika* in the main clause must have a negative main verb.
+	- A significant increase in surprisal of the affirmative main verbs must be predicted by the LSTM conditioned on the presence of *shika* if the learning is successful.
+2. Negation of the embedded verb does not satisfy the *shika*'s grammatical condition.
+	- No significant increase in surprisal of the affirmative embedded verbs given *shika* is expected for a successful learner.
+	- Nor significant interaction between the main and embedded verbs given *shika* is expected for a successful learner.
+
+
+# Load data
+
+
+```{r}
+rm(list = ls())
+library(tidyverse)
+library(lme4)
+library(lmerTest)
+library(plotrix)
+
+REGIONS = c('main_prefix', 'embedded_prefix', 'embedded_V', 'complementizer', 'main_V', 'end')
+
+token_based_data_path = 'jp_shika_test_sentences_embedded_shika-in-main_surprisal-per-token.tsv'
+data_token_based = read_tsv(token_based_data_path)
+# Fill the initial surprisal by 0.
+data_token_based[is.na(data_token_based$surprisal),]$surprisal = 0
+data_token_based$region = factor(data_token_based$region, levels=REGIONS)
+
+data_region_based = data_token_based %>% 
+	group_by(sent_index, region, shika, embed_V, main_V, shika_case) %>% 
+		summarise(surprisal=sum(surprisal)) %>%
+		ungroup() %>% 
+	mutate(
+		shika=factor(shika, levels=c("shika", "no-shika")),
+		embed_V=factor(embed_V, levels=c("affirmative", "negative")),
+		main_V=factor(main_V, levels=c("affirmative", "negative")),
+		shika_case=factor(shika_case, levels=c("TOP", "DAT"))
+		)
+
+# Sum coding of the variables.
+contrasts(data_region_based$shika) = "contr.sum"
+contrasts(data_region_based$embed_V) = "contr.sum"
+contrasts(data_region_based$main_V) = "contr.sum"
+
+# Make sure that the dataframe is sorted appropriately.
+# First by embed_V (affirmative vs. negative)
+data_region_based = data_region_based[order(data_region_based$embed_V),]
+# Then by main_V
+data_region_based = data_region_based[order(data_region_based$main_V),]
+# finally by sent_index
+data_region_based = data_region_based[order(data_region_based$sent_index),]
+```
+
+# Embedded verb region
+
+## Visualization
+
+```{r}
+# Focus on the V (verb) region.
+data_V = subset(data_region_based, region == 'embedded_V')
+
+# Get difference in surprisal between shika vs. no-shika.
+data_V_shika = subset(data_V, shika == 'shika')
+data_V_no_shika = subset(data_V, shika == 'no-shika')
+data_V_shika$surprisal_diff = data_V_shika$surprisal - data_V_no_shika$surprisal
+
+# Visualize the difference in surprisal increase/dicrease between affirmative vs. negative verbs.
+data_V_shika %>% 
+<<<<<<< HEAD
+  group_by(sent_index) %>%
+    mutate(item_mean=mean(surprisal_diff)) %>%
+    ungroup() %>%
+	group_by(embed_V, shika_case) %>%
+	summarise(m=mean(surprisal_diff),
+			s=std.error(surprisal_diff - item_mean),
+=======
+  
+  #Error Calculation
+  group_by(sent_index) %>%
+   mutate(across_condition_mean = mean(surprisal_diff)) %>%
+  ungroup() %>%
+  mutate(item_mean = surprisal_diff - across_condition_mean) %>%
+  group_by(embed_V, shika_case) %>%
+    mutate(err = std.error(item_mean, na.rm=T)) %>%
+  ungroup() %>%
+  select(-item_mean, -across_condition_mean) %>%
+  
+	group_by(embed_V, shika_case) %>%
+	summarise(m=mean(surprisal_diff),
+			s2=std.error(surprisal_diff),
+			s=mean(err),
+>>>>>>> bd50d7cfee64e8333ab0c4ebc3b0f21229b24199
+			upper=m + 1.96*s,
+			lower=m - 1.96*s) %>%
+	ungroup() %>%
+	ggplot(aes(x=shika_case, y=m, ymin=lower, ymax=upper, fill=embed_V)) +
+    ylab("Surprisal effect of shika in context") +
+    xlab("Case of shika-marked NP") +
+		geom_bar(stat = 'identity', position = "dodge") +
+		geom_errorbar(position=position_dodge(0.9), width=.1) +
+    #theme(legend.position=c(0.1,0.4)) +
+    theme(legend.position="none") +
+    #annotate("text",x=1.5,y=-0.8,label="Complex, shika in matrix") +
+    guides(fill=guide_legend(title="Verb")) 
+ggsave("complex-shika-in-matrix.pdf",height=4,width=3)
+```
+
+## Regressions
+### TOP
+
+```{r}
+sub_data = subset(data_V_shika, shika_case == 'TOP')
+
+m = lmer(
+		surprisal_diff
+			~ embed_V
+				+ (1 | sent_index)
+		,
+		data=sub_data
+		)
+summary(m)
+```
+
+- Significant negative effect of embed_V (affirmativeness = 1).
+	- Negative verbs cause more 
+
+
+### DAT
+
+```{r}
+sub_data = subset(data_V_shika, shika_case == 'DAT')
+
+m = lmer(
+		surprisal_diff
+			~ embed_V
+				+ (1 | sent_index)
+		,
+		data=sub_data
+		)
+summary(m)
+```
+
+- Significant positive effect of embed_V (affirmativeness = 1).
+
+# Main verb region
+
+## Visualization
+
+```{r}
+# Focus on the V (verb) region.
+data_V = subset(data_region_based, region == 'main_V')
+
+# Get difference in surprisal between shika vs. no-shika.
+data_V_shika = subset(data_V, shika == 'shika')
+data_V_no_shika = subset(data_V, shika == 'no-shika')
+data_V_shika$surprisal_diff = data_V_shika$surprisal - data_V_no_shika$surprisal
+
+
+# Visualize the difference in surprisal increase/dicrease between affirmative vs. negative verbs.
+data_V_shika %>% 
+<<<<<<< HEAD
+  group_by(sent_index) %>%
+    mutate(item_mean=mean(surprisal_diff)) %>%
+    ungroup() %>%
+	group_by(embed_V, main_V, shika_case) %>%
+	summarise(m=mean(surprisal_diff),
+			s=std.error(surprisal_diff-item_mean),
+=======
+  
+  #Error Calculation
+  group_by(sent_index) %>%
+   mutate(across_condition_mean = mean(surprisal_diff)) %>%
+  ungroup() %>%
+  mutate(item_mean = surprisal_diff - across_condition_mean) %>%
+  group_by(embed_V, shika_case, main_V) %>%
+    mutate(err = std.error(item_mean, na.rm=T)) %>%
+  ungroup() %>%
+  select(-item_mean, -across_condition_mean) %>%
+  
+	group_by(embed_V, main_V, shika_case) %>%
+	summarise(m=mean(surprisal_diff),
+			s2=std.error(surprisal_diff),
+			s=mean(err),
+>>>>>>> bd50d7cfee64e8333ab0c4ebc3b0f21229b24199
+			upper=m + 1.96*s,
+			lower=m - 1.96*s) %>%
+	ungroup() %>%
+	ggplot(aes(x=shika_case, y=m, ymin=lower, ymax=upper, fill=embed_V:main_V)) +
+    ylab("Surprisal effect of shika in context") +
+    xlab("Case of shika-marked NP") +
+    theme(legend.position=c(0.3,0.2)) +
+		geom_bar(stat = 'identity', position = "dodge") +
+		geom_errorbar(position=position_dodge(0.9), width=.1)
+ggsave("complex-shika-in-matrix-matrixverb.pdf",height=4,width=4)
+```
+
+- TOP
+	- Increas in surprisal in every condition.
+- DAT
+	- Small but expected signs of changes.
+
+## Regressions
+
+### TOP
+
+```{r}
+sub_data = subset(data_V_shika, shika_case == 'TOP')
+
+m = lmer(
+		surprisal_diff
+			~ embed_V * main_V
+				+ (embed_V + main_V | sent_index)
+		,
+		data=sub_data
+		)
+summary(m)
+```
+
+- No significant effect of embed_V (affirmativeness = 1).
+- Significant negative effect of main_V (affirmativeness = 1).
+- Significant negative interaction.
+
+### DAT
+
+```{r}
+sub_data = subset(data_V_shika, shika_case == 'DAT')
+
+m = lmer(
+		surprisal_diff
+			~ embed_V * main_V
+				+ (embed_V + main_V | sent_index)
+		,
+		data=sub_data
+		)
+summary(m)
+```
+
+- Significant negative effect of embed_V (affirmativeness = 1).
+- Significant positive effect of main_V (affirmativeness = 1).
+- Significant positive interaction.

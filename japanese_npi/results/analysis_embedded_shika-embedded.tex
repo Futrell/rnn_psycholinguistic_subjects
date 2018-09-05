@@ -1,0 +1,734 @@
+\documentclass[]{ltjsarticle}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={rnnpsycholing Japanese NPI (sentences with embedding and embedded shika)},
+            pdfauthor={Takashi Morita},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+  \title{rnnpsycholing Japanese NPI (sentences with embedding and embedded shika)}
+  \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \author{Takashi Morita}
+  \preauthor{\centering\large\emph}
+  \postauthor{\par}
+  \date{}
+  \predate{}\postdate{}
+
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+\section{Introduction}\label{introduction}
+
+We are looking for a 2x2x2 interaction of:
+
+\begin{itemize}
+\tightlist
+\item
+  presence vs.~absence of the Japanese NPI \emph{shika} (しか) in the
+  embedded clause.
+\item
+  affirmativeness vs.~negativeness of main verb
+\item
+  affirmativeness vs.~negativeness of embedded verb
+\end{itemize}
+
+for each of the three grammatical cases (NOM, ACC, DAT) of the
+\emph{shika}-attached NP.
+
+e.g.
+
+\begin{itemize}
+\tightlist
+\item
+  NOM
+
+  \begin{itemize}
+  \tightlist
+  \item
+    佐藤は {[}社長-\{しか, が\} パーティ-に 友人-を \{呼んだ,
+    呼ばなかった\} と{]} \{思った,思わなかった\}。
+  \item
+    Sato-TOP {[}CEO-\{\emph{shika}, NOM\} party-DAT friend-ACC
+    \{invited, didn't invite\} that{]} \{thought, didn't think\}.
+  \end{itemize}
+\item
+  ACC
+
+  \begin{itemize}
+  \tightlist
+  \item
+    佐藤は {[}社長-が パーティ-に 友人-\{しか, を\} \{呼んだ,
+    呼ばなかった\} と{]} \{思った,思わなかった\}。
+  \item
+    Sato-TOP CEO-NOM party-DAT friend-\{\emph{shika}, ACC\} \{invited,
+    didn't invite\} that \{thought, didn't think\}.
+  \end{itemize}
+\item
+  DAT
+
+  \begin{itemize}
+  \tightlist
+  \item
+    佐藤は {[}社長-が パーティ-\{に-しか, に\} 友人-を \{呼んだ,
+    呼ばなかった\} と{]} \{思った,思わなかった\}。
+  \item
+    Sato-TOP {[}CEO-NOM party-\{DAT-\emph{shika}, DAT\} friend-ACC
+    \{invited, didn't invite\} that{]} \{thought, didn't think\}.
+  \end{itemize}
+\end{itemize}
+
+Why is this interesting?
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  A grammatical sentence with \emph{shika} in the embedded clause must
+  have a negative embedded verb.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    A significant increase in surprisal of the affirmative embedded
+    verbs must be predicted by the LSTM conditioned on the presence of
+    \emph{shika} if the learning is successful.
+  \end{itemize}
+\item
+  Negation of the embedded verb does not satisfy the \emph{shika}'s
+  grammatical condition.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    No significant increase in surprisal of the affirmative main verbs
+    given \emph{shika} is expected for a successful learner.
+  \item
+    Nor significant interaction between the main and embedded verbs
+    given \emph{shika} is expected for a successful learner.
+  \end{itemize}
+\end{enumerate}
+
+\section{Load data}\label{load-data}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{rm}\NormalTok{(}\DataTypeTok{list =} \KeywordTok{ls}\NormalTok{())}
+\KeywordTok{library}\NormalTok{(tidyverse)}
+\KeywordTok{library}\NormalTok{(brms)}
+\KeywordTok{library}\NormalTok{(lme4)}
+\KeywordTok{library}\NormalTok{(lmerTest)}
+\KeywordTok{library}\NormalTok{(plotrix)}
+
+\NormalTok{REGIONS =}\StringTok{ }\KeywordTok{c}\NormalTok{(}\StringTok{'main_prefix'}\NormalTok{, }\StringTok{'embedded_prefix'}\NormalTok{, }\StringTok{'embedded_V'}\NormalTok{, }\StringTok{'complementizer'}\NormalTok{, }\StringTok{'main_V'}\NormalTok{, }\StringTok{'end'}\NormalTok{)}
+
+\NormalTok{token_based_data_path =}\StringTok{ 'jp_shika_test_sentences_embedded_shika-embedded_surprisal-per-token.tsv'}
+\NormalTok{data_token_based =}\StringTok{ }\KeywordTok{read_tsv}\NormalTok{(token_based_data_path)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Parsed with column specification:
+## cols(
+##   sent_index = col_integer(),
+##   token_index = col_integer(),
+##   token = col_character(),
+##   region = col_character(),
+##   log_prob = col_double(),
+##   shika_case = col_character(),
+##   shika = col_character(),
+##   embed_V = col_character(),
+##   main_V = col_character(),
+##   surprisal = col_double(),
+##   LSTM = col_character()
+## )
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# Fill the initial surprisal by 0.}
+\NormalTok{data_token_based[}\KeywordTok{is.na}\NormalTok{(data_token_based}\OperatorTok{$}\NormalTok{surprisal),]}\OperatorTok{$}\NormalTok{surprisal =}\StringTok{ }\DecValTok{0} 
+\NormalTok{data_token_based}\OperatorTok{$}\NormalTok{region =}\StringTok{ }\KeywordTok{factor}\NormalTok{(data_token_based}\OperatorTok{$}\NormalTok{region, }\DataTypeTok{levels=}\NormalTok{REGIONS)}
+
+\NormalTok{data_region_based =}\StringTok{ }\NormalTok{data_token_based }\OperatorTok{%>%}\StringTok{ }
+\StringTok{    }\KeywordTok{group_by}\NormalTok{(sent_index, region, shika, embed_V, main_V, shika_case) }\OperatorTok{%>%}\StringTok{ }
+\StringTok{        }\KeywordTok{summarise}\NormalTok{(}\DataTypeTok{surprisal=}\KeywordTok{sum}\NormalTok{(surprisal)) }\OperatorTok{%>%}
+\StringTok{        }\KeywordTok{ungroup}\NormalTok{() }\OperatorTok{%>%}\StringTok{ }
+\StringTok{    }\KeywordTok{mutate}\NormalTok{(}
+        \DataTypeTok{shika=}\KeywordTok{factor}\NormalTok{(shika, }\DataTypeTok{levels=}\KeywordTok{c}\NormalTok{(}\StringTok{"shika"}\NormalTok{, }\StringTok{"no-shika"}\NormalTok{)),}
+        \DataTypeTok{embed_V=}\KeywordTok{factor}\NormalTok{(embed_V, }\DataTypeTok{levels=}\KeywordTok{c}\NormalTok{(}\StringTok{"affirmative"}\NormalTok{, }\StringTok{"negative"}\NormalTok{)),}
+        \DataTypeTok{main_V=}\KeywordTok{factor}\NormalTok{(main_V, }\DataTypeTok{levels=}\KeywordTok{c}\NormalTok{(}\StringTok{"affirmative"}\NormalTok{, }\StringTok{"negative"}\NormalTok{)),}
+        \DataTypeTok{shika_case=}\KeywordTok{factor}\NormalTok{(shika_case, }\DataTypeTok{levels=}\KeywordTok{c}\NormalTok{(}\StringTok{"NOM"}\NormalTok{, }\StringTok{"ACC"}\NormalTok{, }\StringTok{"DAT"}\NormalTok{))}
+\NormalTok{        )}
+
+\CommentTok{# Sum coding of the variables.}
+\KeywordTok{contrasts}\NormalTok{(data_region_based}\OperatorTok{$}\NormalTok{shika) =}\StringTok{ "contr.sum"}
+\KeywordTok{contrasts}\NormalTok{(data_region_based}\OperatorTok{$}\NormalTok{embed_V) =}\StringTok{ "contr.sum"}
+\KeywordTok{contrasts}\NormalTok{(data_region_based}\OperatorTok{$}\NormalTok{main_V) =}\StringTok{ "contr.sum"}
+
+\CommentTok{# Make sure that the dataframe is sorted appropriately.}
+\CommentTok{# First by embed_V (affirmative vs. negative)}
+\NormalTok{data_region_based =}\StringTok{ }\NormalTok{data_region_based[}\KeywordTok{order}\NormalTok{(data_region_based}\OperatorTok{$}\NormalTok{embed_V),]}
+\CommentTok{# Then by main_V}
+\NormalTok{data_region_based =}\StringTok{ }\NormalTok{data_region_based[}\KeywordTok{order}\NormalTok{(data_region_based}\OperatorTok{$}\NormalTok{main_V),]}
+\CommentTok{# finally by sent_index}
+\NormalTok{data_region_based =}\StringTok{ }\NormalTok{data_region_based[}\KeywordTok{order}\NormalTok{(data_region_based}\OperatorTok{$}\NormalTok{sent_index),]}
+\end{Highlighting}
+\end{Shaded}
+
+\section{Embedded verb region}\label{embedded-verb-region}
+
+\subsection{Visualization}\label{visualization}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# Focus on the V (verb) region.}
+\NormalTok{data_V =}\StringTok{ }\KeywordTok{subset}\NormalTok{(data_region_based, region }\OperatorTok{==}\StringTok{ 'embedded_V'}\NormalTok{)}
+
+\CommentTok{# Get difference in surprisal between shika vs. no-shika.}
+\NormalTok{data_V_shika =}\StringTok{ }\KeywordTok{subset}\NormalTok{(data_V, shika }\OperatorTok{==}\StringTok{ 'shika'}\NormalTok{)}
+\NormalTok{data_V_no_shika =}\StringTok{ }\KeywordTok{subset}\NormalTok{(data_V, shika }\OperatorTok{==}\StringTok{ 'no-shika'}\NormalTok{)}
+\NormalTok{data_V_shika}\OperatorTok{$}\NormalTok{surprisal_diff =}\StringTok{ }\NormalTok{data_V_shika}\OperatorTok{$}\NormalTok{surprisal }\OperatorTok{-}\StringTok{ }\NormalTok{data_V_no_shika}\OperatorTok{$}\NormalTok{surprisal}
+
+\CommentTok{# Visualize the difference in surprisal increase/dicrease between affirmative vs. negative verbs.}
+\NormalTok{data_V_shika }\OperatorTok{%>%}\StringTok{ }
+\StringTok{    }\KeywordTok{group_by}\NormalTok{(embed_V, shika_case) }\OperatorTok{%>%}
+\StringTok{    }\KeywordTok{summarise}\NormalTok{(}\DataTypeTok{m=}\KeywordTok{mean}\NormalTok{(surprisal_diff),}
+            \DataTypeTok{s=}\KeywordTok{std.error}\NormalTok{(surprisal_diff),}
+            \DataTypeTok{upper=}\NormalTok{m }\OperatorTok{+}\StringTok{ }\FloatTok{1.96}\OperatorTok{*}\NormalTok{s,}
+            \DataTypeTok{lower=}\NormalTok{m }\OperatorTok{-}\StringTok{ }\FloatTok{1.96}\OperatorTok{*}\NormalTok{s) }\OperatorTok{%>%}
+\StringTok{    }\KeywordTok{ungroup}\NormalTok{() }\OperatorTok{%>%}
+\StringTok{    }\KeywordTok{ggplot}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{shika_case, }\DataTypeTok{y=}\NormalTok{m, }\DataTypeTok{ymin=}\NormalTok{lower, }\DataTypeTok{ymax=}\NormalTok{upper, }\DataTypeTok{width=}\FloatTok{0.4}\NormalTok{, }\DataTypeTok{fill=}\NormalTok{embed_V)) }\OperatorTok{+}
+\StringTok{        }\KeywordTok{geom_bar}\NormalTok{(}\DataTypeTok{stat =} \StringTok{'identity'}\NormalTok{, }\DataTypeTok{position =} \StringTok{"dodge"}\NormalTok{) }\OperatorTok{+}
+\StringTok{        }\KeywordTok{geom_errorbar}\NormalTok{(}\DataTypeTok{position=}\KeywordTok{position_dodge}\NormalTok{(}\FloatTok{0.4}\NormalTok{), }\DataTypeTok{width=}\NormalTok{.}\DecValTok{1}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{analysis_embedded_shika-embedded_files/figure-latex/unnamed-chunk-2-1.pdf}
+
+\begin{itemize}
+\tightlist
+\item
+  TOP
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Small increase in surprisal of the affirmative verbs.
+  \item
+    Visible decrease in surprisal of the negative verbs.
+  \end{itemize}
+\item
+  ACC
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Greatest increase in surprisal of the affirmative verbs.
+  \item
+    Small increase in surprisal of the negative verbs.
+  \end{itemize}
+\item
+  DAT
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Visible increase in surprisal of the affirmative verbs.
+  \item
+    Greatest decrease in surprisal of the negative verbs.
+  \end{itemize}
+\end{itemize}
+
+\subsection{Regressions}\label{regressions}
+
+\subsubsection{NOM}\label{nom}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{sub_data =}\StringTok{ }\KeywordTok{subset}\NormalTok{(data_V_shika, shika_case }\OperatorTok{==}\StringTok{ 'NOM'}\NormalTok{)}
+
+\NormalTok{m =}\StringTok{ }\KeywordTok{lmer}\NormalTok{(}
+\NormalTok{        surprisal_diff}
+            \OperatorTok{~}\StringTok{ }\NormalTok{embed_V}
+                \OperatorTok{+}\StringTok{ }\NormalTok{(}\DecValTok{1} \OperatorTok{|}\StringTok{ }\NormalTok{sent_index)}
+\NormalTok{        ,}
+        \DataTypeTok{data=}\NormalTok{sub_data}
+\NormalTok{        )}
+\KeywordTok{summary}\NormalTok{(m)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+## lmerModLmerTest]
+## Formula: surprisal_diff ~ embed_V + (1 | sent_index)
+##    Data: sub_data
+## 
+## REML criterion at convergence: 10613.4
+## 
+## Scaled residuals: 
+##      Min       1Q   Median       3Q      Max 
+## -2.48522 -0.65671  0.05128  0.59891  2.40147 
+## 
+## Random effects:
+##  Groups     Name        Variance Std.Dev.
+##  sent_index (Intercept) 3.165    1.779   
+##  Residual               1.799    1.341   
+## Number of obs: 2688, groups:  sent_index, 672
+## 
+## Fixed effects:
+##               Estimate Std. Error         df t value Pr(>|t|)    
+## (Intercept)   -0.12440    0.07334  671.00000  -1.696   0.0903 .  
+## embed_V1       1.02042    0.02587 2015.00000  39.449   <2e-16 ***
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Correlation of Fixed Effects:
+##          (Intr)
+## embed_V1 0.000
+\end{verbatim}
+
+\begin{itemize}
+\tightlist
+\item
+  Statistically significant effect of the affirmativeness
+  vs.~negativeness of embedded verbs.
+\end{itemize}
+
+\subsubsection{ACC}\label{acc}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{sub_data =}\StringTok{ }\KeywordTok{subset}\NormalTok{(data_V_shika, shika_case }\OperatorTok{==}\StringTok{ 'ACC'}\NormalTok{)}
+
+\NormalTok{m =}\StringTok{ }\KeywordTok{lmer}\NormalTok{(}
+\NormalTok{        surprisal_diff}
+            \OperatorTok{~}\StringTok{ }\NormalTok{embed_V}
+                \OperatorTok{+}\StringTok{ }\NormalTok{(}\DecValTok{1} \OperatorTok{|}\StringTok{ }\NormalTok{sent_index)}
+\NormalTok{        ,}
+        \DataTypeTok{data=}\NormalTok{sub_data}
+\NormalTok{        )}
+\KeywordTok{summary}\NormalTok{(m)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+## lmerModLmerTest]
+## Formula: surprisal_diff ~ embed_V + (1 | sent_index)
+##    Data: sub_data
+## 
+## REML criterion at convergence: 4315.1
+## 
+## Scaled residuals: 
+##      Min       1Q   Median       3Q      Max 
+## -2.18574 -0.39939 -0.05289  0.38984  1.79707 
+## 
+## Random effects:
+##  Groups     Name        Variance Std.Dev.
+##  sent_index (Intercept) 8.500    2.915   
+##  Residual               1.534    1.239   
+## Number of obs: 1064, groups:  sent_index, 266
+## 
+## Fixed effects:
+##              Estimate Std. Error        df t value Pr(>|t|)    
+## (Intercept)   2.97326    0.18274 264.99999   16.27   <2e-16 ***
+## embed_V1      2.39404    0.03797 797.00000   63.04   <2e-16 ***
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Correlation of Fixed Effects:
+##          (Intr)
+## embed_V1 0.000
+\end{verbatim}
+
+\begin{itemize}
+\tightlist
+\item
+  Statistically significant effect of the affirmativeness
+  vs.~negativeness of embedded verbs.
+\item
+  Greater effect than NOM.
+\end{itemize}
+
+\subsubsection{DAT}\label{dat}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{sub_data =}\StringTok{ }\KeywordTok{subset}\NormalTok{(data_V_shika, shika_case }\OperatorTok{==}\StringTok{ 'DAT'}\NormalTok{)}
+
+\NormalTok{m =}\StringTok{ }\KeywordTok{lmer}\NormalTok{(}
+\NormalTok{        surprisal_diff}
+            \OperatorTok{~}\StringTok{ }\NormalTok{embed_V}
+                \OperatorTok{+}\StringTok{ }\NormalTok{(}\DecValTok{1} \OperatorTok{|}\StringTok{ }\NormalTok{sent_index)}
+\NormalTok{        ,}
+        \DataTypeTok{data=}\NormalTok{sub_data}
+\NormalTok{        )}
+\KeywordTok{summary}\NormalTok{(m)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+## lmerModLmerTest]
+## Formula: surprisal_diff ~ embed_V + (1 | sent_index)
+##    Data: sub_data
+## 
+## REML criterion at convergence: 3170.4
+## 
+## Scaled residuals: 
+##      Min       1Q   Median       3Q      Max 
+## -1.62747 -0.69928  0.00561  0.57277  1.70888 
+## 
+## Random effects:
+##  Groups     Name        Variance Std.Dev.
+##  sent_index (Intercept) 3.7801   1.9442  
+##  Residual               0.9997   0.9999  
+## Number of obs: 896, groups:  sent_index, 224
+## 
+## Fixed effects:
+##             Estimate Std. Error       df t value Pr(>|t|)    
+## (Intercept)   0.1935     0.1341 223.0000   1.443    0.151    
+## embed_V1      2.4440     0.0334 671.0000  73.168   <2e-16 ***
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Correlation of Fixed Effects:
+##          (Intr)
+## embed_V1 0.000
+\end{verbatim}
+
+\begin{itemize}
+\tightlist
+\item
+  Statistically significant effect of the affirmativeness
+  vs.~negativeness of embedded verbs.
+\item
+  Greater effect than NOM, similar to ACC.
+\end{itemize}
+
+\section{Main verb region}\label{main-verb-region}
+
+\subsection{Visualization}\label{visualization-1}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# Focus on the V (verb) region.}
+\NormalTok{data_V =}\StringTok{ }\KeywordTok{subset}\NormalTok{(data_region_based, region }\OperatorTok{==}\StringTok{ 'main_V'}\NormalTok{)}
+
+\CommentTok{# Get difference in surprisal between shika vs. no-shika.}
+\NormalTok{data_V_shika =}\StringTok{ }\KeywordTok{subset}\NormalTok{(data_V, shika }\OperatorTok{==}\StringTok{ 'shika'}\NormalTok{)}
+\NormalTok{data_V_no_shika =}\StringTok{ }\KeywordTok{subset}\NormalTok{(data_V, shika }\OperatorTok{==}\StringTok{ 'no-shika'}\NormalTok{)}
+\NormalTok{data_V_shika}\OperatorTok{$}\NormalTok{surprisal_diff =}\StringTok{ }\NormalTok{data_V_shika}\OperatorTok{$}\NormalTok{surprisal }\OperatorTok{-}\StringTok{ }\NormalTok{data_V_no_shika}\OperatorTok{$}\NormalTok{surprisal}
+
+
+\CommentTok{# Visualize the difference in surprisal increase/dicrease between affirmative vs. negative verbs.}
+\NormalTok{data_V_shika }\OperatorTok{%>%}\StringTok{ }
+\StringTok{    }\KeywordTok{group_by}\NormalTok{(embed_V, main_V, shika_case) }\OperatorTok{%>%}
+\StringTok{    }\KeywordTok{summarise}\NormalTok{(}\DataTypeTok{m=}\KeywordTok{mean}\NormalTok{(surprisal_diff),}
+            \DataTypeTok{s=}\KeywordTok{std.error}\NormalTok{(surprisal_diff),}
+            \DataTypeTok{upper=}\NormalTok{m }\OperatorTok{+}\StringTok{ }\FloatTok{1.96}\OperatorTok{*}\NormalTok{s,}
+            \DataTypeTok{lower=}\NormalTok{m }\OperatorTok{-}\StringTok{ }\FloatTok{1.96}\OperatorTok{*}\NormalTok{s) }\OperatorTok{%>%}
+\StringTok{    }\KeywordTok{ungroup}\NormalTok{() }\OperatorTok{%>%}
+\StringTok{    }\KeywordTok{ggplot}\NormalTok{(}\KeywordTok{aes}\NormalTok{(}\DataTypeTok{x=}\NormalTok{shika_case, }\DataTypeTok{y=}\NormalTok{m, }\DataTypeTok{ymin=}\NormalTok{lower, }\DataTypeTok{ymax=}\NormalTok{upper, }\DataTypeTok{width=}\FloatTok{0.4}\NormalTok{, }\DataTypeTok{fill=}\NormalTok{embed_V}\OperatorTok{:}\NormalTok{main_V)) }\OperatorTok{+}
+\StringTok{        }\KeywordTok{geom_bar}\NormalTok{(}\DataTypeTok{stat =} \StringTok{'identity'}\NormalTok{, }\DataTypeTok{position =} \StringTok{"dodge"}\NormalTok{) }\OperatorTok{+}
+\StringTok{        }\KeywordTok{geom_errorbar}\NormalTok{(}\DataTypeTok{position=}\KeywordTok{position_dodge}\NormalTok{(}\FloatTok{0.4}\NormalTok{), }\DataTypeTok{width=}\NormalTok{.}\DecValTok{1}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics{analysis_embedded_shika-embedded_files/figure-latex/unnamed-chunk-6-1.pdf}
+
+\begin{itemize}
+\tightlist
+\item
+  Embedded verbs determine the increase vs.~decrease in surprisal at the
+  main verb region.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Affirmative embedded verbs decrease the surprisal.
+  \item
+    Negative embedded verbs cause small increase in surprisal.
+  \end{itemize}
+\end{itemize}
+
+\subsection{Regressions}\label{regressions-1}
+
+\subsubsection{NOM}\label{nom-1}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{sub_data =}\StringTok{ }\KeywordTok{subset}\NormalTok{(data_V_shika, shika_case }\OperatorTok{==}\StringTok{ 'NOM'}\NormalTok{)}
+
+\NormalTok{m =}\StringTok{ }\KeywordTok{lmer}\NormalTok{(}
+\NormalTok{        surprisal_diff}
+            \OperatorTok{~}\StringTok{ }\NormalTok{embed_V }\OperatorTok{*}\StringTok{ }\NormalTok{main_V}
+                \OperatorTok{+}\StringTok{ }\NormalTok{(embed_V }\OperatorTok{+}\StringTok{ }\NormalTok{main_V }\OperatorTok{|}\StringTok{ }\NormalTok{sent_index)}
+\NormalTok{        ,}
+        \DataTypeTok{data=}\NormalTok{sub_data}
+\NormalTok{        )}
+\KeywordTok{summary}\NormalTok{(m)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+## lmerModLmerTest]
+## Formula: 
+## surprisal_diff ~ embed_V * main_V + (embed_V + main_V | sent_index)
+##    Data: sub_data
+## 
+## REML criterion at convergence: 6331.3
+## 
+## Scaled residuals: 
+##     Min      1Q  Median      3Q     Max 
+## -5.1700 -0.4939 -0.0063  0.5641  3.3761 
+## 
+## Random effects:
+##  Groups     Name        Variance Std.Dev. Corr       
+##  sent_index (Intercept) 0.29976  0.5475              
+##             embed_V1    0.16708  0.4087    0.94      
+##             main_V1     0.08839  0.2973   -0.99 -0.97
+##  Residual               0.36438  0.6036              
+## Number of obs: 2688, groups:  sent_index, 672
+## 
+## Fixed effects:
+##                    Estimate Std. Error         df t value Pr(>|t|)    
+## (Intercept)        -0.04018    0.02412  676.45694  -1.666   0.0962 .  
+## embed_V1           -0.41100    0.01960  676.30414 -20.969   <2e-16 ***
+## main_V1             0.16259    0.01634  768.60442   9.949   <2e-16 ***
+## embed_V1:main_V1    0.29295    0.01164 1342.00028  25.161   <2e-16 ***
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Correlation of Fixed Effects:
+##             (Intr) emb_V1 man_V1
+## embed_V1     0.661              
+## main_V1     -0.611 -0.547       
+## embd_V1:_V1  0.000  0.000  0.000
+\end{verbatim}
+
+\subsubsection{ACC}\label{acc-1}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{sub_data =}\StringTok{ }\KeywordTok{subset}\NormalTok{(data_V_shika, shika_case }\OperatorTok{==}\StringTok{ 'ACC'}\NormalTok{)}
+
+\NormalTok{m =}\StringTok{ }\KeywordTok{lmer}\NormalTok{(}
+\NormalTok{        surprisal_diff}
+            \OperatorTok{~}\StringTok{ }\NormalTok{embed_V }\OperatorTok{*}\StringTok{ }\NormalTok{main_V}
+                \OperatorTok{+}\StringTok{ }\NormalTok{(embed_V }\OperatorTok{+}\StringTok{ }\NormalTok{main_V }\OperatorTok{|}\StringTok{ }\NormalTok{sent_index)}
+\NormalTok{        ,}
+        \DataTypeTok{data=}\NormalTok{sub_data}
+\NormalTok{        )}
+\KeywordTok{summary}\NormalTok{(m)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+## lmerModLmerTest]
+## Formula: 
+## surprisal_diff ~ embed_V * main_V + (embed_V + main_V | sent_index)
+##    Data: sub_data
+## 
+## REML criterion at convergence: 2117.4
+## 
+## Scaled residuals: 
+##     Min      1Q  Median      3Q     Max 
+## -3.4306 -0.5660 -0.0202  0.5284  3.9856 
+## 
+## Random effects:
+##  Groups     Name        Variance Std.Dev. Corr       
+##  sent_index (Intercept) 0.2081   0.4561              
+##             embed_V1    0.1107   0.3327    1.00      
+##             main_V1     0.0295   0.1718   -0.94 -0.97
+##  Residual               0.2627   0.5125              
+## Number of obs: 1064, groups:  sent_index, 266
+## 
+## Fixed effects:
+##                   Estimate Std. Error        df t value Pr(>|t|)    
+## (Intercept)       -0.55303    0.03208 267.69883  -17.24   <2e-16 ***
+## embed_V1          -0.68207    0.02575 280.95105  -26.49   <2e-16 ***
+## main_V1            0.36332    0.01892 304.15340   19.21   <2e-16 ***
+## embed_V1:main_V1   0.43203    0.01571 529.99946   27.50   <2e-16 ***
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Correlation of Fixed Effects:
+##             (Intr) emb_V1 man_V1
+## embed_V1     0.688              
+## main_V1     -0.457 -0.427       
+## embd_V1:_V1  0.000  0.000  0.000
+\end{verbatim}
+
+\subsubsection{DAT}\label{dat-1}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{sub_data =}\StringTok{ }\KeywordTok{subset}\NormalTok{(data_V_shika, shika_case }\OperatorTok{==}\StringTok{ 'DAT'}\NormalTok{)}
+
+\NormalTok{m =}\StringTok{ }\KeywordTok{lmer}\NormalTok{(}
+\NormalTok{        surprisal_diff}
+            \OperatorTok{~}\StringTok{ }\NormalTok{embed_V }\OperatorTok{*}\StringTok{ }\NormalTok{main_V}
+                \OperatorTok{+}\StringTok{ }\NormalTok{(embed_V }\OperatorTok{+}\StringTok{ }\NormalTok{main_V }\OperatorTok{|}\StringTok{ }\NormalTok{sent_index)}
+\NormalTok{        ,}
+        \DataTypeTok{data=}\NormalTok{sub_data}
+\NormalTok{        )}
+\KeywordTok{summary}\NormalTok{(m)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+## lmerModLmerTest]
+## Formula: 
+## surprisal_diff ~ embed_V * main_V + (embed_V + main_V | sent_index)
+##    Data: sub_data
+## 
+## REML criterion at convergence: 1589.4
+## 
+## Scaled residuals: 
+##     Min      1Q  Median      3Q     Max 
+## -3.3921 -0.5444  0.0072  0.5199  4.2229 
+## 
+## Random effects:
+##  Groups     Name        Variance Std.Dev. Corr       
+##  sent_index (Intercept) 0.16440  0.4055              
+##             embed_V1    0.08889  0.2982    0.99      
+##             main_V1     0.03171  0.1781   -0.86 -0.79
+##  Residual               0.20295  0.4505              
+## Number of obs: 896, groups:  sent_index, 224
+## 
+## Fixed effects:
+##                   Estimate Std. Error        df t value Pr(>|t|)    
+## (Intercept)       -0.52822    0.03099 226.47153  -17.04   <2e-16 ***
+## embed_V1          -0.61333    0.02497 235.41760  -24.57   <2e-16 ***
+## main_V1            0.46354    0.01919 233.98022   24.16   <2e-16 ***
+## embed_V1:main_V1   0.44701    0.01505 446.00013   29.70   <2e-16 ***
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Correlation of Fixed Effects:
+##             (Intr) emb_V1 man_V1
+## embed_V1     0.692              
+## main_V1     -0.467 -0.392       
+## embd_V1:_V1  0.000  0.000  0.000
+\end{verbatim}
+
+
+\end{document}

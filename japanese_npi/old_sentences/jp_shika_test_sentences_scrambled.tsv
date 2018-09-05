@@ -1,0 +1,64 @@
+prefix_shika	prefix_none	predicate_neg	predicate_none	suffix	predicate_type	embedded	ambiguity_non_shika	prefix_neg	suffix_neg	embedded_predicate_type	main_predicate_type	shika_case	dative_animacy	shika_embedded	dep_length	gloss_shika_neg
+メールしか母は	メールを母は	使わなかった	使った	。	transitive	False	False				transitive	ACC				
+メールを母しか	メールを母は	使わなかった	使った	。	transitive	False	False				transitive	TOP				
+模型しか男は	模型を男は	作らなかった	作った	。	transitive	False	False				transitive	ACC				
+模型を男しか	模型を男は	作らなかった	作った	。	transitive	False	False				transitive	TOP				
+肉しか狼は	肉を狼は	食べなかった	食べた	。	transitive	False	False				transitive	ACC				
+肉を狼しか	肉を狼は	食べなかった	食べた	。	transitive	False	False				transitive	TOP				
+ゲームしか兄は	ゲームを兄は	買わなかった	買った	。	transitive	False	False				transitive	ACC				
+ゲームを兄しか	ゲームを兄は	買わなかった	買った	。	transitive	False	False				transitive	TOP				
+新聞しか息子は	新聞を息子は	読まなかった	読んだ	。	transitive	False	False				transitive	ACC				
+新聞を息子しか	新聞を息子は	読まなかった	読んだ	。	transitive	False	False				transitive	TOP				
+ワインしか伊藤は	ワインを伊藤は	飲まなかった	飲んだ	。	transitive	False	False				transitive	ACC				
+ワインを伊藤しか	ワインを伊藤は	飲まなかった	飲んだ	。	transitive	False	False				transitive	TOP				
+花しか夫は	花を夫は	育てなかった	育てた	。	transitive	False	False				transitive	ACC				
+花を夫しか	花を夫は	育てなかった	育てた	。	transitive	False	False				transitive	TOP				
+左しかロボットは	左をロボットは	選ばなかった	選んだ	。	transitive	False	False				transitive	ACC				
+左をロボットしか	左をロボットは	選ばなかった	選んだ	。	transitive	False	False				transitive	TOP				
+絵しか社長は	絵を社長は	集めなかった	集めた	。	transitive	False	False				transitive	ACC				
+絵を社長しか	絵を社長は	集めなかった	集めた	。	transitive	False	False				transitive	TOP				
+知識しか若者は	知識を若者は	得なかった	得た	。	transitive	False	False				transitive	ACC				
+知識を若者しか	知識を若者は	得なかった	得た	。	transitive	False	False				transitive	TOP				
+楽器しか先生は	楽器を先生は	捨てなかった	捨てた	。	transitive	False	False				transitive	ACC				
+楽器を先生しか	楽器を先生は	捨てなかった	捨てた	。	transitive	False	False				transitive	TOP				
+番号しか親は	番号を親は	覚えなかった	覚えた	。	transitive	False	False				transitive	ACC				
+番号を親しか	番号を親は	覚えなかった	覚えた	。	transitive	False	False				transitive	TOP				
+練習にしか伊藤は	練習に伊藤は	出なかった	出た	。	to_verb	False	False				to_verb	DAT	False			
+練習に伊藤しか	練習に伊藤は	出なかった	出た	。	to_verb	False	False				to_verb	TOP	False			
+カラオケにしか学生は	カラオケに学生は	行かなかった	行った	。	to_verb	False	False				to_verb	DAT	False			
+カラオケに学生しか	カラオケに学生は	行かなかった	行った	。	to_verb	False	False				to_verb	TOP	False			
+壺にしか犬は	壺に犬は	触れなかった	触れた	。	to_verb	False	False				to_verb	DAT	False			
+壺に犬しか	壺に犬は	触れなかった	触れた	。	to_verb	False	False				to_verb	TOP	False			
+バスにしか友人は	バスに友人は	乗らなかった	乗った	。	to_verb	False	False				to_verb	DAT	False			
+バスに友人しか	バスに友人は	乗らなかった	乗った	。	to_verb	False	False				to_verb	TOP	False			
+社長にしか上司は	社長に上司は	従わなかった	従った	。	to_verb	False	False				to_verb	DAT	True			
+社長に上司しか	社長に上司は	従わなかった	従った	。	to_verb	False	False				to_verb	TOP	True			
+先生にしか渡辺は	先生に渡辺は	会わなかった	会った	。	to_verb	False	False				to_verb	DAT	True			
+先生に渡辺しか	先生に渡辺は	会わなかった	会った	。	to_verb	False	False				to_verb	TOP	True			
+医者にしか子供は	医者に子供は	憧れなかった	憧れた	。	to_verb	False	False				to_verb	DAT	True			
+医者に子供しか	医者に子供は	憧れなかった	憧れた	。	to_verb	False	False				to_verb	TOP	True			
+ダンスにしか女優は	ダンスに女優は	挑まなかった	挑んだ	。	to_verb	False	False				to_verb	DAT	False			
+ダンスにアイドルしか	ダンスに女優は	挑まなかった	挑んだ	。	to_verb	False	False				to_verb	TOP	False			
+王にしか大臣は	王に大臣は	仕えなかった	仕えた	。	to_verb	False	False				to_verb	DAT	True			
+王に大臣しか	王に大臣は	仕えなかった	仕えた	。	to_verb	False	False				to_verb	TOP	True			
+友人しか社長はパーティに	友人を社長はパーティに	呼ばなかった	呼んだ	。	ditransitive	False	False				ditransitive	ACC	False			
+パーティにしか社長は友人を	パーティに社長は友人を	呼ばなかった	呼んだ	。	ditransitive	False	False				ditransitive	DAT	False			
+パーティに友人を社長しか	パーティに友人を社長は	呼ばなかった	呼んだ	。	ditransitive	False	False				ditransitive	TOP	False			
+教科書しか書店は学生に	教科書を書店は学生に	売らなかった	売った	。	ditransitive	False	False				ditransitive	ACC	True			
+学生にしか書店は教科書を	学生に書店は教科書を	売らなかった	売った	。	ditransitive	False	False				ditransitive	DAT	True			
+学生に教科書を書店しか	学生に教科書を書店は	売らなかった	売った	。	ditransitive	False	False				ditransitive	TOP	True			
+食料しか代表は政府に	食料を代表は政府に	求めなかった	求めた	。	ditransitive	False	False				ditransitive	ACC	?			
+政府にしか代表は食料を	政府に代表は食料を	求めなかった	求めた	。	ditransitive	False	False				ditransitive	DAT	?			
+政府に食料を代表しか	政府に食料を代表は	求めなかった	求めた	。	ditransitive	False	False				ditransitive	TOP	?			
+水しか主人はペットに	水を主人はペットに	与えなかった	与えた	。	ditransitive	False	False				ditransitive	ACC	?			
+ペットにしか主人は水を	ペットに主人は水を	与えなかった	与えた	。	ditransitive	False	False				ditransitive	DAT	?			
+ペットに水を主人しか	ペットに水を主人は	与えなかった	与えた	。	ditransitive	False	False				ditransitive	TOP	?			
+映画しか伊藤は友人に	映画を伊藤は友人に	勧めなかった	勧めた	。	ditransitive	False	False				ditransitive	ACC	True			
+友人にしか伊藤は映画を	友人に伊藤は映画を	勧めなかった	勧めた	。	ditransitive	False	False				ditransitive	DAT	True			
+友人に映画を伊藤しか	友人に映画を伊藤は	勧めなかった	勧めた	。	ditransitive	False	False				ditransitive	TOP	True			
+手紙しか渡辺は家族に	手紙を渡辺は家族に	渡さなかった	渡した	。	ditransitive	False	False				ditransitive	ACC	True			
+家族にしか渡辺は手紙を	家族に渡辺は手紙を	渡さなかった	渡した	。	ditransitive	False	False				ditransitive	DAT	True			
+家族に手紙を渡辺しか	家族に手紙を渡辺は	渡さなかった	渡した	。	ditransitive	False	False				ditransitive	TOP	True			
+水しか妹は自宅に	水を妹は自宅に	運ばなかった	運んだ	。	ditransitive	False	False				ditransitive	ACC	?			
+自宅にしか妹は水を	自宅に妹は水を	運ばなかった	運んだ	。	ditransitive	False	False				ditransitive	DAT	?			
+自宅に水を妹しか	自宅に水を妹は	運ばなかった	運んだ	。	ditransitive	False	False				ditransitive	TOP	?			

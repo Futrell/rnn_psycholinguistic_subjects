@@ -1,0 +1,186 @@
+---
+title: "rnnpsycholing Garden Pathing Animacy"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+We are looking for a 2x2 interaction of relative clause verb ambiguity and animacy of head noun:
+
+The evidence/defendent (who was) examined by the lawyer turned out to be unreliable.
+
+Why is this interesting?
+(1) An interaction of reduction and verb animacy at the region Disambiguator shows that the network is making syntactic predictions based on lexical features. 
+(2) An interaction in the region End indicates that the disambiguating word was not sufficient to eliminate the representation of the earlier verb as a matrix verb, resulting in a context representation is less informative. 
+
+Does the NN behave more like it has a minimal commitment theory or a garden path theory?
+
+```{r}
+rm(list = ls())
+library(tidyverse)
+library(lme4)
+library(lmerTest)
+library(plotrix)
+
+REGION_ORDER = c("Start", "Head Noun", "that-was", "verb", "by-phrase", "main verb", "End")
+REGION_EXEMPLARS = c("The", "defendant/evidence", "that was", "examined", "by the lawyer", "turned", "out to be unreliable")
+NUM_REGIONS = length(REGION_ORDER)
+
+rename_LSTM = function(d) {
+  d %>% mutate(LSTM=if_else(LSTM == "gulordava", "GRNN", if_else(LSTM == "google", "JRNN", LSTM)))
+}
+
+add_numeric_predictors = function(d) {
+  d %>%
+    mutate(animacy.numeric=if_else(animacy == "anim", 1, -1),
+           reduced.numeric=if_else(reduced == "reduced", 1, -1))
+}
+
+d = read_csv("tests/combined_results.csv") %>%
+  select(-X1) %>%
+  separate(condition, sep="_", into=c("animacy", "reduced")) %>%
+  mutate(region=if_else(region == "Animate noun" | region == "Inanimate noun", "Head Noun", region),
+         region=factor(region, levels=REGION_ORDER)) %>%
+  rename(LSTM=model) %>%
+  rename_LSTM()
+
+d_agg = d %>% 
+  filter(region != "Start") %>%  # Aggregate surprisal by region
+  group_by(sent_index, region, animacy, reduced, LSTM) %>% 
+    summarise(surprisal=sum(surprisal),
+              unk=any(unk)) %>%
+    ungroup() %>% 
+  filter(!unk) %>%
+  mutate(reduced=factor(reduced, levels=c("unreduced", "reduced")), # Establish factor orders for dummy coding
+         ambiguity=factor(animacy, levels=c("inanimate", "animate")))
+
+```
+
+## Overall visualization
+
+```{r}
+
+d_by_region = d_agg %>% 
+  filter(region != "Start") %>%
+  group_by(LSTM, region, sent_index) %>%
+    mutate(item_mean=mean(surprisal)) %>%
+    ungroup() %>%
+  group_by(LSTM, region, animacy, reduced) %>%
+    summarise(m=mean(surprisal),
+              s=std.error(surprisal - item_mean),
+              upper=m + 1.96*s,
+              lower=m - 1.96*s) %>%
+    ungroup() 
+  
+d_by_region %>%  
+  mutate(region=as.numeric(region)) %>% 
+  ggplot(aes(x=region, y=m, ymax=upper, ymin=lower, linetype=animacy, color=reduced)) +
+    geom_line() +
+    geom_errorbar(linetype="solid", width=.1) +
+    scale_x_continuous(breaks=seq(1, NUM_REGIONS), labels=REGION_EXEMPLARS) +
+    theme(axis.text.x = element_text(angle=40, hjust=1)) +
+    xlab("") +
+    ylab("Sum surprisal in region") +
+    facet_grid(LSTM~., scale="free_y") +
+    theme(legend.position="top")
+
+ggsave("gardenpathing-animacy.pdf", width=7, height=5)
+  
+```
+
+The overall pattern we would infer from this plot of surprisal is: "by the lawyer" is more surprising in the reduced case. The plot indicates that it is also slightly more surprising in the animate case, but we would need to test this for significance. 
+
+# Preregistered regressions
+
+## Surprisal in the by-phrase region.
+
+```{r}
+d2 = d_agg %>% 
+  add_numeric_predictors() %>%
+  filter(region == "by-phrase")
+
+mj = lmer(surprisal ~ animacy.numeric * reduced.numeric + (animacy.numeric+reduced.numeric|sent_index), data=filter(d2, LSTM == "JRNN"))
+summary(mj)
+
+mj0 = lmer(surprisal ~ animacy.numeric + reduced.numeric + (animacy.numeric+reduced.numeric|sent_index), data=filter(d2, LSTM == "JRNN"))
+summary(mj0)
+
+anova(mj, mj0)
+
+mg = lmer(surprisal ~ animacy.numeric * reduced.numeric + (animacy.numeric+reduced.numeric|sent_index), data=filter(d2, LSTM == "GRNN"))
+summary(mg)
+
+mg0 = lmer(surprisal ~ animacy.numeric + reduced.numeric + (animacy.numeric+reduced.numeric|sent_index), data=filter(d2, LSTM == "GRNN"))
+summary(mg0)
+
+anova(mg, mg0)
+
+mj.aov = aov(surprisal ~ animacy * reduced + Error(as.factor(sent_index)/animacy*reduced), data=filter(d2, LSTM == "JRNN"))
+summary(mj.aov)
+
+mg.aov = aov(surprisal ~ animacy * reduced + Error(as.factor(sent_index)/animacy*reduced), data=filter(d2, LSTM == "GRNN"))
+summary(mg.aov)
+```
+
+The expected interaction is marginally significant. There is a main effect of reduction.
+
+## Surprisal at the verb
+
+```{r}
+d2 = d_agg %>% 
+  add_numeric_predictors() %>%
+  filter(region == "main verb")
+
+mj = lmer(surprisal ~ animacy.numeric * reduced.numeric + (animacy.numeric+reduced.numeric|sent_index), data=filter(d2, LSTM == "JRNN"))
+summary(mj)
+
+mj0 = lmer(surprisal ~ animacy.numeric + reduced.numeric + (animacy.numeric+reduced.numeric|sent_index), data=filter(d2, LSTM == "JRNN"))
+summary(mj0)
+
+anova(mj, mj0)
+
+mg = lmer(surprisal ~ animacy.numeric * reduced.numeric + (animacy.numeric+reduced.numeric|sent_index), data=filter(d2, LSTM == "GRNN"))
+summary(mg)
+
+mg0 = lmer(surprisal ~ animacy.numeric + reduced.numeric + (animacy.numeric+reduced.numeric|sent_index), data=filter(d2, LSTM == "GRNN"))
+summary(mg0)
+
+anova(mg, mg0)
+
+mj.aov = aov(surprisal ~ animacy * reduced + Error(as.factor(sent_index)/animacy*reduced), data=filter(d2, LSTM == "JRNN"))
+summary(mj.aov)
+
+mg.aov = aov(surprisal ~ animacy * reduced + Error(as.factor(sent_index)/animacy*reduced), data=filter(d2, LSTM == "GRNN"))
+summary(mg.aov)
+```
+
+## Final region
+
+```{r}
+d2 = d_agg %>% 
+  add_numeric_predictors() %>%
+  filter(region == "End")
+
+mj = lmer(surprisal ~ animacy.numeric * reduced.numeric + (animacy.numeric+reduced.numeric|sent_index), data=filter(d2, LSTM == "JRNN"))
+summary(mj)
+
+mj0 = lmer(surprisal ~ animacy.numeric + reduced.numeric + (animacy.numeric+reduced.numeric|sent_index), data=filter(d2, LSTM == "JRNN"))
+summary(mj0)
+
+anova(mj, mj0)
+
+mg = lmer(surprisal ~ animacy.numeric * reduced.numeric + (animacy.numeric+reduced.numeric|sent_index), data=filter(d2, LSTM == "GRNN"))
+summary(mg)
+
+mg0 = lmer(surprisal ~ animacy.numeric + reduced.numeric + (animacy.numeric+reduced.numeric|sent_index), data=filter(d2, LSTM == "GRNN"))
+summary(mg0)
+
+anova(mg, mg0)
+
+mj.aov = aov(surprisal ~ animacy * reduced + Error(as.factor(sent_index)/animacy*reduced), data=filter(d2, LSTM == "JRNN"))
+summary(mj.aov)
+
+mg.aov = aov(surprisal ~ animacy * reduced + Error(as.factor(sent_index)/animacy*reduced), data=filter(d2, LSTM == "GRNN"))
+summary(mg.aov)
+```
+

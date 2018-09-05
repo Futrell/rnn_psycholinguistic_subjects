@@ -1,0 +1,147 @@
+---
+title: "Analysis 2 English NPI Data"
+output: html_notebook
+---
+
+---
+title: "rnnpsycholing Binding Gender"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+We are looking for (1) whether the network represents stereotypical gender for purposes of reflexive pronoun agreement, (2) whether it is affected by local non-c-commanding NPs, which would indicate similarity-based interference / local coherence effects in the network's context representation.
+
+```{r}
+rm(list = ls())
+library(tidyverse)
+library(lme4)
+library(lmerTest)
+library(plotrix)
+
+REGION_ORDER = c("Antecedent", "Relative Clause", "Aux", "Ever", "Verb", "Any", "Noun", "Continuation", "Conclusion")
+REGION_EXEMPLARS = c("No bill", "that the/no senator likes", "has", "ever", "gotten", "any", "support in the senate", ". <eos>")
+NUM_REGIONS = length(REGION_ORDER)
+
+rename_model = function(d) {
+  d %>% mutate(model=if_else(model == "gulordava", "GRNN", if_else(model == "google", "JRNN", model)))
+}
+
+d = read_csv("tests/combined_results.csv") %>%
+  select(-X1) %>%
+  rename_model() %>%
+  group_by(model, sent_index, condition) %>%
+    mutate(sent_unk=any(unk)) %>%
+    ungroup() %>%
+  filter(!sent_unk) %>%
+  mutate(region=if_else(region == "Non-Negative Licensor" | region == "Negative Licensor", "Licensor", region),
+         region=if_else(region == "Distractor RC" | region == "RC", "Relative Clause", region),
+         region=factor(region, levels=REGION_ORDER)) %>%
+  separate(condition, sep="_", into=c("commander", "distractor", "ever", "any")) %>% # will throw a warning, that's ok
+  filter(!sent_unk) %>%
+  mutate(distractor = factor(ifelse(distractor == "nprc", "neg", "pos")))
+
+
+d_agg = d %>% 
+  group_by(model, sent_index, region, commander, distractor, ever, any) %>% 
+    summarise(surprisal=sum(surprisal)) %>%
+    ungroup() 
+  
+```
+
+### Effects of Any
+
+```{r}
+d2 = d_agg %>%
+  filter(region == "Any") %>%
+  filter(ever == "never", any == "any")
+
+d2 %>%
+  group_by(model, sent_index) %>%
+    mutate(item_mean=mean(surprisal)) %>%
+    ungroup() %>%
+ group_by(model, commander, distractor) %>%
+    summarise(m=mean(surprisal),
+              s=std.error(surprisal - item_mean),
+              upper=m + 1.96*s,
+              lower=m - 1.96*s) %>%
+    ungroup() %>%
+  ggplot(aes(x=commander, y=m, ymin=lower, ymax=upper, fill=distractor)) +
+    geom_bar(stat="identity", position="dodge") +
+    ylab("Surprisal at NPI") +
+    xlab("Matrix Licensor Polarity") +
+    guides(fill=guide_legend(title="Intervener Polarity")) +
+    theme(legend.position="top") + 
+    geom_errorbar(position=position_dodge(0.9), width=.1) +
+    facet_wrap(~model) +
+    ggtitle("Surprisal of 'Any'")
+ggsave("npi-interveners-any.pdf",height=4.5,width=3.5)
+
+```
+
+### mismatch effects, distractor and commander
+
+```{r}
+d5 = d_agg %>%
+  filter(region == "Any", ever=="never", any == "any")
+  
+m = lmer(surprisal~commander + (1|sent_index), data=filter(d5, model == "JRNN"))
+summary(m)
+m = lmer(surprisal~commander + (1|sent_index), data=filter(d5, model == "GRNN"))
+summary(m)
+
+d6 <- d_agg %>%
+  filter(region == "Any", ever=="never", any == "any")
+
+m = lmer(surprisal~distractor + (1|sent_index), data=filter(d6, model == "JRNN"))
+summary(m)
+m = lmer(surprisal~distractor + (1|sent_index), data=filter(d6, model == "GRNN"))
+summary(m)
+```
+
+```{r}
+d2 = d_agg %>%
+  filter(region == "Ever") %>%
+  filter(ever == "ever", any == "nany")
+
+d2 %>%
+  group_by(model, sent_index) %>%
+    mutate(item_mean=mean(surprisal)) %>%
+    ungroup() %>%
+ group_by(model, commander, distractor) %>%
+    summarise(m=mean(surprisal),
+              s=std.error(surprisal - item_mean),
+              upper=m + 1.96*s,
+              lower=m - 1.96*s) %>%
+    ungroup() %>%
+  ggplot(aes(x=commander, y=m, ymin=lower, ymax=upper, fill=distractor)) +
+    geom_bar(stat="identity", position="dodge") +
+    ylab("Surprisal at NPI") +
+    xlab("Matrix Licensor Polarity") +
+    guides(fill=guide_legend(title="Intervener Polarity")) +
+    #theme(legend.position=c(0.22,0.9)) + 
+    theme(legend.position="top") + 
+    geom_errorbar(position=position_dodge(0.9), width=.1) +
+    facet_wrap(~model) +
+    ggtitle("Surprisal of 'Ever'")
+ggsave("npi-interveners-ever.pdf",height=4.5,width=3.5)
+
+```
+
+```{r}
+d7 = d_agg %>%
+  filter(region == "Ever", ever=="ever", any == "nany")
+  
+m = lmer(surprisal~commander + (1|sent_index), data=filter(d5, model == "JRNN"))
+summary(m)
+m = lmer(surprisal~commander + (1|sent_index), data=filter(d5, model == "GRNN"))
+summary(m)
+
+d8 <- d_agg %>%
+  filter(region == "Ever", ever=="ever", any=="nany")
+
+m = lmer(surprisal~distractor + (1|sent_index), data=filter(d6, model == "JRNN"))
+summary(m)
+m = lmer(surprisal~distractor + (1|sent_index), data=filter(d6, model == "GRNN"))
+summary(m)
+```

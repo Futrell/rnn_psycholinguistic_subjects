@@ -1,0 +1,121 @@
+item	sample	lstm	depth	sentence	grammatical	questionable	note
+1	1	gulordava	1	The man who the mechanic actually worked was his car 's worth . <eos>	FALSE	TRUE	NA
+1	2	gulordava	1	"The man who the mechanic turned on is overheating parts from second cell blocks to an electronics dryer , but alive – the full engineering delays allow will still focus would continue as a possibility . <eos>"	TRUE	FALSE	NA
+1	3	gulordava	1	"The man who the mechanic them was beaten was Doc , but apparently burned anyway or incorrectly . <eos>"	FALSE	FALSE	NA
+2	1	gulordava	1	The girl who the newspaper gets in hand is an alibi products . <eos>	TRUE	FALSE	NA
+2	2	gulordava	1	"The girl who the newspaper contained on the masthead acknowledged her familiarity with cultural matters and asked Norton , "" Webster himself , <unk> "" earned him a TV job or interview for a staff of the second one . <eos>"	TRUE	FALSE	NA
+2	3	gulordava	1	The girl who the newspaper picks in in 1958 Saddam Hussein recognizes Liz in the months shortly before this first attempt . <eos>	FALSE	FALSE	NA
+3	1	gulordava	1	The mouse that the cat placed on his lands of hunger was <unk> Rusk . <eos>	TRUE	FALSE	NA
+3	2	gulordava	1	The mouse that the cat uses depends upon only information from question to size . <eos>	TRUE	FALSE	NA
+3	3	gulordava	1	The mouse that the cat and other mouse guards the station are unlocked by tying them until they 're willing to pay . <eos>	FALSE	TRUE	turned RC into full S
+4	1	gulordava	1	"The author who the editor contains , though not having alone does it preaching . <eos>"	FALSE	FALSE	NA
+4	2	gulordava	1	The author who the editor of Jennings Morgan pushed towards a follow-up statement to U.S. sociologists : The comment extended the original arguments independently from his relevant papers to become his General counsel and the source of criticism . <eos>	FALSE	FALSE	NA
+4	3	gulordava	1	The author who the editor would not criticize any Conservative MP sought a bill that retained state administration and rendered all acts useless . <eos>	FALSE	TRUE	turned RC into full S
+5	1	gulordava	1	"The bridge that the mayor cannot do to possibly carry out what is inherently easy , is incorrectly listed below as being overgrown by a wooden roundhouse on the exterior of the land . <eos>"	TRUE	FALSE	NA
+5	2	gulordava	1	"The bridge that the mayor controls was said to act at a temporary end , and later a maintenance house named the "" Rocky Grove Bridge "" named in his honor at Oklahoma City . <eos>"	TRUE	FALSE	NA
+5	3	gulordava	1	The bridge that the mayor has announced at the council banquet will choose to cross the cup lined with lights that could have been erected from the point of view of the people to the north and north . <eos>	TRUE	FALSE	NA
+6	1	gulordava	1	The man who the car has had been traveling to stay has made strides that in view might impede global warming . <eos>	TRUE	FALSE	NA
+6	2	gulordava	1	"The man who the car went to who favored the car already bore the name "" Elsinore "" . <eos>"	TRUE	TRUE	NA
+6	3	gulordava	1	The man who the car 's orchards comes from is also the <unk> of the seal . <eos>	TRUE	FALSE	NA
+7	1	gulordava	1	The artist who the school got is reading in it in 2006 . <eos>	TRUE	FALSE	NA
+7	2	gulordava	1	"The artist who the school took on a three-month hiatus gave eye recognition when they produced their triplets on the Moon "" , with an Hadley pool eventually named "" Fan Happy "" . <eos>"	TRUE	FALSE	NA
+7	3	gulordava	1	"The artist who the school had described as ' Bishop <unk> ’ , was commissioned by Karl Breuer ; and in his basement studio there he went to German radio to organize murals of Lithuanian colors and <unk> Orthodox enclave walls in 1933 . <eos>"	TRUE	FALSE	NA
+8	1	gulordava	1	The geologist who the natives launched and everyone sent was joined by a modulator for the complex matching cloud floor band . <eos>	TRUE	FALSE	NA
+8	2	gulordava	1	"The geologist who the natives believed to be Utrecht , or devoted much of the same cultural resources to these peoples to live in a Kingdom of the Holy Land , took pride in <unk> them over city ordinance only . <eos>"	TRUE	FALSE	NA
+8	3	gulordava	1	"The geologist who the natives were adopting by combat with Indian Indians who attacked New Caledonia basin now protected their land and deposits ray shells from these rocks , which mean their "" <unk> "" are hilly , and run a long period of time to the west . <eos>"	TRUE	FALSE	NA
+9	1	gulordava	1	The athlete who the restaurant provided . <eos>	FALSE	FALSE	NA
+9	2	gulordava	1	The athlete who the restaurant has been exercising can be castrated . <eos>	TRUE	FALSE	NA
+9	3	gulordava	1	The athlete who the restaurant was untouched has discharged much of his surname . <eos>	TRUE	TRUE	NA
+10	1	gulordava	1	The horror author who the publishing company held . <eos>	FALSE	FALSE	NA
+10	2	gulordava	1	"The horror author who the publishing company has been employed by the SED 's <unk> government beforehand – Emma Brandt , Claudia Donahue , Elizabeth Legs , <unk> Cohn and <unk> <unk> also devised an exhibition at the Met at the end of the <unk> time in 1993 . <eos>"	FALSE	FALSE	NA
+10	3	gulordava	1	The horror author who the publishing company is <unk> Hughes alleged is contradicted after the death of Darrell Eisner in 1980 . <eos>	FALSE	FALSE	unk
+11	1	gulordava	1	The professor who the newspaper story has had long since then talked about in hindsight . <eos>	FALSE	TRUE	NA
+11	2	gulordava	1	"The professor who the newspaper story is suspects meant his victim was misunderstood to be more forgeries : "" Just want the company to leak information "" . <eos>"	FALSE	TRUE	NA
+11	3	gulordava	1	"The professor who the newspaper story engine has been doing is of the same community ( or lighter , ) generally assigned "" incompetent "" and "" formally constituted "" if , after this action , "" Thurman 's somewhat sensible reputation as a lower-class dropout "" was considered too <unk> . <eos>"	TRUE	FALSE	NA
+12	1	gulordava	1	"The <unk> that the spider appears in between his parents ' talking room framed by the large foyer floor while bald blind robots develop with more ornamentation , <unk> elderly tribes , and even tabs to help win by directing them to their targets . <eos>"	NA	NA	unk
+12	2	gulordava	1	"The <unk> that the spider could swim against with bristles , first releasing bamboo strips during roasting , had an arsenal of decorative traits from its jewellery . <eos>"	NA	NA	unk
+12	3	gulordava	1	The <unk> that the spider absorbs temporarily causes harm to the animal surface resulting in frequent bursts of <unk> . <eos>	NA	NA	unk
+13	1	gulordava	1	"The city that the airplane must remain open ( which cannot take better lethal loads , "" flipping off life requires no accidents "" ) . <eos>"	FALSE	FALSE	NA
+13	2	gulordava	1	"The city that the airplane became used was referred to as "" Fake Flight "" . <eos>"	FALSE	FALSE	NA
+13	3	gulordava	1	The city that the airplane passes through is recovered from the <unk> station . <eos>	TRUE	FALSE	NA
+14	1	gulordava	1	The country singer who the record label played . <eos>	FALSE	FALSE	NA
+14	2	gulordava	1	The country singer who the record label under <unk> sales then was Gilberto Santa Fe . <eos>	FALSE	FALSE	NA
+14	3	gulordava	1	"The country singer who the record label interviewed asked Jack Smith but said that would same-sex <unk> be serious ; the band wanted another Campbell never "" brought forward "" . <eos>"	TRUE	FALSE	NA
+15	1	gulordava	1	The child who the <unk> provided for tracking was already regarded as a Rav . <eos>	NA	NA	unk
+15	2	gulordava	1	"The child who the <unk> to Marist marks thought ‘ must ball ’ is then scared on the flat space , and some hear ” yellow shirt with sitting blue for a small C , not <unk> by <unk> gate , with red dots placed around him , and <unk> flat given his identity as a printed cell . <eos>"	NA	NA	unk
+15	3	gulordava	1	"The child who the <unk> desires will convert to a "" reward goddess "" by physically transforming the child into ' <unk> ' and doing here , and becoming a member of the <unk> side , making her succeed in the creation of the <unk> curriculum , even though no Erik would go in close to her , whose place of death is a dwarf because she has been raped by Dracula only . <eos>"	NA	NA	unk
+16	1	gulordava	1	The gangster who the police officer must be ready to join do fine <unk> hens . <eos>	FALSE	FALSE	NA
+16	2	gulordava	1	"The gangster who the police officer was laughing about trying to obtain even though he was Gordy , was betrayed by the U.S. Army Sergeant Nick Wilson . <eos>"	TRUE	FALSE	NA
+16	3	gulordava	1	"The gangster who the police officer refuse to accept is not a <unk> but no suitable village builders , but rather plays some cannons again and is still noticed by us . <eos>"	TRUE	TRUE	NA
+17	1	gulordava	1	The maid who the cleaning service may have done is called what has been despatched to the Japanese barber shop or bunk house by Bruce Lee . <eos>	TRUE	FALSE	NA
+17	2	gulordava	1	"The maid who the cleaning service , there was actually the man who washed up a glass chamber during a visit to "" <unk> a visit to Paris in mid-April , "" appointed Leonard Baird 's mother-in-law , Elizabeth Ann Seddon as assistant to Roger Kelly for her husband James Blythe 's Ph.D. in both World Wars 1893 and 1945 . <eos>"	FALSE	FALSE	NA
+17	3	gulordava	1	"The maid who the cleaning service and its patrons close , and with them John , that hit the man , is a joint . <eos>"	TRUE	FALSE	NA
+18	1	gulordava	1	The <unk> who the boss added in 2006 . <eos>	NA	NA	unk
+18	2	gulordava	1	"The <unk> who the boss hosted were from Hackensack , New Jersey situated along King George Street – facing below . <eos>"	NA	NA	unk
+18	3	gulordava	1	"The <unk> who the boss , who grew up , was seen travelling sent by an advertisement similar to <unk> 's capital , the town of Hamburg . <eos>"	NA	NA	unk
+19	1	gulordava	1	The monk who the religious fanatic has remained particularly influential . <eos>	FALSE	FALSE	NA
+19	2	gulordava	1	"The monk who the religious fanatic arrange for curses is the highest amiable telepathy about eternal life "" . <eos>"	TRUE	TRUE	NA
+19	3	gulordava	1	"The monk who the religious fanatic 's ingenuity , but Mr. Winkle , is usually dismissive of his needs . <eos>"	FALSE	FALSE	NA
+20	1	gulordava	1	The actor who the movie industry played . <eos>	FALSE	FALSE	NA
+20	2	gulordava	1	The actor who the movie industry has played may cut a strand of a child intent against Jorge Andres . <eos>	TRUE	FALSE	NA
+20	3	gulordava	1	The actor who the movie industry felt is perceived primarily for her talents or as a teacher pushed her to work with actress Lillian Gish . <eos>	TRUE	FALSE	NA
+1	1	gulordava	2	"The car that the man who the mechanic originally came was did was cast by <unk> Dirk <unk> , his interrupting transmitter who collected his ranch after a dramatic montage on the 18th anniversary . <eos>"	FALSE	FALSE	NA
+1	2	gulordava	2	"The car that the man who the mechanic offers depends the weight of the payload ( "" <unk> "" ) , as well as the deflection , and thus low friction tends to be used for reinforcement ( wherever a shock was intended ) . <eos>"	FALSE	FALSE	NA
+1	3	gulordava	2	The car that the man who the mechanic rests may n't be used . <eos>	FALSE	FALSE	NA
+2	1	gulordava	2	The staircase that the girl who the newspaper got in during the vote if President Dewey wandered to the Building Basilica itself – wearing with colored curtains . <eos>	FALSE	FALSE	NA
+2	2	gulordava	2	"The staircase that the girl who the newspaper belongs the game bears across the pond ( Boxing Day ) <unk> ( painted by Richard 's family ) , by which point a sky of "" scaffolding "" now hangs beneath the funnel . <eos>"	FALSE	FALSE	NA
+2	3	gulordava	2	The staircase that the girl who the newspaper finally reads is gathered to display it as dark pink as they are in the packet sky . <eos>	FALSE	FALSE	NA
+3	1	gulordava	2	The teacher that the mouse that the cat lived for ? <eos>	FALSE	FALSE	NA
+3	2	gulordava	2	"The teacher that the mouse that the cat has spent or not dreaming of the memory delays continue this mathematical method by accidentally knocking its wrists on the X-ray channel , <unk> of depressed wool in <unk> in 1993 . <eos>"	FALSE	FALSE	NA
+3	3	gulordava	2	The teacher that the mouse that the cat used to all the tail with them had thrown the jump back after giving battle outside the context of another idea . <eos>	FALSE	FALSE	NA
+4	1	gulordava	2	"The manuscript that the author who the editor has had prior to Columbia University has been magnified to the point towards explaining him having been disturbed by a student unaware , at least partially , that it stops him from completing his sentences . <eos>"	FALSE	FALSE	NA
+4	2	gulordava	2	"The manuscript that the author who the editor was was a <unk> was no correct in 1849 , in particular consequently aspects from conserving the public 's monastic orders in the writers of an Italian manuscript under Tuscan instruction in order to reflect changes faced by students of working . <eos>"	FALSE	FALSE	NA
+4	3	gulordava	2	"The manuscript that the author who the editor went was and that is considered how the "" Chronicle of the <unk> "" , written for them with Geraldine McEwan , was published in the 1890s , although only half calcium , 37 and 62 remain . <eos>"	FALSE	FALSE	NA
+5	1	gulordava	2	The river that the bridge that the mayor originally served was now under construction . <eos>	FALSE	FALSE	NA
+5	2	gulordava	2	"The river that the bridge that the mayor leans is the park emblem name which symbolizes the Castle Ridge where <unk> Champ , a rolling hills , is one of a similar device in circulation . <eos>"	FALSE	FALSE	NA
+5	3	gulordava	2	"The river that the bridge that the mayor was introduced is the largest <unk> bridge in Marquette , with bridges spanning across multiple waterways and to a lesser extent about , often considerably faster than being narrow gauge as required by the law ( CRA ) . <eos>"	FALSE	FALSE	NA
+6	1	gulordava	2	"The bicycle that the man who the car model is driving ( such as Baldwin <unk> burger ) , is screwed down into every kind of abstraction . <eos>"	FALSE	FALSE	NA
+6	2	gulordava	2	"The bicycle that the man who the car contributes the same traffic designs , and can withstand reports of serious accidents while flying <unk> as potential hosts , were given out to hunt the south Orange Ship Channel turning upside down and leaving Fort Erie to be handicapped by many hours of bloody rioting in Manhattan . <eos>"	FALSE	FALSE	NA
+6	3	gulordava	2	The bicycle that the man who the car is riding summoning to half of the <unk> train carries all the cars . <eos>	FALSE	FALSE	NA
+7	1	gulordava	2	The picture that the artist who the school left is filled with live comics because of boredom . <eos>	FALSE	FALSE	NA
+7	2	gulordava	2	The picture that the artist who the school was identifies are engraved publicly in liturgical objects . <eos>	FALSE	TRUE	NA
+7	3	gulordava	2	The picture that the artist who the school gig for a cover drives the window should reveal an appropriate figure in large canvas works . <eos>	FALSE	FALSE	NA
+8	1	gulordava	2	The volcano that the geologist who the natives thought is present was especially prolific in that circumstance . <eos>	FALSE	FALSE	NA
+8	2	gulordava	2	"The volcano that the geologist who the natives used succeeded Alexander VI to his slate of lands in 1626 , but they soon became under such repressive restrictions that his true teachings were still intact . <eos>"	FALSE	FALSE	NA
+8	3	gulordava	2	"The volcano that the geologist who the natives would become power was known by the name "" Swiss Gas Polo "" , as it occurred between 1978 and 1986 . <eos>"	FALSE	FALSE	NA
+9	1	gulordava	2	"The trophy that the athlete who the restaurant has was going to act did n't offer US$ equal in value otherwise around 200 pounds that France 1 was paid 350 , of which 4,000 would be sold back to North America . <eos>"	FALSE	TRUE	NA
+9	2	gulordava	2	The trophy that the athlete who the restaurant has been which had been for Christian guidance was its tax-exempt status . <eos>	FALSE	FALSE	NA
+9	3	gulordava	2	The trophy that the athlete who the restaurant started its festival stood in . <eos>	FALSE	FALSE	NA
+10	1	gulordava	2	"The novel that the horror author who the publishing company has worked by is "" thinking about a misnomer in the history surrounding documents ; indeed , though some periods can accommodate the change from genre , to one generation can design or draw inspiration from its past . <eos>"	FALSE	FALSE	NA
+10	2	gulordava	2	"The novel that the horror author who the publishing company is which is spread over Judith , while Poe refers to Simone ’s action that is unquestionably cursed to be separated from her research in Spirit Woman 's mind . <eos>"	FALSE	FALSE	NA
+10	3	gulordava	2	The novel that the horror author who the publishing company is concerned Arkansas should simply publicly remark on to humor that the use of slave narratives and <unk> censorship as a more effective focus to make legal claim toward horror and racial unrest would make him the nation 's principal strikeout in movies . <eos>	FALSE	FALSE	NA
+11	1	gulordava	2	The lecture that the professor who the newspaper story or is taking place is regarded as a thrillers . <eos>	FALSE	FALSE	NA
+11	2	gulordava	2	"The lecture that the professor who the newspaper story is interwoven into poetry seems to exist ( "" great subtlety , "" according to the most famous footnote ) . <eos>"	FALSE	FALSE	NA
+11	3	gulordava	2	"The lecture that the professor who the newspaper story was studied was to refer to the <unk> line in question , citing the setting up of Watson himself including the artist 's familiarity with art and motor skills . <eos>"	FALSE	FALSE	NA
+12	1	gulordava	2	"The fly that the <unk> that the spider takes on such can never survive such a dreadful ending , to frighten ... Burke ... will inevitably die of vigour / . <eos>"	NA	NA	unk
+12	2	gulordava	2	The fly that the <unk> that the spider dies has in a light metallic fashion with its feet prominent at the bottom . <eos>	NA	NA	unk
+12	3	gulordava	2	The fly that the <unk> that the spider is shortly after left is speculated that the allied pin gets somewhere unoccupied and a fire mask will contain a poisonous liquid from a patient before consuming any tissue for <unk> . <eos>	NA	NA	unk
+13	1	gulordava	2	"The cloud that the city that the airplane owned in 1989 was an icon of the Pacifica Radio , a coaxial device operated by <unk> Doppler radar . <eos>"	FALSE	FALSE	NA
+13	2	gulordava	2	The cloud that the city that the airplane emits on the doors still is <unk> ( fenders ) . <eos>	FALSE	FALSE	NA
+13	3	gulordava	2	"The cloud that the city that the airplane has encountered was which it was to <unk> a road north of Tampa , but without proper lighting rather than a real building space . <eos>"	FALSE	FALSE	NA
+14	1	gulordava	2	"The <unk> that the country singer who the record label cut would come from it was Many of Knapp 's later appearances performances include elements such as Deep Purple and Sheffield Ra , with labels sometimes described as "" elaborately crafted "" . <eos>"	NA	NA	unk
+14	2	gulordava	2	"The <unk> that the country singer who the record label promoted was "" The Big Country and The Real Triple Crown ” , but they named his talent break . <eos>"	NA	NA	unk
+14	3	gulordava	2	"The <unk> that the country singer who the record label later strives to manage in order to introduce this concept turns low prices while only other countries outside Chile did offer national attention , not something given for the band would ever have a clean season . <eos>"	NA	NA	unk
+15	1	gulordava	2	The game that the child who the <unk> makes in addition to being outside at the vet 's or her coworkers allows him to buy custom suits . <eos>	NA	NA	unk
+15	2	gulordava	2	"The game that the child who the <unk> emptied on is going Jackie , but then Dad kills him . <eos>"	NA	NA	unk
+15	3	gulordava	2	"The game that the child who the <unk> depends on is not so close , but it has no pointers , at least due to excess modulus and <unk> . <eos>"	NA	NA	unk
+16	1	gulordava	2	"The crime that the gangster who the police officer makes for him is not understood but is exemplary in the work ... Now everything might be believable as a general assay on the flat module , that no trace can be found in both parents . <eos>"	FALSE	FALSE	NA
+16	2	gulordava	2	"The crime that the gangster who the police officer remained in the film is analogous to Gilmore , but Tony sees Diane seeing Wickham . <eos>"	FALSE	FALSE	NA
+16	3	gulordava	2	The crime that the gangster who the police officer had threw may take place or if they only get witness escapes by courting it . <eos>	FALSE	FALSE	NA
+17	1	gulordava	2	The apartment that the maid who the cleaning service brought in ; by many accounts which <unk> overheard because the daughter slept long before midnight . <eos>	FALSE	FALSE	NA
+17	2	gulordava	2	"The apartment that the maid who the cleaning service owned ( which collapses on the night at the Valley ) freezes up at a church station in <unk> , where the <unk> company was abandoned . <eos>"	FALSE	FALSE	NA
+17	3	gulordava	2	The apartment that the maid who the cleaning service is is available there was nothing quite to be left open to clients . <eos>	FALSE	FALSE	NA
+18	1	gulordava	2	"The shirt that the <unk> who the boss indicates became standard of women also appears in drab red , black hats from red maple . <eos>"	NA	NA	unk
+18	2	gulordava	2	The shirt that the <unk> who the boss tolerated is original sponsorship : it does n't add a vital Duval layer to their wedding cake . <eos>	NA	NA	unk
+18	3	gulordava	2	The shirt that the <unk> who the boss also wears is the arms of other words picked in the fabric from them or hung on the staff bus . <eos>	NA	NA	unk
+19	1	gulordava	2	The prayer that the monk who the religious fanatic appeared in memory of his holy witches . <eos>	FALSE	FALSE	NA
+19	2	gulordava	2	"The prayer that the monk who the religious fanatic was , a sage placed him around <unk> gave him a gift given : "" O blessed the Holy Spirit Lord which one must say changed until <unk> . <eos>"	FALSE	FALSE	NA
+19	3	gulordava	2	"The prayer that the monk who the religious fanatic is , because of his low worshipping , is inadequate to fulfill him yet , and he believes to let God save wheel machines he works without adapting them to good window . <eos>"	FALSE	FALSE	NA
+20	1	gulordava	2	The monologue that the actor who the movie industry has at will should be entirely insightful and agreeable . <eos>	FALSE	FALSE	NA
+20	2	gulordava	2	"The monologue that the actor who the movie industry is appealing can cause standpoint that night through a global montage , <unk> directors within the context of Warrior ’s earlier British experience to get his leading child and the relationship between older man 's <unk> and visa adversary Gabriel Alves between the June 2014 bombings of Singapore and celebrity status as an actor [ mimicking ] victims of a drug overdose whilst having Vienna 's demand . <eos>"	FALSE	FALSE	NA
+20	3	gulordava	2	The monologue that the actor who the movie industry consisted had in the past was identified . <eos>	FALSE	TRUE	NA

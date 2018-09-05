@@ -1,0 +1,2367 @@
+	sent_index	word_index	word	region	condition
+0	0	0	The	Antecedent	refl-match_rc-match
+1	0	1	surgeon	Antecedent	refl-match_rc-match
+2	0	2	who	Relative Clause	refl-match_rc-match
+3	0	3	treated	Relative Clause	refl-match_rc-match
+4	0	4	the	RC Object Match	refl-match_rc-match
+5	0	5	sergeant	RC Object Match	refl-match_rc-match
+6	0	6	had	Matrix Clause	refl-match_rc-match
+7	0	7	pricked	Matrix Clause	refl-match_rc-match
+8	0	8	himself	Reflexive Match	refl-match_rc-match
+9	0	9	.	End	refl-match_rc-match
+10	0	10	<eos>	End	refl-match_rc-match
+11	1	0	The	Antecedent	refl-match_rc-match
+12	1	1	cheerleader	Antecedent	refl-match_rc-match
+13	1	2	who	Relative Clause	refl-match_rc-match
+14	1	3	telephoned	Relative Clause	refl-match_rc-match
+15	1	4	the	RC Object Match	refl-match_rc-match
+16	1	5	hygienist	RC Object Match	refl-match_rc-match
+17	1	6	had	Matrix Clause	refl-match_rc-match
+18	1	7	admired	Matrix Clause	refl-match_rc-match
+19	1	8	herself	Reflexive Match	refl-match_rc-match
+20	1	9	in	End	refl-match_rc-match
+21	1	10	the	End	refl-match_rc-match
+22	1	11	mirror	End	refl-match_rc-match
+23	1	12	.	End	refl-match_rc-match
+24	1	13	<eos>	End	refl-match_rc-match
+25	2	0	The	Antecedent	refl-match_rc-match
+26	2	1	receptionist	Antecedent	refl-match_rc-match
+27	2	2	who	Relative Clause	refl-match_rc-match
+28	2	3	wrote	Relative Clause	refl-match_rc-match
+29	2	4	a	Relative Clause	refl-match_rc-match
+30	2	5	letter	Relative Clause	refl-match_rc-match
+31	2	6	to	Relative Clause	refl-match_rc-match
+32	2	7	the	RC Object Match	refl-match_rc-match
+33	2	8	typist	RC Object Match	refl-match_rc-match
+34	2	9	wrote	Matrix Clause	refl-match_rc-match
+35	2	10	a	Matrix Clause	refl-match_rc-match
+36	2	11	memo	Matrix Clause	refl-match_rc-match
+37	2	12	to	Matrix Clause	refl-match_rc-match
+38	2	13	herself	Reflexive Match	refl-match_rc-match
+39	2	14	.	End	refl-match_rc-match
+40	2	15	<eos>	End	refl-match_rc-match
+41	3	0	The	Antecedent	refl-match_rc-match
+42	3	1	nurse	Antecedent	refl-match_rc-match
+43	3	2	who	Relative Clause	refl-match_rc-match
+44	3	3	spoke	Relative Clause	refl-match_rc-match
+45	3	4	with	Relative Clause	refl-match_rc-match
+46	3	5	the	RC Object Match	refl-match_rc-match
+47	3	6	administrative	RC Object Match	refl-match_rc-match
+48	3	7	assistant	RC Object Match	refl-match_rc-match
+49	3	8	wrote	Matrix Clause	refl-match_rc-match
+50	3	9	a	Matrix Clause	refl-match_rc-match
+51	3	10	note	Matrix Clause	refl-match_rc-match
+52	3	11	to	Matrix Clause	refl-match_rc-match
+53	3	12	herself	Reflexive Match	refl-match_rc-match
+54	3	13	.	End	refl-match_rc-match
+55	3	14	<eos>	End	refl-match_rc-match
+56	4	0	The	Antecedent	refl-match_rc-match
+57	4	1	quarterback	Antecedent	refl-match_rc-match
+58	4	2	who	Relative Clause	refl-match_rc-match
+59	4	3	trusted	Relative Clause	refl-match_rc-match
+60	4	4	the	RC Object Match	refl-match_rc-match
+61	4	5	plumber	RC Object Match	refl-match_rc-match
+62	4	6	had	Matrix Clause	refl-match_rc-match
+63	4	7	pinched	Matrix Clause	refl-match_rc-match
+64	4	8	himself	Reflexive Match	refl-match_rc-match
+65	4	9	.	End	refl-match_rc-match
+66	4	10	<eos>	End	refl-match_rc-match
+67	5	0	The	Antecedent	refl-match_rc-match
+68	5	1	president	Antecedent	refl-match_rc-match
+69	5	2	who	Relative Clause	refl-match_rc-match
+70	5	3	admired	Relative Clause	refl-match_rc-match
+71	5	4	the	RC Object Match	refl-match_rc-match
+72	5	5	pilot	RC Object Match	refl-match_rc-match
+73	5	6	had	Matrix Clause	refl-match_rc-match
+74	5	7	blamed	Matrix Clause	refl-match_rc-match
+75	5	8	himself	Reflexive Match	refl-match_rc-match
+76	5	9	for	End	refl-match_rc-match
+77	5	10	the	End	refl-match_rc-match
+78	5	11	economic	End	refl-match_rc-match
+79	5	12	downturn	End	refl-match_rc-match
+80	5	13	.	End	refl-match_rc-match
+81	5	14	<eos>	End	refl-match_rc-match
+82	6	0	The	Antecedent	refl-match_rc-match
+83	6	1	lumberjack	Antecedent	refl-match_rc-match
+84	6	2	who	Relative Clause	refl-match_rc-match
+85	6	3	was	Relative Clause	refl-match_rc-match
+86	6	4	related	Relative Clause	refl-match_rc-match
+87	6	5	to	Relative Clause	refl-match_rc-match
+88	6	6	the	RC Object Match	refl-match_rc-match
+89	6	7	soldier	RC Object Match	refl-match_rc-match
+90	6	8	had	Matrix Clause	refl-match_rc-match
+91	6	9	cut	Matrix Clause	refl-match_rc-match
+92	6	10	himself	Reflexive Match	refl-match_rc-match
+93	6	11	.	End	refl-match_rc-match
+94	6	12	<eos>	End	refl-match_rc-match
+95	7	0	The	Antecedent	refl-match_rc-match
+96	7	1	mason	Antecedent	refl-match_rc-match
+97	7	2	who	Relative Clause	refl-match_rc-match
+98	7	3	had	Relative Clause	refl-match_rc-match
+99	7	4	never	Relative Clause	refl-match_rc-match
+100	7	5	met	Relative Clause	refl-match_rc-match
+101	7	6	the	RC Object Match	refl-match_rc-match
+102	7	7	taxi	RC Object Match	refl-match_rc-match
+103	7	8	driver	RC Object Match	refl-match_rc-match
+104	7	9	had	Matrix Clause	refl-match_rc-match
+105	7	10	busied	Matrix Clause	refl-match_rc-match
+106	7	11	himself	Reflexive Match	refl-match_rc-match
+107	7	12	with	End	refl-match_rc-match
+108	7	13	the	End	refl-match_rc-match
+109	7	14	new	End	refl-match_rc-match
+110	7	15	project	End	refl-match_rc-match
+111	7	16	.	End	refl-match_rc-match
+112	7	17	<eos>	End	refl-match_rc-match
+113	8	0	The	Antecedent	refl-match_rc-match
+114	8	1	truck	Antecedent	refl-match_rc-match
+115	8	2	driver	Antecedent	refl-match_rc-match
+116	8	3	who	Relative Clause	refl-match_rc-match
+117	8	4	loved	Relative Clause	refl-match_rc-match
+118	8	5	the	RC Object Match	refl-match_rc-match
+119	8	6	mechanic	RC Object Match	refl-match_rc-match
+120	8	7	had	Matrix Clause	refl-match_rc-match
+121	8	8	amused	Matrix Clause	refl-match_rc-match
+122	8	9	himself	Reflexive Match	refl-match_rc-match
+123	8	10	with	End	refl-match_rc-match
+124	8	11	books	End	refl-match_rc-match
+125	8	12	on	End	refl-match_rc-match
+126	8	13	tape	End	refl-match_rc-match
+127	8	14	.	End	refl-match_rc-match
+128	8	15	<eos>	End	refl-match_rc-match
+129	9	0	The	Antecedent	refl-match_rc-match
+130	9	1	electrician	Antecedent	refl-match_rc-match
+131	9	2	who	Relative Clause	refl-match_rc-match
+132	9	3	had	Relative Clause	refl-match_rc-match
+133	9	4	just	Relative Clause	refl-match_rc-match
+134	9	5	met	Relative Clause	refl-match_rc-match
+135	9	6	the	RC Object Match	refl-match_rc-match
+136	9	7	logger	RC Object Match	refl-match_rc-match
+137	9	8	had	Matrix Clause	refl-match_rc-match
+138	9	9	hurt	Matrix Clause	refl-match_rc-match
+139	9	10	himself	Reflexive Match	refl-match_rc-match
+140	9	11	while	End	refl-match_rc-match
+141	9	12	on	End	refl-match_rc-match
+142	9	13	the	End	refl-match_rc-match
+143	9	14	job	End	refl-match_rc-match
+144	9	15	.	End	refl-match_rc-match
+145	9	16	<eos>	End	refl-match_rc-match
+146	10	0	The	Antecedent	refl-match_rc-match
+147	10	1	carpenter	Antecedent	refl-match_rc-match
+148	10	2	who	Relative Clause	refl-match_rc-match
+149	10	3	worked	Relative Clause	refl-match_rc-match
+150	10	4	with	Relative Clause	refl-match_rc-match
+151	10	5	the	RC Object Match	refl-match_rc-match
+152	10	6	president	RC Object Match	refl-match_rc-match
+153	10	7	had	Matrix Clause	refl-match_rc-match
+154	10	8	taught	Matrix Clause	refl-match_rc-match
+155	10	9	himself	Reflexive Match	refl-match_rc-match
+156	10	10	a	End	refl-match_rc-match
+157	10	11	new	End	refl-match_rc-match
+158	10	12	skill	End	refl-match_rc-match
+159	10	13	.	End	refl-match_rc-match
+160	10	14	<eos>	End	refl-match_rc-match
+161	11	0	The	Antecedent	refl-match_rc-match
+162	11	1	logger	Antecedent	refl-match_rc-match
+163	11	2	who	Relative Clause	refl-match_rc-match
+164	11	3	lived	Relative Clause	refl-match_rc-match
+165	11	4	next	Relative Clause	refl-match_rc-match
+166	11	5	to	Relative Clause	refl-match_rc-match
+167	11	6	the	RC Object Match	refl-match_rc-match
+168	11	7	logger	RC Object Match	refl-match_rc-match
+169	11	8	had	Matrix Clause	refl-match_rc-match
+170	11	9	introduced	Matrix Clause	refl-match_rc-match
+171	11	10	himself	Reflexive Match	refl-match_rc-match
+172	11	11	to	End	refl-match_rc-match
+173	11	12	the	End	refl-match_rc-match
+174	11	13	new	End	refl-match_rc-match
+175	11	14	neighbors	End	refl-match_rc-match
+176	11	15	.	End	refl-match_rc-match
+177	11	16	<eos>	End	refl-match_rc-match
+178	12	0	The	Antecedent	refl-match_rc-match
+179	12	1	mechanic	Antecedent	refl-match_rc-match
+180	12	2	who	Relative Clause	refl-match_rc-match
+181	12	3	often	Relative Clause	refl-match_rc-match
+182	12	4	visited	Relative Clause	refl-match_rc-match
+183	12	5	the	RC Object Match	refl-match_rc-match
+184	12	6	carpenter	RC Object Match	refl-match_rc-match
+185	12	7	had	Matrix Clause	refl-match_rc-match
+186	12	8	enjoyed	Matrix Clause	refl-match_rc-match
+187	12	9	himself	Reflexive Match	refl-match_rc-match
+188	12	10	at	End	refl-match_rc-match
+189	12	11	the	End	refl-match_rc-match
+190	12	12	movies	End	refl-match_rc-match
+191	12	13	.	End	refl-match_rc-match
+192	12	14	<eos>	End	refl-match_rc-match
+193	13	0	The	Antecedent	refl-match_rc-match
+194	13	1	taxi	Antecedent	refl-match_rc-match
+195	13	2	driver	Antecedent	refl-match_rc-match
+196	13	3	who	Relative Clause	refl-match_rc-match
+197	13	4	frequently	Relative Clause	refl-match_rc-match
+198	13	5	drove	Relative Clause	refl-match_rc-match
+199	13	6	the	RC Object Match	refl-match_rc-match
+200	13	7	electrician	RC Object Match	refl-match_rc-match
+201	13	8	had	Matrix Clause	refl-match_rc-match
+202	13	9	prepared	Matrix Clause	refl-match_rc-match
+203	13	10	himself	Reflexive Match	refl-match_rc-match
+204	13	11	for	End	refl-match_rc-match
+205	13	12	the	End	refl-match_rc-match
+206	13	13	busy	End	refl-match_rc-match
+207	13	14	day	End	refl-match_rc-match
+208	13	15	.	End	refl-match_rc-match
+209	13	16	<eos>	End	refl-match_rc-match
+210	14	0	The	Antecedent	refl-match_rc-match
+211	14	1	soldier	Antecedent	refl-match_rc-match
+212	14	2	who	Relative Clause	refl-match_rc-match
+213	14	3	fought	Relative Clause	refl-match_rc-match
+214	14	4	alongside	Relative Clause	refl-match_rc-match
+215	14	5	the	RC Object Match	refl-match_rc-match
+216	14	6	truck	RC Object Match	refl-match_rc-match
+217	14	7	driver	RC Object Match	refl-match_rc-match
+218	14	8	had	Matrix Clause	refl-match_rc-match
+219	14	9	strained	Matrix Clause	refl-match_rc-match
+220	14	10	himself	Reflexive Match	refl-match_rc-match
+221	14	11	during	End	refl-match_rc-match
+222	14	12	training	End	refl-match_rc-match
+223	14	13	.	End	refl-match_rc-match
+224	14	14	<eos>	End	refl-match_rc-match
+225	15	0	The	Antecedent	refl-match_rc-match
+226	15	1	pilot	Antecedent	refl-match_rc-match
+227	15	2	who	Relative Clause	refl-match_rc-match
+228	15	3	travelled	Relative Clause	refl-match_rc-match
+229	15	4	with	Relative Clause	refl-match_rc-match
+230	15	5	the	RC Object Match	refl-match_rc-match
+231	15	6	mason	RC Object Match	refl-match_rc-match
+232	15	7	had	Matrix Clause	refl-match_rc-match
+233	15	8	enjoyed	Matrix Clause	refl-match_rc-match
+234	15	9	himself	Reflexive Match	refl-match_rc-match
+235	15	10	in	End	refl-match_rc-match
+236	15	11	the	End	refl-match_rc-match
+237	15	12	foreign	End	refl-match_rc-match
+238	15	13	city	End	refl-match_rc-match
+239	15	14	.	End	refl-match_rc-match
+240	15	15	<eos>	End	refl-match_rc-match
+241	16	0	The	Antecedent	refl-match_rc-match
+242	16	1	plumber	Antecedent	refl-match_rc-match
+243	16	2	who	Relative Clause	refl-match_rc-match
+244	16	3	helped	Relative Clause	refl-match_rc-match
+245	16	4	the	RC Object Match	refl-match_rc-match
+246	16	5	lumberjack	RC Object Match	refl-match_rc-match
+247	16	6	had	Matrix Clause	refl-match_rc-match
+248	16	7	hurt	Matrix Clause	refl-match_rc-match
+249	16	8	himself	Reflexive Match	refl-match_rc-match
+250	16	9	.	End	refl-match_rc-match
+251	16	10	<eos>	End	refl-match_rc-match
+252	17	0	The	Antecedent	refl-match_rc-match
+253	17	1	sergeant	Antecedent	refl-match_rc-match
+254	17	2	who	Relative Clause	refl-match_rc-match
+255	17	3	commanded	Relative Clause	refl-match_rc-match
+256	17	4	the	RC Object Match	refl-match_rc-match
+257	17	5	quarterback	RC Object Match	refl-match_rc-match
+258	17	6	had	Matrix Clause	refl-match_rc-match
+259	17	7	shouted	Matrix Clause	refl-match_rc-match
+260	17	8	himself	Reflexive Match	refl-match_rc-match
+261	17	9	hoarse	End	refl-match_rc-match
+262	17	10	.	End	refl-match_rc-match
+263	17	11	<eos>	End	refl-match_rc-match
+264	18	0	The	Antecedent	refl-match_rc-match
+265	18	1	secretary	Antecedent	refl-match_rc-match
+266	18	2	who	Relative Clause	refl-match_rc-match
+267	18	3	worked	Relative Clause	refl-match_rc-match
+268	18	4	for	Relative Clause	refl-match_rc-match
+269	18	5	the	RC Object Match	refl-match_rc-match
+270	18	6	stylist	RC Object Match	refl-match_rc-match
+271	18	7	had	Matrix Clause	refl-match_rc-match
+272	18	8	busied	Matrix Clause	refl-match_rc-match
+273	18	9	herself	Reflexive Match	refl-match_rc-match
+274	18	10	with	End	refl-match_rc-match
+275	18	11	work	End	refl-match_rc-match
+276	18	12	.	End	refl-match_rc-match
+277	18	13	<eos>	End	refl-match_rc-match
+278	19	0	The	Antecedent	refl-match_rc-match
+279	19	1	teacher	Antecedent	refl-match_rc-match
+280	19	2	who	Relative Clause	refl-match_rc-match
+281	19	3	taught	Relative Clause	refl-match_rc-match
+282	19	4	the	RC Object Match	refl-match_rc-match
+283	19	5	flight	RC Object Match	refl-match_rc-match
+284	19	6	attendant	RC Object Match	refl-match_rc-match
+285	19	7	had	Matrix Clause	refl-match_rc-match
+286	19	8	introduced	Matrix Clause	refl-match_rc-match
+287	19	9	herself	Reflexive Match	refl-match_rc-match
+288	19	10	to	End	refl-match_rc-match
+289	19	11	the	End	refl-match_rc-match
+290	19	12	new	End	refl-match_rc-match
+291	19	13	principal	End	refl-match_rc-match
+292	19	14	.	End	refl-match_rc-match
+293	19	15	<eos>	End	refl-match_rc-match
+294	20	0	The	Antecedent	refl-match_rc-match
+295	20	1	hairdresser	Antecedent	refl-match_rc-match
+296	20	2	who	Relative Clause	refl-match_rc-match
+297	20	3	gossiped	Relative Clause	refl-match_rc-match
+298	20	4	with	Relative Clause	refl-match_rc-match
+299	20	5	the	RC Object Match	refl-match_rc-match
+300	20	6	dietitian	RC Object Match	refl-match_rc-match
+301	20	7	had	Matrix Clause	refl-match_rc-match
+302	20	8	washed	Matrix Clause	refl-match_rc-match
+303	20	9	herself	Reflexive Match	refl-match_rc-match
+304	20	10	meticulously	End	refl-match_rc-match
+305	20	11	.	End	refl-match_rc-match
+306	20	12	<eos>	End	refl-match_rc-match
+307	21	0	The	Antecedent	refl-match_rc-match
+308	21	1	beautician	Antecedent	refl-match_rc-match
+309	21	2	who	Relative Clause	refl-match_rc-match
+310	21	3	liked	Relative Clause	refl-match_rc-match
+311	21	4	the	RC Object Match	refl-match_rc-match
+312	21	5	maid	RC Object Match	refl-match_rc-match
+313	21	6	had	Matrix Clause	refl-match_rc-match
+314	21	7	distinguished	Matrix Clause	refl-match_rc-match
+315	21	8	herself	Reflexive Match	refl-match_rc-match
+316	21	9	with	End	refl-match_rc-match
+317	21	10	fine	End	refl-match_rc-match
+318	21	11	work	End	refl-match_rc-match
+319	21	12	.	End	refl-match_rc-match
+320	21	13	<eos>	End	refl-match_rc-match
+321	22	0	The	Antecedent	refl-match_rc-match
+322	22	1	librarian	Antecedent	refl-match_rc-match
+323	22	2	who	Relative Clause	refl-match_rc-match
+324	22	3	often	Relative Clause	refl-match_rc-match
+325	22	4	helped	Relative Clause	refl-match_rc-match
+326	22	5	the	RC Object Match	refl-match_rc-match
+327	22	6	beautician	RC Object Match	refl-match_rc-match
+328	22	7	had	Matrix Clause	refl-match_rc-match
+329	22	8	asserted	Matrix Clause	refl-match_rc-match
+330	22	9	herself	Reflexive Match	refl-match_rc-match
+331	22	10	at	End	refl-match_rc-match
+332	22	11	the	End	refl-match_rc-match
+333	22	12	meeting	End	refl-match_rc-match
+334	22	13	.	End	refl-match_rc-match
+335	22	14	<eos>	End	refl-match_rc-match
+336	23	0	The	Antecedent	refl-match_rc-match
+337	23	1	maid	Antecedent	refl-match_rc-match
+338	23	2	who	Relative Clause	refl-match_rc-match
+339	23	3	cleaned	Relative Clause	refl-match_rc-match
+340	23	4	up	Relative Clause	refl-match_rc-match
+341	23	5	after	Relative Clause	refl-match_rc-match
+342	23	6	the	RC Object Match	refl-match_rc-match
+343	23	7	librarian	RC Object Match	refl-match_rc-match
+344	23	8	had	Matrix Clause	refl-match_rc-match
+345	23	9	exerted	Matrix Clause	refl-match_rc-match
+346	23	10	herself	Reflexive Match	refl-match_rc-match
+347	23	11	on	End	refl-match_rc-match
+348	23	12	the	End	refl-match_rc-match
+349	23	13	job	End	refl-match_rc-match
+350	23	14	.	End	refl-match_rc-match
+351	23	15	<eos>	End	refl-match_rc-match
+352	24	0	The	Antecedent	refl-match_rc-match
+353	24	1	dietitian	Antecedent	refl-match_rc-match
+354	24	2	who	Relative Clause	refl-match_rc-match
+355	24	3	treated	Relative Clause	refl-match_rc-match
+356	24	4	the	RC Object Match	refl-match_rc-match
+357	24	5	hairdresser	RC Object Match	refl-match_rc-match
+358	24	6	had	Matrix Clause	refl-match_rc-match
+359	24	7	convinced	Matrix Clause	refl-match_rc-match
+360	24	8	herself	Reflexive Match	refl-match_rc-match
+361	24	9	to	End	refl-match_rc-match
+362	24	10	move	End	refl-match_rc-match
+363	24	11	.	End	refl-match_rc-match
+364	24	12	<eos>	End	refl-match_rc-match
+365	25	0	The	Antecedent	refl-match_rc-match
+366	25	1	flight	Antecedent	refl-match_rc-match
+367	25	2	attendant	Antecedent	refl-match_rc-match
+368	25	3	who	Relative Clause	refl-match_rc-match
+369	25	4	gave	Relative Clause	refl-match_rc-match
+370	25	5	a	Relative Clause	refl-match_rc-match
+371	25	6	drink	Relative Clause	refl-match_rc-match
+372	25	7	to	Relative Clause	refl-match_rc-match
+373	25	8	the	RC Object Match	refl-match_rc-match
+374	25	9	teacher	RC Object Match	refl-match_rc-match
+375	25	10	kicked	Matrix Clause	refl-match_rc-match
+376	25	11	herself	Reflexive Match	refl-match_rc-match
+377	25	12	for	End	refl-match_rc-match
+378	25	13	not	End	refl-match_rc-match
+379	25	14	taking	End	refl-match_rc-match
+380	25	15	the	End	refl-match_rc-match
+381	25	16	day	End	refl-match_rc-match
+382	25	17	off	End	refl-match_rc-match
+383	25	18	.	End	refl-match_rc-match
+384	25	19	<eos>	End	refl-match_rc-match
+385	26	0	The	Antecedent	refl-match_rc-match
+386	26	1	stylist	Antecedent	refl-match_rc-match
+387	26	2	who	Relative Clause	refl-match_rc-match
+388	26	3	talked	Relative Clause	refl-match_rc-match
+389	26	4	with	Relative Clause	refl-match_rc-match
+390	26	5	the	RC Object Match	refl-match_rc-match
+391	26	6	secretary	RC Object Match	refl-match_rc-match
+392	26	7	looked	Matrix Clause	refl-match_rc-match
+393	26	8	at	Matrix Clause	refl-match_rc-match
+394	26	9	herself	Reflexive Match	refl-match_rc-match
+395	26	10	in	End	refl-match_rc-match
+396	26	11	the	End	refl-match_rc-match
+397	26	12	mirror	End	refl-match_rc-match
+398	26	13	.	End	refl-match_rc-match
+399	26	14	<eos>	End	refl-match_rc-match
+400	27	0	The	Antecedent	refl-match_rc-match
+401	27	1	administrative	Antecedent	refl-match_rc-match
+402	27	2	assistant	Antecedent	refl-match_rc-match
+403	27	3	who	Relative Clause	refl-match_rc-match
+404	27	4	contacted	Relative Clause	refl-match_rc-match
+405	27	5	the	RC Object Match	refl-match_rc-match
+406	27	6	nurse	RC Object Match	refl-match_rc-match
+407	27	7	drafted	Matrix Clause	refl-match_rc-match
+408	27	8	an	Matrix Clause	refl-match_rc-match
+409	27	9	email	Matrix Clause	refl-match_rc-match
+410	27	10	to	Matrix Clause	refl-match_rc-match
+411	27	11	herself	Reflexive Match	refl-match_rc-match
+412	27	12	.	End	refl-match_rc-match
+413	27	13	<eos>	End	refl-match_rc-match
+414	28	0	The	Antecedent	refl-match_rc-match
+415	28	1	typist	Antecedent	refl-match_rc-match
+416	28	2	who	Relative Clause	refl-match_rc-match
+417	28	3	collaborated	Relative Clause	refl-match_rc-match
+418	28	4	with	Relative Clause	refl-match_rc-match
+419	28	5	the	RC Object Match	refl-match_rc-match
+420	28	6	receptionist	RC Object Match	refl-match_rc-match
+421	28	7	had	Matrix Clause	refl-match_rc-match
+422	28	8	convinced	Matrix Clause	refl-match_rc-match
+423	28	9	herself	Reflexive Match	refl-match_rc-match
+424	28	10	to	End	refl-match_rc-match
+425	28	11	take	End	refl-match_rc-match
+426	28	12	the	End	refl-match_rc-match
+427	28	13	job	End	refl-match_rc-match
+428	28	14	.	End	refl-match_rc-match
+429	28	15	<eos>	End	refl-match_rc-match
+430	29	0	The	Antecedent	refl-match_rc-match
+431	29	1	hygienist	Antecedent	refl-match_rc-match
+432	29	2	who	Relative Clause	refl-match_rc-match
+433	29	3	met	Relative Clause	refl-match_rc-match
+434	29	4	with	Relative Clause	refl-match_rc-match
+435	29	5	the	RC Object Match	refl-match_rc-match
+436	29	6	cheerleader	RC Object Match	refl-match_rc-match
+437	29	7	saw	Matrix Clause	refl-match_rc-match
+438	29	8	herself	Reflexive Match	refl-match_rc-match
+439	29	9	reflected	End	refl-match_rc-match
+440	29	10	in	End	refl-match_rc-match
+441	29	11	the	End	refl-match_rc-match
+442	29	12	glass	End	refl-match_rc-match
+443	29	13	.	End	refl-match_rc-match
+444	29	14	<eos>	End	refl-match_rc-match
+445	0	0	The	Antecedent	refl-match_rc-mismatch
+446	0	1	surgeon	Antecedent	refl-match_rc-mismatch
+447	0	2	who	Relative Clause	refl-match_rc-mismatch
+448	0	3	treated	Relative Clause	refl-match_rc-mismatch
+449	0	4	the	RC Object Mismatch	refl-match_rc-mismatch
+450	0	5	hygensit	RC Object Mismatch	refl-match_rc-mismatch
+451	0	6	had	Matrix Clause	refl-match_rc-mismatch
+452	0	7	pricked	Matrix Clause	refl-match_rc-mismatch
+453	0	8	himself	Reflexive Match	refl-match_rc-mismatch
+454	0	9	.	End	refl-match_rc-mismatch
+455	0	10	<eos>	End	refl-match_rc-mismatch
+456	1	0	The	Antecedent	refl-match_rc-mismatch
+457	1	1	cheerleader	Antecedent	refl-match_rc-mismatch
+458	1	2	who	Relative Clause	refl-match_rc-mismatch
+459	1	3	telephoned	Relative Clause	refl-match_rc-mismatch
+460	1	4	the	RC Object Mismatch	refl-match_rc-mismatch
+461	1	5	sergeant	RC Object Mismatch	refl-match_rc-mismatch
+462	1	6	had	Matrix Clause	refl-match_rc-mismatch
+463	1	7	admired	Matrix Clause	refl-match_rc-mismatch
+464	1	8	herself	Reflexive Match	refl-match_rc-mismatch
+465	1	9	in	End	refl-match_rc-mismatch
+466	1	10	the	End	refl-match_rc-mismatch
+467	1	11	mirror	End	refl-match_rc-mismatch
+468	1	12	.	End	refl-match_rc-mismatch
+469	1	13	<eos>	End	refl-match_rc-mismatch
+470	2	0	The	Antecedent	refl-match_rc-mismatch
+471	2	1	receptionist	Antecedent	refl-match_rc-mismatch
+472	2	2	who	Relative Clause	refl-match_rc-mismatch
+473	2	3	wrote	Relative Clause	refl-match_rc-mismatch
+474	2	4	a	Relative Clause	refl-match_rc-mismatch
+475	2	5	letter	Relative Clause	refl-match_rc-mismatch
+476	2	6	to	Relative Clause	refl-match_rc-mismatch
+477	2	7	the	RC Object Mismatch	refl-match_rc-mismatch
+478	2	8	plumber	RC Object Mismatch	refl-match_rc-mismatch
+479	2	9	wrote	Matrix Clause	refl-match_rc-mismatch
+480	2	10	a	Matrix Clause	refl-match_rc-mismatch
+481	2	11	memo	Matrix Clause	refl-match_rc-mismatch
+482	2	12	to	Matrix Clause	refl-match_rc-mismatch
+483	2	13	herself	Reflexive Match	refl-match_rc-mismatch
+484	2	14	.	End	refl-match_rc-mismatch
+485	2	15	<eos>	End	refl-match_rc-mismatch
+486	3	0	The	Antecedent	refl-match_rc-mismatch
+487	3	1	nurse	Antecedent	refl-match_rc-mismatch
+488	3	2	who	Relative Clause	refl-match_rc-mismatch
+489	3	3	spoke	Relative Clause	refl-match_rc-mismatch
+490	3	4	with	Relative Clause	refl-match_rc-mismatch
+491	3	5	the	RC Object Mismatch	refl-match_rc-mismatch
+492	3	6	pilot	RC Object Mismatch	refl-match_rc-mismatch
+493	3	7	wrote	Matrix Clause	refl-match_rc-mismatch
+494	3	8	a	Matrix Clause	refl-match_rc-mismatch
+495	3	9	note	Matrix Clause	refl-match_rc-mismatch
+496	3	10	to	Matrix Clause	refl-match_rc-mismatch
+497	3	11	herself	Reflexive Match	refl-match_rc-mismatch
+498	3	12	.	End	refl-match_rc-mismatch
+499	3	13	<eos>	End	refl-match_rc-mismatch
+500	4	0	The	Antecedent	refl-match_rc-mismatch
+501	4	1	quarterback	Antecedent	refl-match_rc-mismatch
+502	4	2	who	Relative Clause	refl-match_rc-mismatch
+503	4	3	trusted	Relative Clause	refl-match_rc-mismatch
+504	4	4	the	RC Object Mismatch	refl-match_rc-mismatch
+505	4	5	typist	RC Object Mismatch	refl-match_rc-mismatch
+506	4	6	had	Matrix Clause	refl-match_rc-mismatch
+507	4	7	pinched	Matrix Clause	refl-match_rc-mismatch
+508	4	8	himself	Reflexive Match	refl-match_rc-mismatch
+509	4	9	.	End	refl-match_rc-mismatch
+510	4	10	<eos>	End	refl-match_rc-mismatch
+511	5	0	The	Antecedent	refl-match_rc-mismatch
+512	5	1	president	Antecedent	refl-match_rc-mismatch
+513	5	2	who	Relative Clause	refl-match_rc-mismatch
+514	5	3	admired	Relative Clause	refl-match_rc-mismatch
+515	5	4	the	RC Object Mismatch	refl-match_rc-mismatch
+516	5	5	administrative	RC Object Mismatch	refl-match_rc-mismatch
+517	5	6	assisstant	RC Object Mismatch	refl-match_rc-mismatch
+518	5	7	had	Matrix Clause	refl-match_rc-mismatch
+519	5	8	blamed	Matrix Clause	refl-match_rc-mismatch
+520	5	9	himself	Reflexive Match	refl-match_rc-mismatch
+521	5	10	for	End	refl-match_rc-mismatch
+522	5	11	the	End	refl-match_rc-mismatch
+523	5	12	economic	End	refl-match_rc-mismatch
+524	5	13	downturn	End	refl-match_rc-mismatch
+525	5	14	.	End	refl-match_rc-mismatch
+526	5	15	<eos>	End	refl-match_rc-mismatch
+527	6	0	The	Antecedent	refl-match_rc-mismatch
+528	6	1	lumberjack	Antecedent	refl-match_rc-mismatch
+529	6	2	who	Relative Clause	refl-match_rc-mismatch
+530	6	3	was	Relative Clause	refl-match_rc-mismatch
+531	6	4	related	Relative Clause	refl-match_rc-mismatch
+532	6	5	to	Relative Clause	refl-match_rc-mismatch
+533	6	6	the	RC Object Mismatch	refl-match_rc-mismatch
+534	6	7	stylist	RC Object Mismatch	refl-match_rc-mismatch
+535	6	8	had	Matrix Clause	refl-match_rc-mismatch
+536	6	9	cut	Matrix Clause	refl-match_rc-mismatch
+537	6	10	himself	Reflexive Match	refl-match_rc-mismatch
+538	6	11	.	End	refl-match_rc-mismatch
+539	6	12	<eos>	End	refl-match_rc-mismatch
+540	7	0	The	Antecedent	refl-match_rc-mismatch
+541	7	1	mason	Antecedent	refl-match_rc-mismatch
+542	7	2	who	Relative Clause	refl-match_rc-mismatch
+543	7	3	had	Relative Clause	refl-match_rc-mismatch
+544	7	4	never	Relative Clause	refl-match_rc-mismatch
+545	7	5	met	Relative Clause	refl-match_rc-mismatch
+546	7	6	the	RC Object Mismatch	refl-match_rc-mismatch
+547	7	7	flight	RC Object Mismatch	refl-match_rc-mismatch
+548	7	8	attendant	RC Object Mismatch	refl-match_rc-mismatch
+549	7	9	had	Matrix Clause	refl-match_rc-mismatch
+550	7	10	busied	Matrix Clause	refl-match_rc-mismatch
+551	7	11	himself	Reflexive Match	refl-match_rc-mismatch
+552	7	12	with	End	refl-match_rc-mismatch
+553	7	13	the	End	refl-match_rc-mismatch
+554	7	14	new	End	refl-match_rc-mismatch
+555	7	15	project	End	refl-match_rc-mismatch
+556	7	16	.	End	refl-match_rc-mismatch
+557	7	17	<eos>	End	refl-match_rc-mismatch
+558	8	0	The	Antecedent	refl-match_rc-mismatch
+559	8	1	truck	Antecedent	refl-match_rc-mismatch
+560	8	2	driver	Antecedent	refl-match_rc-mismatch
+561	8	3	who	Relative Clause	refl-match_rc-mismatch
+562	8	4	loved	Relative Clause	refl-match_rc-mismatch
+563	8	5	the	RC Object Mismatch	refl-match_rc-mismatch
+564	8	6	dietitian	RC Object Mismatch	refl-match_rc-mismatch
+565	8	7	had	Matrix Clause	refl-match_rc-mismatch
+566	8	8	amused	Matrix Clause	refl-match_rc-mismatch
+567	8	9	himself	Reflexive Match	refl-match_rc-mismatch
+568	8	10	with	End	refl-match_rc-mismatch
+569	8	11	books	End	refl-match_rc-mismatch
+570	8	12	on	End	refl-match_rc-mismatch
+571	8	13	tape	End	refl-match_rc-mismatch
+572	8	14	.	End	refl-match_rc-mismatch
+573	8	15	<eos>	End	refl-match_rc-mismatch
+574	9	0	The	Antecedent	refl-match_rc-mismatch
+575	9	1	electrician	Antecedent	refl-match_rc-mismatch
+576	9	2	who	Relative Clause	refl-match_rc-mismatch
+577	9	3	had	Relative Clause	refl-match_rc-mismatch
+578	9	4	just	Relative Clause	refl-match_rc-mismatch
+579	9	5	met	Relative Clause	refl-match_rc-mismatch
+580	9	6	the	RC Object Mismatch	refl-match_rc-mismatch
+581	9	7	maid	RC Object Mismatch	refl-match_rc-mismatch
+582	9	8	had	Matrix Clause	refl-match_rc-mismatch
+583	9	9	hurt	Matrix Clause	refl-match_rc-mismatch
+584	9	10	himself	Reflexive Match	refl-match_rc-mismatch
+585	9	11	while	End	refl-match_rc-mismatch
+586	9	12	on	End	refl-match_rc-mismatch
+587	9	13	the	End	refl-match_rc-mismatch
+588	9	14	job	End	refl-match_rc-mismatch
+589	9	15	.	End	refl-match_rc-mismatch
+590	9	16	<eos>	End	refl-match_rc-mismatch
+591	10	0	The	Antecedent	refl-match_rc-mismatch
+592	10	1	carpenter	Antecedent	refl-match_rc-mismatch
+593	10	2	who	Relative Clause	refl-match_rc-mismatch
+594	10	3	worked	Relative Clause	refl-match_rc-mismatch
+595	10	4	with	Relative Clause	refl-match_rc-mismatch
+596	10	5	the	RC Object Mismatch	refl-match_rc-mismatch
+597	10	6	librarian	RC Object Mismatch	refl-match_rc-mismatch
+598	10	7	had	Matrix Clause	refl-match_rc-mismatch
+599	10	8	taught	Matrix Clause	refl-match_rc-mismatch
+600	10	9	himself	Reflexive Match	refl-match_rc-mismatch
+601	10	10	a	End	refl-match_rc-mismatch
+602	10	11	new	End	refl-match_rc-mismatch
+603	10	12	skill	End	refl-match_rc-mismatch
+604	10	13	.	End	refl-match_rc-mismatch
+605	10	14	<eos>	End	refl-match_rc-mismatch
+606	11	0	The	Antecedent	refl-match_rc-mismatch
+607	11	1	logger	Antecedent	refl-match_rc-mismatch
+608	11	2	who	Relative Clause	refl-match_rc-mismatch
+609	11	3	lived	Relative Clause	refl-match_rc-mismatch
+610	11	4	next	Relative Clause	refl-match_rc-mismatch
+611	11	5	to	Relative Clause	refl-match_rc-mismatch
+612	11	6	the	RC Object Mismatch	refl-match_rc-mismatch
+613	11	7	beautician	RC Object Mismatch	refl-match_rc-mismatch
+614	11	8	had	Matrix Clause	refl-match_rc-mismatch
+615	11	9	introduced	Matrix Clause	refl-match_rc-mismatch
+616	11	10	himself	Reflexive Match	refl-match_rc-mismatch
+617	11	11	to	End	refl-match_rc-mismatch
+618	11	12	the	End	refl-match_rc-mismatch
+619	11	13	new	End	refl-match_rc-mismatch
+620	11	14	neighbors	End	refl-match_rc-mismatch
+621	11	15	.	End	refl-match_rc-mismatch
+622	11	16	<eos>	End	refl-match_rc-mismatch
+623	12	0	The	Antecedent	refl-match_rc-mismatch
+624	12	1	mechanic	Antecedent	refl-match_rc-mismatch
+625	12	2	who	Relative Clause	refl-match_rc-mismatch
+626	12	3	often	Relative Clause	refl-match_rc-mismatch
+627	12	4	visited	Relative Clause	refl-match_rc-mismatch
+628	12	5	the	RC Object Mismatch	refl-match_rc-mismatch
+629	12	6	hairdresser	RC Object Mismatch	refl-match_rc-mismatch
+630	12	7	had	Matrix Clause	refl-match_rc-mismatch
+631	12	8	enjoyed	Matrix Clause	refl-match_rc-mismatch
+632	12	9	himself	Reflexive Match	refl-match_rc-mismatch
+633	12	10	at	End	refl-match_rc-mismatch
+634	12	11	the	End	refl-match_rc-mismatch
+635	12	12	movies	End	refl-match_rc-mismatch
+636	12	13	.	End	refl-match_rc-mismatch
+637	12	14	<eos>	End	refl-match_rc-mismatch
+638	13	0	The	Antecedent	refl-match_rc-mismatch
+639	13	1	taxi	Antecedent	refl-match_rc-mismatch
+640	13	2	driver	Antecedent	refl-match_rc-mismatch
+641	13	3	who	Relative Clause	refl-match_rc-mismatch
+642	13	4	frequently	Relative Clause	refl-match_rc-mismatch
+643	13	5	drove	Relative Clause	refl-match_rc-mismatch
+644	13	6	the	RC Object Mismatch	refl-match_rc-mismatch
+645	13	7	teacher	RC Object Mismatch	refl-match_rc-mismatch
+646	13	8	had	Matrix Clause	refl-match_rc-mismatch
+647	13	9	prepared	Matrix Clause	refl-match_rc-mismatch
+648	13	10	himself	Reflexive Match	refl-match_rc-mismatch
+649	13	11	for	End	refl-match_rc-mismatch
+650	13	12	the	End	refl-match_rc-mismatch
+651	13	13	busy	End	refl-match_rc-mismatch
+652	13	14	day	End	refl-match_rc-mismatch
+653	13	15	.	End	refl-match_rc-mismatch
+654	13	16	<eos>	End	refl-match_rc-mismatch
+655	14	0	The	Antecedent	refl-match_rc-mismatch
+656	14	1	soldier	Antecedent	refl-match_rc-mismatch
+657	14	2	who	Relative Clause	refl-match_rc-mismatch
+658	14	3	fought	Relative Clause	refl-match_rc-mismatch
+659	14	4	alongside	Relative Clause	refl-match_rc-mismatch
+660	14	5	the	RC Object Mismatch	refl-match_rc-mismatch
+661	14	6	secretary	RC Object Mismatch	refl-match_rc-mismatch
+662	14	7	had	Matrix Clause	refl-match_rc-mismatch
+663	14	8	strained	Matrix Clause	refl-match_rc-mismatch
+664	14	9	himself	Reflexive Match	refl-match_rc-mismatch
+665	14	10	during	End	refl-match_rc-mismatch
+666	14	11	training	End	refl-match_rc-mismatch
+667	14	12	.	End	refl-match_rc-mismatch
+668	14	13	<eos>	End	refl-match_rc-mismatch
+669	15	0	The	Antecedent	refl-match_rc-mismatch
+670	15	1	pilot	Antecedent	refl-match_rc-mismatch
+671	15	2	who	Relative Clause	refl-match_rc-mismatch
+672	15	3	travelled	Relative Clause	refl-match_rc-mismatch
+673	15	4	with	Relative Clause	refl-match_rc-mismatch
+674	15	5	the	RC Object Mismatch	refl-match_rc-mismatch
+675	15	6	nurse	RC Object Mismatch	refl-match_rc-mismatch
+676	15	7	had	Matrix Clause	refl-match_rc-mismatch
+677	15	8	enjoyed	Matrix Clause	refl-match_rc-mismatch
+678	15	9	himself	Reflexive Match	refl-match_rc-mismatch
+679	15	10	in	End	refl-match_rc-mismatch
+680	15	11	the	End	refl-match_rc-mismatch
+681	15	12	foreign	End	refl-match_rc-mismatch
+682	15	13	city	End	refl-match_rc-mismatch
+683	15	14	.	End	refl-match_rc-mismatch
+684	15	15	<eos>	End	refl-match_rc-mismatch
+685	16	0	The	Antecedent	refl-match_rc-mismatch
+686	16	1	plumber	Antecedent	refl-match_rc-mismatch
+687	16	2	who	Relative Clause	refl-match_rc-mismatch
+688	16	3	helped	Relative Clause	refl-match_rc-mismatch
+689	16	4	the	RC Object Mismatch	refl-match_rc-mismatch
+690	16	5	receptionist	RC Object Mismatch	refl-match_rc-mismatch
+691	16	6	had	Matrix Clause	refl-match_rc-mismatch
+692	16	7	hurt	Matrix Clause	refl-match_rc-mismatch
+693	16	8	himself	Reflexive Match	refl-match_rc-mismatch
+694	16	9	.	End	refl-match_rc-mismatch
+695	16	10	<eos>	End	refl-match_rc-mismatch
+696	17	0	The	Antecedent	refl-match_rc-mismatch
+697	17	1	sergeant	Antecedent	refl-match_rc-mismatch
+698	17	2	who	Relative Clause	refl-match_rc-mismatch
+699	17	3	commanded	Relative Clause	refl-match_rc-mismatch
+700	17	4	the	RC Object Mismatch	refl-match_rc-mismatch
+701	17	5	chearleader	RC Object Mismatch	refl-match_rc-mismatch
+702	17	6	had	Matrix Clause	refl-match_rc-mismatch
+703	17	7	shouted	Matrix Clause	refl-match_rc-mismatch
+704	17	8	himself	Reflexive Match	refl-match_rc-mismatch
+705	17	9	hoarse	End	refl-match_rc-mismatch
+706	17	10	.	End	refl-match_rc-mismatch
+707	17	11	<eos>	End	refl-match_rc-mismatch
+708	18	0	The	Antecedent	refl-match_rc-mismatch
+709	18	1	secretary	Antecedent	refl-match_rc-mismatch
+710	18	2	who	Relative Clause	refl-match_rc-mismatch
+711	18	3	worked	Relative Clause	refl-match_rc-mismatch
+712	18	4	for	Relative Clause	refl-match_rc-mismatch
+713	18	5	the	RC Object Mismatch	refl-match_rc-mismatch
+714	18	6	soldier	RC Object Mismatch	refl-match_rc-mismatch
+715	18	7	had	Matrix Clause	refl-match_rc-mismatch
+716	18	8	busied	Matrix Clause	refl-match_rc-mismatch
+717	18	9	herself	Reflexive Match	refl-match_rc-mismatch
+718	18	10	with	End	refl-match_rc-mismatch
+719	18	11	work	End	refl-match_rc-mismatch
+720	18	12	.	End	refl-match_rc-mismatch
+721	18	13	<eos>	End	refl-match_rc-mismatch
+722	19	0	The	Antecedent	refl-match_rc-mismatch
+723	19	1	teacher	Antecedent	refl-match_rc-mismatch
+724	19	2	who	Relative Clause	refl-match_rc-mismatch
+725	19	3	taught	Relative Clause	refl-match_rc-mismatch
+726	19	4	the	RC Object Mismatch	refl-match_rc-mismatch
+727	19	5	taxi	RC Object Mismatch	refl-match_rc-mismatch
+728	19	6	driver	RC Object Mismatch	refl-match_rc-mismatch
+729	19	7	had	Matrix Clause	refl-match_rc-mismatch
+730	19	8	introduced	Matrix Clause	refl-match_rc-mismatch
+731	19	9	herself	Reflexive Match	refl-match_rc-mismatch
+732	19	10	to	End	refl-match_rc-mismatch
+733	19	11	the	End	refl-match_rc-mismatch
+734	19	12	new	End	refl-match_rc-mismatch
+735	19	13	principal	End	refl-match_rc-mismatch
+736	19	14	.	End	refl-match_rc-mismatch
+737	19	15	<eos>	End	refl-match_rc-mismatch
+738	20	0	The	Antecedent	refl-match_rc-mismatch
+739	20	1	hairdresser	Antecedent	refl-match_rc-mismatch
+740	20	2	who	Relative Clause	refl-match_rc-mismatch
+741	20	3	gossiped	Relative Clause	refl-match_rc-mismatch
+742	20	4	with	Relative Clause	refl-match_rc-mismatch
+743	20	5	the	RC Object Mismatch	refl-match_rc-mismatch
+744	20	6	mechanic	RC Object Mismatch	refl-match_rc-mismatch
+745	20	7	had	Matrix Clause	refl-match_rc-mismatch
+746	20	8	washed	Matrix Clause	refl-match_rc-mismatch
+747	20	9	herself	Reflexive Match	refl-match_rc-mismatch
+748	20	10	meticulously	End	refl-match_rc-mismatch
+749	20	11	.	End	refl-match_rc-mismatch
+750	20	12	<eos>	End	refl-match_rc-mismatch
+751	21	0	The	Antecedent	refl-match_rc-mismatch
+752	21	1	beautician	Antecedent	refl-match_rc-mismatch
+753	21	2	who	Relative Clause	refl-match_rc-mismatch
+754	21	3	liked	Relative Clause	refl-match_rc-mismatch
+755	21	4	the	RC Object Mismatch	refl-match_rc-mismatch
+756	21	5	logger	RC Object Mismatch	refl-match_rc-mismatch
+757	21	6	had	Matrix Clause	refl-match_rc-mismatch
+758	21	7	distinguished	Matrix Clause	refl-match_rc-mismatch
+759	21	8	herself	Reflexive Match	refl-match_rc-mismatch
+760	21	9	with	End	refl-match_rc-mismatch
+761	21	10	fine	End	refl-match_rc-mismatch
+762	21	11	work	End	refl-match_rc-mismatch
+763	21	12	.	End	refl-match_rc-mismatch
+764	21	13	<eos>	End	refl-match_rc-mismatch
+765	22	0	The	Antecedent	refl-match_rc-mismatch
+766	22	1	librarian	Antecedent	refl-match_rc-mismatch
+767	22	2	who	Relative Clause	refl-match_rc-mismatch
+768	22	3	often	Relative Clause	refl-match_rc-mismatch
+769	22	4	helped	Relative Clause	refl-match_rc-mismatch
+770	22	5	the	RC Object Mismatch	refl-match_rc-mismatch
+771	22	6	carpenter	RC Object Mismatch	refl-match_rc-mismatch
+772	22	7	had	Matrix Clause	refl-match_rc-mismatch
+773	22	8	asserted	Matrix Clause	refl-match_rc-mismatch
+774	22	9	herself	Reflexive Match	refl-match_rc-mismatch
+775	22	10	at	End	refl-match_rc-mismatch
+776	22	11	the	End	refl-match_rc-mismatch
+777	22	12	meeting	End	refl-match_rc-mismatch
+778	22	13	.	End	refl-match_rc-mismatch
+779	22	14	<eos>	End	refl-match_rc-mismatch
+780	23	0	The	Antecedent	refl-match_rc-mismatch
+781	23	1	maid	Antecedent	refl-match_rc-mismatch
+782	23	2	who	Relative Clause	refl-match_rc-mismatch
+783	23	3	cleaned	Relative Clause	refl-match_rc-mismatch
+784	23	4	up	Relative Clause	refl-match_rc-mismatch
+785	23	5	after	Relative Clause	refl-match_rc-mismatch
+786	23	6	the	RC Object Mismatch	refl-match_rc-mismatch
+787	23	7	electrician	RC Object Mismatch	refl-match_rc-mismatch
+788	23	8	had	Matrix Clause	refl-match_rc-mismatch
+789	23	9	exerted	Matrix Clause	refl-match_rc-mismatch
+790	23	10	herself	Reflexive Match	refl-match_rc-mismatch
+791	23	11	on	End	refl-match_rc-mismatch
+792	23	12	the	End	refl-match_rc-mismatch
+793	23	13	job	End	refl-match_rc-mismatch
+794	23	14	.	End	refl-match_rc-mismatch
+795	23	15	<eos>	End	refl-match_rc-mismatch
+796	24	0	The	Antecedent	refl-match_rc-mismatch
+797	24	1	dietitian	Antecedent	refl-match_rc-mismatch
+798	24	2	who	Relative Clause	refl-match_rc-mismatch
+799	24	3	treated	Relative Clause	refl-match_rc-mismatch
+800	24	4	the	RC Object Mismatch	refl-match_rc-mismatch
+801	24	5	truck	RC Object Mismatch	refl-match_rc-mismatch
+802	24	6	driver	RC Object Mismatch	refl-match_rc-mismatch
+803	24	7	had	Matrix Clause	refl-match_rc-mismatch
+804	24	8	convinced	Matrix Clause	refl-match_rc-mismatch
+805	24	9	herself	Reflexive Match	refl-match_rc-mismatch
+806	24	10	to	End	refl-match_rc-mismatch
+807	24	11	move	End	refl-match_rc-mismatch
+808	24	12	.	End	refl-match_rc-mismatch
+809	24	13	<eos>	End	refl-match_rc-mismatch
+810	25	0	The	Antecedent	refl-match_rc-mismatch
+811	25	1	flight	Antecedent	refl-match_rc-mismatch
+812	25	2	attendant	Antecedent	refl-match_rc-mismatch
+813	25	3	who	Relative Clause	refl-match_rc-mismatch
+814	25	4	gave	Relative Clause	refl-match_rc-mismatch
+815	25	5	a	Relative Clause	refl-match_rc-mismatch
+816	25	6	drink	Relative Clause	refl-match_rc-mismatch
+817	25	7	to	Relative Clause	refl-match_rc-mismatch
+818	25	8	the	RC Object Mismatch	refl-match_rc-mismatch
+819	25	9	mason	RC Object Mismatch	refl-match_rc-mismatch
+820	25	10	kicked	Matrix Clause	refl-match_rc-mismatch
+821	25	11	herself	Reflexive Match	refl-match_rc-mismatch
+822	25	12	for	End	refl-match_rc-mismatch
+823	25	13	not	End	refl-match_rc-mismatch
+824	25	14	taking	End	refl-match_rc-mismatch
+825	25	15	the	End	refl-match_rc-mismatch
+826	25	16	day	End	refl-match_rc-mismatch
+827	25	17	off	End	refl-match_rc-mismatch
+828	25	18	.	End	refl-match_rc-mismatch
+829	25	19	<eos>	End	refl-match_rc-mismatch
+830	26	0	The	Antecedent	refl-match_rc-mismatch
+831	26	1	stylist	Antecedent	refl-match_rc-mismatch
+832	26	2	who	Relative Clause	refl-match_rc-mismatch
+833	26	3	talked	Relative Clause	refl-match_rc-mismatch
+834	26	4	with	Relative Clause	refl-match_rc-mismatch
+835	26	5	the	RC Object Mismatch	refl-match_rc-mismatch
+836	26	6	lumberjack	RC Object Mismatch	refl-match_rc-mismatch
+837	26	7	looked	Matrix Clause	refl-match_rc-mismatch
+838	26	8	at	Matrix Clause	refl-match_rc-mismatch
+839	26	9	herself	Reflexive Match	refl-match_rc-mismatch
+840	26	10	in	End	refl-match_rc-mismatch
+841	26	11	the	End	refl-match_rc-mismatch
+842	26	12	mirror	End	refl-match_rc-mismatch
+843	26	13	.	End	refl-match_rc-mismatch
+844	26	14	<eos>	End	refl-match_rc-mismatch
+845	27	0	The	Antecedent	refl-match_rc-mismatch
+846	27	1	administrative	Antecedent	refl-match_rc-mismatch
+847	27	2	assistant	Antecedent	refl-match_rc-mismatch
+848	27	3	who	Relative Clause	refl-match_rc-mismatch
+849	27	4	contacted	Relative Clause	refl-match_rc-mismatch
+850	27	5	the	RC Object Mismatch	refl-match_rc-mismatch
+851	27	6	president	RC Object Mismatch	refl-match_rc-mismatch
+852	27	7	drafted	Matrix Clause	refl-match_rc-mismatch
+853	27	8	an	Matrix Clause	refl-match_rc-mismatch
+854	27	9	email	Matrix Clause	refl-match_rc-mismatch
+855	27	10	to	Matrix Clause	refl-match_rc-mismatch
+856	27	11	herself	Reflexive Match	refl-match_rc-mismatch
+857	27	12	.	End	refl-match_rc-mismatch
+858	27	13	<eos>	End	refl-match_rc-mismatch
+859	28	0	The	Antecedent	refl-match_rc-mismatch
+860	28	1	typist	Antecedent	refl-match_rc-mismatch
+861	28	2	who	Relative Clause	refl-match_rc-mismatch
+862	28	3	collaborated	Relative Clause	refl-match_rc-mismatch
+863	28	4	with	Relative Clause	refl-match_rc-mismatch
+864	28	5	the	RC Object Mismatch	refl-match_rc-mismatch
+865	28	6	quaterback	RC Object Mismatch	refl-match_rc-mismatch
+866	28	7	had	Matrix Clause	refl-match_rc-mismatch
+867	28	8	convinced	Matrix Clause	refl-match_rc-mismatch
+868	28	9	herself	Reflexive Match	refl-match_rc-mismatch
+869	28	10	to	End	refl-match_rc-mismatch
+870	28	11	take	End	refl-match_rc-mismatch
+871	28	12	the	End	refl-match_rc-mismatch
+872	28	13	job	End	refl-match_rc-mismatch
+873	28	14	.	End	refl-match_rc-mismatch
+874	28	15	<eos>	End	refl-match_rc-mismatch
+875	29	0	The	Antecedent	refl-match_rc-mismatch
+876	29	1	hygienist	Antecedent	refl-match_rc-mismatch
+877	29	2	who	Relative Clause	refl-match_rc-mismatch
+878	29	3	met	Relative Clause	refl-match_rc-mismatch
+879	29	4	with	Relative Clause	refl-match_rc-mismatch
+880	29	5	the	RC Object Mismatch	refl-match_rc-mismatch
+881	29	6	surgeon	RC Object Mismatch	refl-match_rc-mismatch
+882	29	7	saw	Matrix Clause	refl-match_rc-mismatch
+883	29	8	herself	Reflexive Match	refl-match_rc-mismatch
+884	29	9	reflected	End	refl-match_rc-mismatch
+885	29	10	in	End	refl-match_rc-mismatch
+886	29	11	the	End	refl-match_rc-mismatch
+887	29	12	glass	End	refl-match_rc-mismatch
+888	29	13	.	End	refl-match_rc-mismatch
+889	29	14	<eos>	End	refl-match_rc-mismatch
+890	0	0	The	Antecedent	refl-mismatch_rc-match
+891	0	1	surgeon	Antecedent	refl-mismatch_rc-match
+892	0	2	who	Relative Clause	refl-mismatch_rc-match
+893	0	3	treated	Relative Clause	refl-mismatch_rc-match
+894	0	4	the	RC Object Match	refl-mismatch_rc-match
+895	0	5	sergeant	RC Object Match	refl-mismatch_rc-match
+896	0	6	had	Matrix Clause	refl-mismatch_rc-match
+897	0	7	pricked	Matrix Clause	refl-mismatch_rc-match
+898	0	8	herself	Reflexive Mismatch	refl-mismatch_rc-match
+899	0	9	.	End	refl-mismatch_rc-match
+900	0	10	<eos>	End	refl-mismatch_rc-match
+901	1	0	The	Antecedent	refl-mismatch_rc-match
+902	1	1	cheerleader	Antecedent	refl-mismatch_rc-match
+903	1	2	who	Relative Clause	refl-mismatch_rc-match
+904	1	3	telephoned	Relative Clause	refl-mismatch_rc-match
+905	1	4	the	RC Object Match	refl-mismatch_rc-match
+906	1	5	hygienist	RC Object Match	refl-mismatch_rc-match
+907	1	6	had	Matrix Clause	refl-mismatch_rc-match
+908	1	7	admired	Matrix Clause	refl-mismatch_rc-match
+909	1	8	himself	Reflexive Mismatch	refl-mismatch_rc-match
+910	1	9	in	End	refl-mismatch_rc-match
+911	1	10	the	End	refl-mismatch_rc-match
+912	1	11	mirror	End	refl-mismatch_rc-match
+913	1	12	.	End	refl-mismatch_rc-match
+914	1	13	<eos>	End	refl-mismatch_rc-match
+915	2	0	The	Antecedent	refl-mismatch_rc-match
+916	2	1	receptionist	Antecedent	refl-mismatch_rc-match
+917	2	2	who	Relative Clause	refl-mismatch_rc-match
+918	2	3	wrote	Relative Clause	refl-mismatch_rc-match
+919	2	4	a	Relative Clause	refl-mismatch_rc-match
+920	2	5	letter	Relative Clause	refl-mismatch_rc-match
+921	2	6	to	Relative Clause	refl-mismatch_rc-match
+922	2	7	the	RC Object Match	refl-mismatch_rc-match
+923	2	8	typist	RC Object Match	refl-mismatch_rc-match
+924	2	9	wrote	Matrix Clause	refl-mismatch_rc-match
+925	2	10	a	Matrix Clause	refl-mismatch_rc-match
+926	2	11	memo	Matrix Clause	refl-mismatch_rc-match
+927	2	12	to	Matrix Clause	refl-mismatch_rc-match
+928	2	13	himself	Reflexive Mismatch	refl-mismatch_rc-match
+929	2	14	.	End	refl-mismatch_rc-match
+930	2	15	<eos>	End	refl-mismatch_rc-match
+931	3	0	The	Antecedent	refl-mismatch_rc-match
+932	3	1	nurse	Antecedent	refl-mismatch_rc-match
+933	3	2	who	Relative Clause	refl-mismatch_rc-match
+934	3	3	spoke	Relative Clause	refl-mismatch_rc-match
+935	3	4	with	Relative Clause	refl-mismatch_rc-match
+936	3	5	the	RC Object Match	refl-mismatch_rc-match
+937	3	6	administrative	RC Object Match	refl-mismatch_rc-match
+938	3	7	assistant	RC Object Match	refl-mismatch_rc-match
+939	3	8	wrote	Matrix Clause	refl-mismatch_rc-match
+940	3	9	a	Matrix Clause	refl-mismatch_rc-match
+941	3	10	note	Matrix Clause	refl-mismatch_rc-match
+942	3	11	to	Matrix Clause	refl-mismatch_rc-match
+943	3	12	himself	Reflexive Mismatch	refl-mismatch_rc-match
+944	3	13	.	End	refl-mismatch_rc-match
+945	3	14	<eos>	End	refl-mismatch_rc-match
+946	4	0	The	Antecedent	refl-mismatch_rc-match
+947	4	1	quarterback	Antecedent	refl-mismatch_rc-match
+948	4	2	who	Relative Clause	refl-mismatch_rc-match
+949	4	3	trusted	Relative Clause	refl-mismatch_rc-match
+950	4	4	the	RC Object Match	refl-mismatch_rc-match
+951	4	5	plumber	RC Object Match	refl-mismatch_rc-match
+952	4	6	had	Matrix Clause	refl-mismatch_rc-match
+953	4	7	pinched	Matrix Clause	refl-mismatch_rc-match
+954	4	8	herself	Reflexive Mismatch	refl-mismatch_rc-match
+955	4	9	.	End	refl-mismatch_rc-match
+956	4	10	<eos>	End	refl-mismatch_rc-match
+957	5	0	The	Antecedent	refl-mismatch_rc-match
+958	5	1	president	Antecedent	refl-mismatch_rc-match
+959	5	2	who	Relative Clause	refl-mismatch_rc-match
+960	5	3	admired	Relative Clause	refl-mismatch_rc-match
+961	5	4	the	RC Object Match	refl-mismatch_rc-match
+962	5	5	pilot	RC Object Match	refl-mismatch_rc-match
+963	5	6	had	Matrix Clause	refl-mismatch_rc-match
+964	5	7	blamed	Matrix Clause	refl-mismatch_rc-match
+965	5	8	herself	Reflexive Mismatch	refl-mismatch_rc-match
+966	5	9	for	End	refl-mismatch_rc-match
+967	5	10	the	End	refl-mismatch_rc-match
+968	5	11	economic	End	refl-mismatch_rc-match
+969	5	12	downturn	End	refl-mismatch_rc-match
+970	5	13	.	End	refl-mismatch_rc-match
+971	5	14	<eos>	End	refl-mismatch_rc-match
+972	6	0	The	Antecedent	refl-mismatch_rc-match
+973	6	1	lumberjack	Antecedent	refl-mismatch_rc-match
+974	6	2	who	Relative Clause	refl-mismatch_rc-match
+975	6	3	was	Relative Clause	refl-mismatch_rc-match
+976	6	4	related	Relative Clause	refl-mismatch_rc-match
+977	6	5	to	Relative Clause	refl-mismatch_rc-match
+978	6	6	the	RC Object Match	refl-mismatch_rc-match
+979	6	7	soldier	RC Object Match	refl-mismatch_rc-match
+980	6	8	had	Matrix Clause	refl-mismatch_rc-match
+981	6	9	cut	Matrix Clause	refl-mismatch_rc-match
+982	6	10	herself	Reflexive Mismatch	refl-mismatch_rc-match
+983	6	11	.	End	refl-mismatch_rc-match
+984	6	12	<eos>	End	refl-mismatch_rc-match
+985	7	0	The	Antecedent	refl-mismatch_rc-match
+986	7	1	mason	Antecedent	refl-mismatch_rc-match
+987	7	2	who	Relative Clause	refl-mismatch_rc-match
+988	7	3	had	Relative Clause	refl-mismatch_rc-match
+989	7	4	never	Relative Clause	refl-mismatch_rc-match
+990	7	5	met	Relative Clause	refl-mismatch_rc-match
+991	7	6	the	RC Object Match	refl-mismatch_rc-match
+992	7	7	taxi	RC Object Match	refl-mismatch_rc-match
+993	7	8	driver	RC Object Match	refl-mismatch_rc-match
+994	7	9	had	Matrix Clause	refl-mismatch_rc-match
+995	7	10	busied	Matrix Clause	refl-mismatch_rc-match
+996	7	11	herself	Reflexive Mismatch	refl-mismatch_rc-match
+997	7	12	with	End	refl-mismatch_rc-match
+998	7	13	the	End	refl-mismatch_rc-match
+999	7	14	new	End	refl-mismatch_rc-match
+1000	7	15	project	End	refl-mismatch_rc-match
+1001	7	16	.	End	refl-mismatch_rc-match
+1002	7	17	<eos>	End	refl-mismatch_rc-match
+1003	8	0	The	Antecedent	refl-mismatch_rc-match
+1004	8	1	truck	Antecedent	refl-mismatch_rc-match
+1005	8	2	driver	Antecedent	refl-mismatch_rc-match
+1006	8	3	who	Relative Clause	refl-mismatch_rc-match
+1007	8	4	loved	Relative Clause	refl-mismatch_rc-match
+1008	8	5	the	RC Object Match	refl-mismatch_rc-match
+1009	8	6	mechanic	RC Object Match	refl-mismatch_rc-match
+1010	8	7	had	Matrix Clause	refl-mismatch_rc-match
+1011	8	8	amused	Matrix Clause	refl-mismatch_rc-match
+1012	8	9	herself	Reflexive Mismatch	refl-mismatch_rc-match
+1013	8	10	with	End	refl-mismatch_rc-match
+1014	8	11	books	End	refl-mismatch_rc-match
+1015	8	12	on	End	refl-mismatch_rc-match
+1016	8	13	tape	End	refl-mismatch_rc-match
+1017	8	14	.	End	refl-mismatch_rc-match
+1018	8	15	<eos>	End	refl-mismatch_rc-match
+1019	9	0	The	Antecedent	refl-mismatch_rc-match
+1020	9	1	electrician	Antecedent	refl-mismatch_rc-match
+1021	9	2	who	Relative Clause	refl-mismatch_rc-match
+1022	9	3	had	Relative Clause	refl-mismatch_rc-match
+1023	9	4	just	Relative Clause	refl-mismatch_rc-match
+1024	9	5	met	Relative Clause	refl-mismatch_rc-match
+1025	9	6	the	RC Object Match	refl-mismatch_rc-match
+1026	9	7	logger	RC Object Match	refl-mismatch_rc-match
+1027	9	8	had	Matrix Clause	refl-mismatch_rc-match
+1028	9	9	hurt	Matrix Clause	refl-mismatch_rc-match
+1029	9	10	herself	Reflexive Mismatch	refl-mismatch_rc-match
+1030	9	11	while	End	refl-mismatch_rc-match
+1031	9	12	on	End	refl-mismatch_rc-match
+1032	9	13	the	End	refl-mismatch_rc-match
+1033	9	14	job	End	refl-mismatch_rc-match
+1034	9	15	.	End	refl-mismatch_rc-match
+1035	9	16	<eos>	End	refl-mismatch_rc-match
+1036	10	0	The	Antecedent	refl-mismatch_rc-match
+1037	10	1	carpenter	Antecedent	refl-mismatch_rc-match
+1038	10	2	who	Relative Clause	refl-mismatch_rc-match
+1039	10	3	worked	Relative Clause	refl-mismatch_rc-match
+1040	10	4	with	Relative Clause	refl-mismatch_rc-match
+1041	10	5	the	RC Object Match	refl-mismatch_rc-match
+1042	10	6	president	RC Object Match	refl-mismatch_rc-match
+1043	10	7	had	Matrix Clause	refl-mismatch_rc-match
+1044	10	8	taught	Matrix Clause	refl-mismatch_rc-match
+1045	10	9	herself	Reflexive Mismatch	refl-mismatch_rc-match
+1046	10	10	a	End	refl-mismatch_rc-match
+1047	10	11	new	End	refl-mismatch_rc-match
+1048	10	12	skill	End	refl-mismatch_rc-match
+1049	10	13	.	End	refl-mismatch_rc-match
+1050	10	14	<eos>	End	refl-mismatch_rc-match
+1051	11	0	The	Antecedent	refl-mismatch_rc-match
+1052	11	1	logger	Antecedent	refl-mismatch_rc-match
+1053	11	2	who	Relative Clause	refl-mismatch_rc-match
+1054	11	3	lived	Relative Clause	refl-mismatch_rc-match
+1055	11	4	next	Relative Clause	refl-mismatch_rc-match
+1056	11	5	to	Relative Clause	refl-mismatch_rc-match
+1057	11	6	the	RC Object Match	refl-mismatch_rc-match
+1058	11	7	logger	RC Object Match	refl-mismatch_rc-match
+1059	11	8	had	Matrix Clause	refl-mismatch_rc-match
+1060	11	9	introduced	Matrix Clause	refl-mismatch_rc-match
+1061	11	10	herself	Reflexive Mismatch	refl-mismatch_rc-match
+1062	11	11	to	End	refl-mismatch_rc-match
+1063	11	12	the	End	refl-mismatch_rc-match
+1064	11	13	new	End	refl-mismatch_rc-match
+1065	11	14	neighbors	End	refl-mismatch_rc-match
+1066	11	15	.	End	refl-mismatch_rc-match
+1067	11	16	<eos>	End	refl-mismatch_rc-match
+1068	12	0	The	Antecedent	refl-mismatch_rc-match
+1069	12	1	mechanic	Antecedent	refl-mismatch_rc-match
+1070	12	2	who	Relative Clause	refl-mismatch_rc-match
+1071	12	3	often	Relative Clause	refl-mismatch_rc-match
+1072	12	4	visited	Relative Clause	refl-mismatch_rc-match
+1073	12	5	the	RC Object Match	refl-mismatch_rc-match
+1074	12	6	carpenter	RC Object Match	refl-mismatch_rc-match
+1075	12	7	had	Matrix Clause	refl-mismatch_rc-match
+1076	12	8	enjoyed	Matrix Clause	refl-mismatch_rc-match
+1077	12	9	herself	Reflexive Mismatch	refl-mismatch_rc-match
+1078	12	10	at	End	refl-mismatch_rc-match
+1079	12	11	the	End	refl-mismatch_rc-match
+1080	12	12	movies	End	refl-mismatch_rc-match
+1081	12	13	.	End	refl-mismatch_rc-match
+1082	12	14	<eos>	End	refl-mismatch_rc-match
+1083	13	0	The	Antecedent	refl-mismatch_rc-match
+1084	13	1	taxi	Antecedent	refl-mismatch_rc-match
+1085	13	2	driver	Antecedent	refl-mismatch_rc-match
+1086	13	3	who	Relative Clause	refl-mismatch_rc-match
+1087	13	4	frequently	Relative Clause	refl-mismatch_rc-match
+1088	13	5	drove	Relative Clause	refl-mismatch_rc-match
+1089	13	6	the	RC Object Match	refl-mismatch_rc-match
+1090	13	7	electrician	RC Object Match	refl-mismatch_rc-match
+1091	13	8	had	Matrix Clause	refl-mismatch_rc-match
+1092	13	9	prepared	Matrix Clause	refl-mismatch_rc-match
+1093	13	10	herself	Reflexive Mismatch	refl-mismatch_rc-match
+1094	13	11	for	End	refl-mismatch_rc-match
+1095	13	12	the	End	refl-mismatch_rc-match
+1096	13	13	busy	End	refl-mismatch_rc-match
+1097	13	14	day	End	refl-mismatch_rc-match
+1098	13	15	.	End	refl-mismatch_rc-match
+1099	13	16	<eos>	End	refl-mismatch_rc-match
+1100	14	0	The	Antecedent	refl-mismatch_rc-match
+1101	14	1	soldier	Antecedent	refl-mismatch_rc-match
+1102	14	2	who	Relative Clause	refl-mismatch_rc-match
+1103	14	3	fought	Relative Clause	refl-mismatch_rc-match
+1104	14	4	alongside	Relative Clause	refl-mismatch_rc-match
+1105	14	5	the	RC Object Match	refl-mismatch_rc-match
+1106	14	6	truck	RC Object Match	refl-mismatch_rc-match
+1107	14	7	driver	RC Object Match	refl-mismatch_rc-match
+1108	14	8	had	Matrix Clause	refl-mismatch_rc-match
+1109	14	9	strained	Matrix Clause	refl-mismatch_rc-match
+1110	14	10	herself	Reflexive Mismatch	refl-mismatch_rc-match
+1111	14	11	during	End	refl-mismatch_rc-match
+1112	14	12	training	End	refl-mismatch_rc-match
+1113	14	13	.	End	refl-mismatch_rc-match
+1114	14	14	<eos>	End	refl-mismatch_rc-match
+1115	15	0	The	Antecedent	refl-mismatch_rc-match
+1116	15	1	pilot	Antecedent	refl-mismatch_rc-match
+1117	15	2	who	Relative Clause	refl-mismatch_rc-match
+1118	15	3	travelled	Relative Clause	refl-mismatch_rc-match
+1119	15	4	with	Relative Clause	refl-mismatch_rc-match
+1120	15	5	the	RC Object Match	refl-mismatch_rc-match
+1121	15	6	mason	RC Object Match	refl-mismatch_rc-match
+1122	15	7	had	Matrix Clause	refl-mismatch_rc-match
+1123	15	8	enjoyed	Matrix Clause	refl-mismatch_rc-match
+1124	15	9	herself	Reflexive Mismatch	refl-mismatch_rc-match
+1125	15	10	in	End	refl-mismatch_rc-match
+1126	15	11	the	End	refl-mismatch_rc-match
+1127	15	12	foreign	End	refl-mismatch_rc-match
+1128	15	13	city	End	refl-mismatch_rc-match
+1129	15	14	.	End	refl-mismatch_rc-match
+1130	15	15	<eos>	End	refl-mismatch_rc-match
+1131	16	0	The	Antecedent	refl-mismatch_rc-match
+1132	16	1	plumber	Antecedent	refl-mismatch_rc-match
+1133	16	2	who	Relative Clause	refl-mismatch_rc-match
+1134	16	3	helped	Relative Clause	refl-mismatch_rc-match
+1135	16	4	the	RC Object Match	refl-mismatch_rc-match
+1136	16	5	lumberjack	RC Object Match	refl-mismatch_rc-match
+1137	16	6	had	Matrix Clause	refl-mismatch_rc-match
+1138	16	7	hurt	Matrix Clause	refl-mismatch_rc-match
+1139	16	8	herself	Reflexive Mismatch	refl-mismatch_rc-match
+1140	16	9	.	End	refl-mismatch_rc-match
+1141	16	10	<eos>	End	refl-mismatch_rc-match
+1142	17	0	The	Antecedent	refl-mismatch_rc-match
+1143	17	1	sergeant	Antecedent	refl-mismatch_rc-match
+1144	17	2	who	Relative Clause	refl-mismatch_rc-match
+1145	17	3	commanded	Relative Clause	refl-mismatch_rc-match
+1146	17	4	the	RC Object Match	refl-mismatch_rc-match
+1147	17	5	quarterback	RC Object Match	refl-mismatch_rc-match
+1148	17	6	had	Matrix Clause	refl-mismatch_rc-match
+1149	17	7	shouted	Matrix Clause	refl-mismatch_rc-match
+1150	17	8	herself	Reflexive Mismatch	refl-mismatch_rc-match
+1151	17	9	hoarse	End	refl-mismatch_rc-match
+1152	17	10	.	End	refl-mismatch_rc-match
+1153	17	11	<eos>	End	refl-mismatch_rc-match
+1154	18	0	The	Antecedent	refl-mismatch_rc-match
+1155	18	1	secretary	Antecedent	refl-mismatch_rc-match
+1156	18	2	who	Relative Clause	refl-mismatch_rc-match
+1157	18	3	worked	Relative Clause	refl-mismatch_rc-match
+1158	18	4	for	Relative Clause	refl-mismatch_rc-match
+1159	18	5	the	RC Object Match	refl-mismatch_rc-match
+1160	18	6	stylist	RC Object Match	refl-mismatch_rc-match
+1161	18	7	had	Matrix Clause	refl-mismatch_rc-match
+1162	18	8	busied	Matrix Clause	refl-mismatch_rc-match
+1163	18	9	himself	Reflexive Mismatch	refl-mismatch_rc-match
+1164	18	10	with	End	refl-mismatch_rc-match
+1165	18	11	work	End	refl-mismatch_rc-match
+1166	18	12	.	End	refl-mismatch_rc-match
+1167	18	13	<eos>	End	refl-mismatch_rc-match
+1168	19	0	The	Antecedent	refl-mismatch_rc-match
+1169	19	1	teacher	Antecedent	refl-mismatch_rc-match
+1170	19	2	who	Relative Clause	refl-mismatch_rc-match
+1171	19	3	taught	Relative Clause	refl-mismatch_rc-match
+1172	19	4	the	RC Object Match	refl-mismatch_rc-match
+1173	19	5	flight	RC Object Match	refl-mismatch_rc-match
+1174	19	6	attendant	RC Object Match	refl-mismatch_rc-match
+1175	19	7	had	Matrix Clause	refl-mismatch_rc-match
+1176	19	8	introduced	Matrix Clause	refl-mismatch_rc-match
+1177	19	9	himself	Reflexive Mismatch	refl-mismatch_rc-match
+1178	19	10	to	End	refl-mismatch_rc-match
+1179	19	11	the	End	refl-mismatch_rc-match
+1180	19	12	new	End	refl-mismatch_rc-match
+1181	19	13	principal	End	refl-mismatch_rc-match
+1182	19	14	.	End	refl-mismatch_rc-match
+1183	19	15	<eos>	End	refl-mismatch_rc-match
+1184	20	0	The	Antecedent	refl-mismatch_rc-match
+1185	20	1	hairdresser	Antecedent	refl-mismatch_rc-match
+1186	20	2	who	Relative Clause	refl-mismatch_rc-match
+1187	20	3	gossiped	Relative Clause	refl-mismatch_rc-match
+1188	20	4	with	Relative Clause	refl-mismatch_rc-match
+1189	20	5	the	RC Object Match	refl-mismatch_rc-match
+1190	20	6	dietitian	RC Object Match	refl-mismatch_rc-match
+1191	20	7	had	Matrix Clause	refl-mismatch_rc-match
+1192	20	8	washed	Matrix Clause	refl-mismatch_rc-match
+1193	20	9	himself	Reflexive Mismatch	refl-mismatch_rc-match
+1194	20	10	meticulously	End	refl-mismatch_rc-match
+1195	20	11	.	End	refl-mismatch_rc-match
+1196	20	12	<eos>	End	refl-mismatch_rc-match
+1197	21	0	The	Antecedent	refl-mismatch_rc-match
+1198	21	1	beautician	Antecedent	refl-mismatch_rc-match
+1199	21	2	who	Relative Clause	refl-mismatch_rc-match
+1200	21	3	liked	Relative Clause	refl-mismatch_rc-match
+1201	21	4	the	RC Object Match	refl-mismatch_rc-match
+1202	21	5	maid	RC Object Match	refl-mismatch_rc-match
+1203	21	6	had	Matrix Clause	refl-mismatch_rc-match
+1204	21	7	distinguished	Matrix Clause	refl-mismatch_rc-match
+1205	21	8	himself	Reflexive Mismatch	refl-mismatch_rc-match
+1206	21	9	with	End	refl-mismatch_rc-match
+1207	21	10	fine	End	refl-mismatch_rc-match
+1208	21	11	work	End	refl-mismatch_rc-match
+1209	21	12	.	End	refl-mismatch_rc-match
+1210	21	13	<eos>	End	refl-mismatch_rc-match
+1211	22	0	The	Antecedent	refl-mismatch_rc-match
+1212	22	1	librarian	Antecedent	refl-mismatch_rc-match
+1213	22	2	who	Relative Clause	refl-mismatch_rc-match
+1214	22	3	often	Relative Clause	refl-mismatch_rc-match
+1215	22	4	helped	Relative Clause	refl-mismatch_rc-match
+1216	22	5	the	RC Object Match	refl-mismatch_rc-match
+1217	22	6	beautician	RC Object Match	refl-mismatch_rc-match
+1218	22	7	had	Matrix Clause	refl-mismatch_rc-match
+1219	22	8	asserted	Matrix Clause	refl-mismatch_rc-match
+1220	22	9	himself	Reflexive Mismatch	refl-mismatch_rc-match
+1221	22	10	at	End	refl-mismatch_rc-match
+1222	22	11	the	End	refl-mismatch_rc-match
+1223	22	12	meeting	End	refl-mismatch_rc-match
+1224	22	13	.	End	refl-mismatch_rc-match
+1225	22	14	<eos>	End	refl-mismatch_rc-match
+1226	23	0	The	Antecedent	refl-mismatch_rc-match
+1227	23	1	maid	Antecedent	refl-mismatch_rc-match
+1228	23	2	who	Relative Clause	refl-mismatch_rc-match
+1229	23	3	cleaned	Relative Clause	refl-mismatch_rc-match
+1230	23	4	up	Relative Clause	refl-mismatch_rc-match
+1231	23	5	after	Relative Clause	refl-mismatch_rc-match
+1232	23	6	the	RC Object Match	refl-mismatch_rc-match
+1233	23	7	librarian	RC Object Match	refl-mismatch_rc-match
+1234	23	8	had	Matrix Clause	refl-mismatch_rc-match
+1235	23	9	exerted	Matrix Clause	refl-mismatch_rc-match
+1236	23	10	himself	Reflexive Mismatch	refl-mismatch_rc-match
+1237	23	11	on	End	refl-mismatch_rc-match
+1238	23	12	the	End	refl-mismatch_rc-match
+1239	23	13	job	End	refl-mismatch_rc-match
+1240	23	14	.	End	refl-mismatch_rc-match
+1241	23	15	<eos>	End	refl-mismatch_rc-match
+1242	24	0	The	Antecedent	refl-mismatch_rc-match
+1243	24	1	dietitian	Antecedent	refl-mismatch_rc-match
+1244	24	2	who	Relative Clause	refl-mismatch_rc-match
+1245	24	3	treated	Relative Clause	refl-mismatch_rc-match
+1246	24	4	the	RC Object Match	refl-mismatch_rc-match
+1247	24	5	hairdresser	RC Object Match	refl-mismatch_rc-match
+1248	24	6	had	Matrix Clause	refl-mismatch_rc-match
+1249	24	7	convinced	Matrix Clause	refl-mismatch_rc-match
+1250	24	8	himself	Reflexive Mismatch	refl-mismatch_rc-match
+1251	24	9	to	End	refl-mismatch_rc-match
+1252	24	10	move	End	refl-mismatch_rc-match
+1253	24	11	.	End	refl-mismatch_rc-match
+1254	24	12	<eos>	End	refl-mismatch_rc-match
+1255	25	0	The	Antecedent	refl-mismatch_rc-match
+1256	25	1	flight	Antecedent	refl-mismatch_rc-match
+1257	25	2	attendant	Antecedent	refl-mismatch_rc-match
+1258	25	3	who	Relative Clause	refl-mismatch_rc-match
+1259	25	4	gave	Relative Clause	refl-mismatch_rc-match
+1260	25	5	a	Relative Clause	refl-mismatch_rc-match
+1261	25	6	drink	Relative Clause	refl-mismatch_rc-match
+1262	25	7	to	Relative Clause	refl-mismatch_rc-match
+1263	25	8	the	RC Object Match	refl-mismatch_rc-match
+1264	25	9	teacher	RC Object Match	refl-mismatch_rc-match
+1265	25	10	kicked	Matrix Clause	refl-mismatch_rc-match
+1266	25	11	himself	Reflexive Mismatch	refl-mismatch_rc-match
+1267	25	12	for	End	refl-mismatch_rc-match
+1268	25	13	not	End	refl-mismatch_rc-match
+1269	25	14	taking	End	refl-mismatch_rc-match
+1270	25	15	the	End	refl-mismatch_rc-match
+1271	25	16	day	End	refl-mismatch_rc-match
+1272	25	17	off	End	refl-mismatch_rc-match
+1273	25	18	.	End	refl-mismatch_rc-match
+1274	25	19	<eos>	End	refl-mismatch_rc-match
+1275	26	0	The	Antecedent	refl-mismatch_rc-match
+1276	26	1	stylist	Antecedent	refl-mismatch_rc-match
+1277	26	2	who	Relative Clause	refl-mismatch_rc-match
+1278	26	3	talked	Relative Clause	refl-mismatch_rc-match
+1279	26	4	with	Relative Clause	refl-mismatch_rc-match
+1280	26	5	the	RC Object Match	refl-mismatch_rc-match
+1281	26	6	secretary	RC Object Match	refl-mismatch_rc-match
+1282	26	7	looked	Matrix Clause	refl-mismatch_rc-match
+1283	26	8	at	Matrix Clause	refl-mismatch_rc-match
+1284	26	9	himself	Reflexive Mismatch	refl-mismatch_rc-match
+1285	26	10	in	End	refl-mismatch_rc-match
+1286	26	11	the	End	refl-mismatch_rc-match
+1287	26	12	mirror	End	refl-mismatch_rc-match
+1288	26	13	.	End	refl-mismatch_rc-match
+1289	26	14	<eos>	End	refl-mismatch_rc-match
+1290	27	0	The	Antecedent	refl-mismatch_rc-match
+1291	27	1	administrative	Antecedent	refl-mismatch_rc-match
+1292	27	2	assistant	Antecedent	refl-mismatch_rc-match
+1293	27	3	who	Relative Clause	refl-mismatch_rc-match
+1294	27	4	contacted	Relative Clause	refl-mismatch_rc-match
+1295	27	5	the	RC Object Match	refl-mismatch_rc-match
+1296	27	6	nurse	RC Object Match	refl-mismatch_rc-match
+1297	27	7	drafted	Matrix Clause	refl-mismatch_rc-match
+1298	27	8	an	Matrix Clause	refl-mismatch_rc-match
+1299	27	9	email	Matrix Clause	refl-mismatch_rc-match
+1300	27	10	to	Matrix Clause	refl-mismatch_rc-match
+1301	27	11	himself	Reflexive Mismatch	refl-mismatch_rc-match
+1302	27	12	.	End	refl-mismatch_rc-match
+1303	27	13	<eos>	End	refl-mismatch_rc-match
+1304	28	0	The	Antecedent	refl-mismatch_rc-match
+1305	28	1	typist	Antecedent	refl-mismatch_rc-match
+1306	28	2	who	Relative Clause	refl-mismatch_rc-match
+1307	28	3	collaborated	Relative Clause	refl-mismatch_rc-match
+1308	28	4	with	Relative Clause	refl-mismatch_rc-match
+1309	28	5	the	RC Object Match	refl-mismatch_rc-match
+1310	28	6	receptionist	RC Object Match	refl-mismatch_rc-match
+1311	28	7	had	Matrix Clause	refl-mismatch_rc-match
+1312	28	8	convinced	Matrix Clause	refl-mismatch_rc-match
+1313	28	9	himself	Reflexive Mismatch	refl-mismatch_rc-match
+1314	28	10	to	End	refl-mismatch_rc-match
+1315	28	11	take	End	refl-mismatch_rc-match
+1316	28	12	the	End	refl-mismatch_rc-match
+1317	28	13	job	End	refl-mismatch_rc-match
+1318	28	14	.	End	refl-mismatch_rc-match
+1319	28	15	<eos>	End	refl-mismatch_rc-match
+1320	29	0	The	Antecedent	refl-mismatch_rc-match
+1321	29	1	hygienist	Antecedent	refl-mismatch_rc-match
+1322	29	2	who	Relative Clause	refl-mismatch_rc-match
+1323	29	3	met	Relative Clause	refl-mismatch_rc-match
+1324	29	4	with	Relative Clause	refl-mismatch_rc-match
+1325	29	5	the	RC Object Match	refl-mismatch_rc-match
+1326	29	6	cheerleader	RC Object Match	refl-mismatch_rc-match
+1327	29	7	saw	Matrix Clause	refl-mismatch_rc-match
+1328	29	8	himself	Reflexive Mismatch	refl-mismatch_rc-match
+1329	29	9	reflected	End	refl-mismatch_rc-match
+1330	29	10	in	End	refl-mismatch_rc-match
+1331	29	11	the	End	refl-mismatch_rc-match
+1332	29	12	glass	End	refl-mismatch_rc-match
+1333	29	13	.	End	refl-mismatch_rc-match
+1334	29	14	<eos>	End	refl-mismatch_rc-match
+1335	0	0	The	Antecedent	refl-mismatch_rc-mismatch
+1336	0	1	surgeon	Antecedent	refl-mismatch_rc-mismatch
+1337	0	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1338	0	3	treated	Relative Clause	refl-mismatch_rc-mismatch
+1339	0	4	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1340	0	5	hygensit	RC Object Mismatch	refl-mismatch_rc-mismatch
+1341	0	6	had	Matrix Clause	refl-mismatch_rc-mismatch
+1342	0	7	pricked	Matrix Clause	refl-mismatch_rc-mismatch
+1343	0	8	herself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1344	0	9	.	End	refl-mismatch_rc-mismatch
+1345	0	10	<eos>	End	refl-mismatch_rc-mismatch
+1346	1	0	The	Antecedent	refl-mismatch_rc-mismatch
+1347	1	1	cheerleader	Antecedent	refl-mismatch_rc-mismatch
+1348	1	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1349	1	3	telephoned	Relative Clause	refl-mismatch_rc-mismatch
+1350	1	4	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1351	1	5	sergeant	RC Object Mismatch	refl-mismatch_rc-mismatch
+1352	1	6	had	Matrix Clause	refl-mismatch_rc-mismatch
+1353	1	7	admired	Matrix Clause	refl-mismatch_rc-mismatch
+1354	1	8	himself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1355	1	9	in	End	refl-mismatch_rc-mismatch
+1356	1	10	the	End	refl-mismatch_rc-mismatch
+1357	1	11	mirror	End	refl-mismatch_rc-mismatch
+1358	1	12	.	End	refl-mismatch_rc-mismatch
+1359	1	13	<eos>	End	refl-mismatch_rc-mismatch
+1360	2	0	The	Antecedent	refl-mismatch_rc-mismatch
+1361	2	1	receptionist	Antecedent	refl-mismatch_rc-mismatch
+1362	2	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1363	2	3	wrote	Relative Clause	refl-mismatch_rc-mismatch
+1364	2	4	a	Relative Clause	refl-mismatch_rc-mismatch
+1365	2	5	letter	Relative Clause	refl-mismatch_rc-mismatch
+1366	2	6	to	Relative Clause	refl-mismatch_rc-mismatch
+1367	2	7	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1368	2	8	plumber	RC Object Mismatch	refl-mismatch_rc-mismatch
+1369	2	9	wrote	Matrix Clause	refl-mismatch_rc-mismatch
+1370	2	10	a	Matrix Clause	refl-mismatch_rc-mismatch
+1371	2	11	memo	Matrix Clause	refl-mismatch_rc-mismatch
+1372	2	12	to	Matrix Clause	refl-mismatch_rc-mismatch
+1373	2	13	himself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1374	2	14	.	End	refl-mismatch_rc-mismatch
+1375	2	15	<eos>	End	refl-mismatch_rc-mismatch
+1376	3	0	The	Antecedent	refl-mismatch_rc-mismatch
+1377	3	1	nurse	Antecedent	refl-mismatch_rc-mismatch
+1378	3	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1379	3	3	spoke	Relative Clause	refl-mismatch_rc-mismatch
+1380	3	4	with	Relative Clause	refl-mismatch_rc-mismatch
+1381	3	5	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1382	3	6	pilot	RC Object Mismatch	refl-mismatch_rc-mismatch
+1383	3	7	wrote	Matrix Clause	refl-mismatch_rc-mismatch
+1384	3	8	a	Matrix Clause	refl-mismatch_rc-mismatch
+1385	3	9	note	Matrix Clause	refl-mismatch_rc-mismatch
+1386	3	10	to	Matrix Clause	refl-mismatch_rc-mismatch
+1387	3	11	himself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1388	3	12	.	End	refl-mismatch_rc-mismatch
+1389	3	13	<eos>	End	refl-mismatch_rc-mismatch
+1390	4	0	The	Antecedent	refl-mismatch_rc-mismatch
+1391	4	1	quarterback	Antecedent	refl-mismatch_rc-mismatch
+1392	4	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1393	4	3	trusted	Relative Clause	refl-mismatch_rc-mismatch
+1394	4	4	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1395	4	5	typist	RC Object Mismatch	refl-mismatch_rc-mismatch
+1396	4	6	had	Matrix Clause	refl-mismatch_rc-mismatch
+1397	4	7	pinched	Matrix Clause	refl-mismatch_rc-mismatch
+1398	4	8	herself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1399	4	9	.	End	refl-mismatch_rc-mismatch
+1400	4	10	<eos>	End	refl-mismatch_rc-mismatch
+1401	5	0	The	Antecedent	refl-mismatch_rc-mismatch
+1402	5	1	president	Antecedent	refl-mismatch_rc-mismatch
+1403	5	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1404	5	3	admired	Relative Clause	refl-mismatch_rc-mismatch
+1405	5	4	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1406	5	5	administrative	RC Object Mismatch	refl-mismatch_rc-mismatch
+1407	5	6	assisstant	RC Object Mismatch	refl-mismatch_rc-mismatch
+1408	5	7	had	Matrix Clause	refl-mismatch_rc-mismatch
+1409	5	8	blamed	Matrix Clause	refl-mismatch_rc-mismatch
+1410	5	9	herself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1411	5	10	for	End	refl-mismatch_rc-mismatch
+1412	5	11	the	End	refl-mismatch_rc-mismatch
+1413	5	12	economic	End	refl-mismatch_rc-mismatch
+1414	5	13	downturn	End	refl-mismatch_rc-mismatch
+1415	5	14	.	End	refl-mismatch_rc-mismatch
+1416	5	15	<eos>	End	refl-mismatch_rc-mismatch
+1417	6	0	The	Antecedent	refl-mismatch_rc-mismatch
+1418	6	1	lumberjack	Antecedent	refl-mismatch_rc-mismatch
+1419	6	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1420	6	3	was	Relative Clause	refl-mismatch_rc-mismatch
+1421	6	4	related	Relative Clause	refl-mismatch_rc-mismatch
+1422	6	5	to	Relative Clause	refl-mismatch_rc-mismatch
+1423	6	6	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1424	6	7	stylist	RC Object Mismatch	refl-mismatch_rc-mismatch
+1425	6	8	had	Matrix Clause	refl-mismatch_rc-mismatch
+1426	6	9	cut	Matrix Clause	refl-mismatch_rc-mismatch
+1427	6	10	herself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1428	6	11	.	End	refl-mismatch_rc-mismatch
+1429	6	12	<eos>	End	refl-mismatch_rc-mismatch
+1430	7	0	The	Antecedent	refl-mismatch_rc-mismatch
+1431	7	1	mason	Antecedent	refl-mismatch_rc-mismatch
+1432	7	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1433	7	3	had	Relative Clause	refl-mismatch_rc-mismatch
+1434	7	4	never	Relative Clause	refl-mismatch_rc-mismatch
+1435	7	5	met	Relative Clause	refl-mismatch_rc-mismatch
+1436	7	6	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1437	7	7	flight	RC Object Mismatch	refl-mismatch_rc-mismatch
+1438	7	8	attendant	RC Object Mismatch	refl-mismatch_rc-mismatch
+1439	7	9	had	Matrix Clause	refl-mismatch_rc-mismatch
+1440	7	10	busied	Matrix Clause	refl-mismatch_rc-mismatch
+1441	7	11	herself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1442	7	12	with	End	refl-mismatch_rc-mismatch
+1443	7	13	the	End	refl-mismatch_rc-mismatch
+1444	7	14	new	End	refl-mismatch_rc-mismatch
+1445	7	15	project	End	refl-mismatch_rc-mismatch
+1446	7	16	.	End	refl-mismatch_rc-mismatch
+1447	7	17	<eos>	End	refl-mismatch_rc-mismatch
+1448	8	0	The	Antecedent	refl-mismatch_rc-mismatch
+1449	8	1	truck	Antecedent	refl-mismatch_rc-mismatch
+1450	8	2	driver	Antecedent	refl-mismatch_rc-mismatch
+1451	8	3	who	Relative Clause	refl-mismatch_rc-mismatch
+1452	8	4	loved	Relative Clause	refl-mismatch_rc-mismatch
+1453	8	5	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1454	8	6	dietitian	RC Object Mismatch	refl-mismatch_rc-mismatch
+1455	8	7	had	Matrix Clause	refl-mismatch_rc-mismatch
+1456	8	8	amused	Matrix Clause	refl-mismatch_rc-mismatch
+1457	8	9	herself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1458	8	10	with	End	refl-mismatch_rc-mismatch
+1459	8	11	books	End	refl-mismatch_rc-mismatch
+1460	8	12	on	End	refl-mismatch_rc-mismatch
+1461	8	13	tape	End	refl-mismatch_rc-mismatch
+1462	8	14	.	End	refl-mismatch_rc-mismatch
+1463	8	15	<eos>	End	refl-mismatch_rc-mismatch
+1464	9	0	The	Antecedent	refl-mismatch_rc-mismatch
+1465	9	1	electrician	Antecedent	refl-mismatch_rc-mismatch
+1466	9	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1467	9	3	had	Relative Clause	refl-mismatch_rc-mismatch
+1468	9	4	just	Relative Clause	refl-mismatch_rc-mismatch
+1469	9	5	met	Relative Clause	refl-mismatch_rc-mismatch
+1470	9	6	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1471	9	7	maid	RC Object Mismatch	refl-mismatch_rc-mismatch
+1472	9	8	had	Matrix Clause	refl-mismatch_rc-mismatch
+1473	9	9	hurt	Matrix Clause	refl-mismatch_rc-mismatch
+1474	9	10	herself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1475	9	11	while	End	refl-mismatch_rc-mismatch
+1476	9	12	on	End	refl-mismatch_rc-mismatch
+1477	9	13	the	End	refl-mismatch_rc-mismatch
+1478	9	14	job	End	refl-mismatch_rc-mismatch
+1479	9	15	.	End	refl-mismatch_rc-mismatch
+1480	9	16	<eos>	End	refl-mismatch_rc-mismatch
+1481	10	0	The	Antecedent	refl-mismatch_rc-mismatch
+1482	10	1	carpenter	Antecedent	refl-mismatch_rc-mismatch
+1483	10	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1484	10	3	worked	Relative Clause	refl-mismatch_rc-mismatch
+1485	10	4	with	Relative Clause	refl-mismatch_rc-mismatch
+1486	10	5	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1487	10	6	librarian	RC Object Mismatch	refl-mismatch_rc-mismatch
+1488	10	7	had	Matrix Clause	refl-mismatch_rc-mismatch
+1489	10	8	taught	Matrix Clause	refl-mismatch_rc-mismatch
+1490	10	9	herself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1491	10	10	a	End	refl-mismatch_rc-mismatch
+1492	10	11	new	End	refl-mismatch_rc-mismatch
+1493	10	12	skill	End	refl-mismatch_rc-mismatch
+1494	10	13	.	End	refl-mismatch_rc-mismatch
+1495	10	14	<eos>	End	refl-mismatch_rc-mismatch
+1496	11	0	The	Antecedent	refl-mismatch_rc-mismatch
+1497	11	1	logger	Antecedent	refl-mismatch_rc-mismatch
+1498	11	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1499	11	3	lived	Relative Clause	refl-mismatch_rc-mismatch
+1500	11	4	next	Relative Clause	refl-mismatch_rc-mismatch
+1501	11	5	to	Relative Clause	refl-mismatch_rc-mismatch
+1502	11	6	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1503	11	7	beautician	RC Object Mismatch	refl-mismatch_rc-mismatch
+1504	11	8	had	Matrix Clause	refl-mismatch_rc-mismatch
+1505	11	9	introduced	Matrix Clause	refl-mismatch_rc-mismatch
+1506	11	10	herself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1507	11	11	to	End	refl-mismatch_rc-mismatch
+1508	11	12	the	End	refl-mismatch_rc-mismatch
+1509	11	13	new	End	refl-mismatch_rc-mismatch
+1510	11	14	neighbors	End	refl-mismatch_rc-mismatch
+1511	11	15	.	End	refl-mismatch_rc-mismatch
+1512	11	16	<eos>	End	refl-mismatch_rc-mismatch
+1513	12	0	The	Antecedent	refl-mismatch_rc-mismatch
+1514	12	1	mechanic	Antecedent	refl-mismatch_rc-mismatch
+1515	12	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1516	12	3	often	Relative Clause	refl-mismatch_rc-mismatch
+1517	12	4	visited	Relative Clause	refl-mismatch_rc-mismatch
+1518	12	5	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1519	12	6	hairdresser	RC Object Mismatch	refl-mismatch_rc-mismatch
+1520	12	7	had	Matrix Clause	refl-mismatch_rc-mismatch
+1521	12	8	enjoyed	Matrix Clause	refl-mismatch_rc-mismatch
+1522	12	9	herself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1523	12	10	at	End	refl-mismatch_rc-mismatch
+1524	12	11	the	End	refl-mismatch_rc-mismatch
+1525	12	12	movies	End	refl-mismatch_rc-mismatch
+1526	12	13	.	End	refl-mismatch_rc-mismatch
+1527	12	14	<eos>	End	refl-mismatch_rc-mismatch
+1528	13	0	The	Antecedent	refl-mismatch_rc-mismatch
+1529	13	1	taxi	Antecedent	refl-mismatch_rc-mismatch
+1530	13	2	driver	Antecedent	refl-mismatch_rc-mismatch
+1531	13	3	who	Relative Clause	refl-mismatch_rc-mismatch
+1532	13	4	frequently	Relative Clause	refl-mismatch_rc-mismatch
+1533	13	5	drove	Relative Clause	refl-mismatch_rc-mismatch
+1534	13	6	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1535	13	7	teacher	RC Object Mismatch	refl-mismatch_rc-mismatch
+1536	13	8	had	Matrix Clause	refl-mismatch_rc-mismatch
+1537	13	9	prepared	Matrix Clause	refl-mismatch_rc-mismatch
+1538	13	10	herself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1539	13	11	for	End	refl-mismatch_rc-mismatch
+1540	13	12	the	End	refl-mismatch_rc-mismatch
+1541	13	13	busy	End	refl-mismatch_rc-mismatch
+1542	13	14	day	End	refl-mismatch_rc-mismatch
+1543	13	15	.	End	refl-mismatch_rc-mismatch
+1544	13	16	<eos>	End	refl-mismatch_rc-mismatch
+1545	14	0	The	Antecedent	refl-mismatch_rc-mismatch
+1546	14	1	soldier	Antecedent	refl-mismatch_rc-mismatch
+1547	14	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1548	14	3	fought	Relative Clause	refl-mismatch_rc-mismatch
+1549	14	4	alongside	Relative Clause	refl-mismatch_rc-mismatch
+1550	14	5	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1551	14	6	secretary	RC Object Mismatch	refl-mismatch_rc-mismatch
+1552	14	7	had	Matrix Clause	refl-mismatch_rc-mismatch
+1553	14	8	strained	Matrix Clause	refl-mismatch_rc-mismatch
+1554	14	9	herself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1555	14	10	during	End	refl-mismatch_rc-mismatch
+1556	14	11	training	End	refl-mismatch_rc-mismatch
+1557	14	12	.	End	refl-mismatch_rc-mismatch
+1558	14	13	<eos>	End	refl-mismatch_rc-mismatch
+1559	15	0	The	Antecedent	refl-mismatch_rc-mismatch
+1560	15	1	pilot	Antecedent	refl-mismatch_rc-mismatch
+1561	15	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1562	15	3	travelled	Relative Clause	refl-mismatch_rc-mismatch
+1563	15	4	with	Relative Clause	refl-mismatch_rc-mismatch
+1564	15	5	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1565	15	6	nurse	RC Object Mismatch	refl-mismatch_rc-mismatch
+1566	15	7	had	Matrix Clause	refl-mismatch_rc-mismatch
+1567	15	8	enjoyed	Matrix Clause	refl-mismatch_rc-mismatch
+1568	15	9	herself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1569	15	10	in	End	refl-mismatch_rc-mismatch
+1570	15	11	the	End	refl-mismatch_rc-mismatch
+1571	15	12	foreign	End	refl-mismatch_rc-mismatch
+1572	15	13	city	End	refl-mismatch_rc-mismatch
+1573	15	14	.	End	refl-mismatch_rc-mismatch
+1574	15	15	<eos>	End	refl-mismatch_rc-mismatch
+1575	16	0	The	Antecedent	refl-mismatch_rc-mismatch
+1576	16	1	plumber	Antecedent	refl-mismatch_rc-mismatch
+1577	16	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1578	16	3	helped	Relative Clause	refl-mismatch_rc-mismatch
+1579	16	4	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1580	16	5	receptionist	RC Object Mismatch	refl-mismatch_rc-mismatch
+1581	16	6	had	Matrix Clause	refl-mismatch_rc-mismatch
+1582	16	7	hurt	Matrix Clause	refl-mismatch_rc-mismatch
+1583	16	8	herself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1584	16	9	.	End	refl-mismatch_rc-mismatch
+1585	16	10	<eos>	End	refl-mismatch_rc-mismatch
+1586	17	0	The	Antecedent	refl-mismatch_rc-mismatch
+1587	17	1	sergeant	Antecedent	refl-mismatch_rc-mismatch
+1588	17	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1589	17	3	commanded	Relative Clause	refl-mismatch_rc-mismatch
+1590	17	4	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1591	17	5	chearleader	RC Object Mismatch	refl-mismatch_rc-mismatch
+1592	17	6	had	Matrix Clause	refl-mismatch_rc-mismatch
+1593	17	7	shouted	Matrix Clause	refl-mismatch_rc-mismatch
+1594	17	8	herself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1595	17	9	hoarse	End	refl-mismatch_rc-mismatch
+1596	17	10	.	End	refl-mismatch_rc-mismatch
+1597	17	11	<eos>	End	refl-mismatch_rc-mismatch
+1598	18	0	The	Antecedent	refl-mismatch_rc-mismatch
+1599	18	1	secretary	Antecedent	refl-mismatch_rc-mismatch
+1600	18	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1601	18	3	worked	Relative Clause	refl-mismatch_rc-mismatch
+1602	18	4	for	Relative Clause	refl-mismatch_rc-mismatch
+1603	18	5	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1604	18	6	soldier	RC Object Mismatch	refl-mismatch_rc-mismatch
+1605	18	7	had	Matrix Clause	refl-mismatch_rc-mismatch
+1606	18	8	busied	Matrix Clause	refl-mismatch_rc-mismatch
+1607	18	9	himself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1608	18	10	with	End	refl-mismatch_rc-mismatch
+1609	18	11	work	End	refl-mismatch_rc-mismatch
+1610	18	12	.	End	refl-mismatch_rc-mismatch
+1611	18	13	<eos>	End	refl-mismatch_rc-mismatch
+1612	19	0	The	Antecedent	refl-mismatch_rc-mismatch
+1613	19	1	teacher	Antecedent	refl-mismatch_rc-mismatch
+1614	19	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1615	19	3	taught	Relative Clause	refl-mismatch_rc-mismatch
+1616	19	4	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1617	19	5	taxi	RC Object Mismatch	refl-mismatch_rc-mismatch
+1618	19	6	driver	RC Object Mismatch	refl-mismatch_rc-mismatch
+1619	19	7	had	Matrix Clause	refl-mismatch_rc-mismatch
+1620	19	8	introduced	Matrix Clause	refl-mismatch_rc-mismatch
+1621	19	9	himself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1622	19	10	to	End	refl-mismatch_rc-mismatch
+1623	19	11	the	End	refl-mismatch_rc-mismatch
+1624	19	12	new	End	refl-mismatch_rc-mismatch
+1625	19	13	principal	End	refl-mismatch_rc-mismatch
+1626	19	14	.	End	refl-mismatch_rc-mismatch
+1627	19	15	<eos>	End	refl-mismatch_rc-mismatch
+1628	20	0	The	Antecedent	refl-mismatch_rc-mismatch
+1629	20	1	hairdresser	Antecedent	refl-mismatch_rc-mismatch
+1630	20	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1631	20	3	gossiped	Relative Clause	refl-mismatch_rc-mismatch
+1632	20	4	with	Relative Clause	refl-mismatch_rc-mismatch
+1633	20	5	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1634	20	6	mechanic	RC Object Mismatch	refl-mismatch_rc-mismatch
+1635	20	7	had	Matrix Clause	refl-mismatch_rc-mismatch
+1636	20	8	washed	Matrix Clause	refl-mismatch_rc-mismatch
+1637	20	9	himself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1638	20	10	meticulously	End	refl-mismatch_rc-mismatch
+1639	20	11	.	End	refl-mismatch_rc-mismatch
+1640	20	12	<eos>	End	refl-mismatch_rc-mismatch
+1641	21	0	The	Antecedent	refl-mismatch_rc-mismatch
+1642	21	1	beautician	Antecedent	refl-mismatch_rc-mismatch
+1643	21	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1644	21	3	liked	Relative Clause	refl-mismatch_rc-mismatch
+1645	21	4	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1646	21	5	logger	RC Object Mismatch	refl-mismatch_rc-mismatch
+1647	21	6	had	Matrix Clause	refl-mismatch_rc-mismatch
+1648	21	7	distinguished	Matrix Clause	refl-mismatch_rc-mismatch
+1649	21	8	himself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1650	21	9	with	End	refl-mismatch_rc-mismatch
+1651	21	10	fine	End	refl-mismatch_rc-mismatch
+1652	21	11	work	End	refl-mismatch_rc-mismatch
+1653	21	12	.	End	refl-mismatch_rc-mismatch
+1654	21	13	<eos>	End	refl-mismatch_rc-mismatch
+1655	22	0	The	Antecedent	refl-mismatch_rc-mismatch
+1656	22	1	librarian	Antecedent	refl-mismatch_rc-mismatch
+1657	22	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1658	22	3	often	Relative Clause	refl-mismatch_rc-mismatch
+1659	22	4	helped	Relative Clause	refl-mismatch_rc-mismatch
+1660	22	5	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1661	22	6	carpenter	RC Object Mismatch	refl-mismatch_rc-mismatch
+1662	22	7	had	Matrix Clause	refl-mismatch_rc-mismatch
+1663	22	8	asserted	Matrix Clause	refl-mismatch_rc-mismatch
+1664	22	9	himself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1665	22	10	at	End	refl-mismatch_rc-mismatch
+1666	22	11	the	End	refl-mismatch_rc-mismatch
+1667	22	12	meeting	End	refl-mismatch_rc-mismatch
+1668	22	13	.	End	refl-mismatch_rc-mismatch
+1669	22	14	<eos>	End	refl-mismatch_rc-mismatch
+1670	23	0	The	Antecedent	refl-mismatch_rc-mismatch
+1671	23	1	maid	Antecedent	refl-mismatch_rc-mismatch
+1672	23	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1673	23	3	cleaned	Relative Clause	refl-mismatch_rc-mismatch
+1674	23	4	up	Relative Clause	refl-mismatch_rc-mismatch
+1675	23	5	after	Relative Clause	refl-mismatch_rc-mismatch
+1676	23	6	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1677	23	7	electrician	RC Object Mismatch	refl-mismatch_rc-mismatch
+1678	23	8	had	Matrix Clause	refl-mismatch_rc-mismatch
+1679	23	9	exerted	Matrix Clause	refl-mismatch_rc-mismatch
+1680	23	10	himself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1681	23	11	on	End	refl-mismatch_rc-mismatch
+1682	23	12	the	End	refl-mismatch_rc-mismatch
+1683	23	13	job	End	refl-mismatch_rc-mismatch
+1684	23	14	.	End	refl-mismatch_rc-mismatch
+1685	23	15	<eos>	End	refl-mismatch_rc-mismatch
+1686	24	0	The	Antecedent	refl-mismatch_rc-mismatch
+1687	24	1	dietitian	Antecedent	refl-mismatch_rc-mismatch
+1688	24	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1689	24	3	treated	Relative Clause	refl-mismatch_rc-mismatch
+1690	24	4	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1691	24	5	truck	RC Object Mismatch	refl-mismatch_rc-mismatch
+1692	24	6	driver	RC Object Mismatch	refl-mismatch_rc-mismatch
+1693	24	7	had	Matrix Clause	refl-mismatch_rc-mismatch
+1694	24	8	convinced	Matrix Clause	refl-mismatch_rc-mismatch
+1695	24	9	himself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1696	24	10	to	End	refl-mismatch_rc-mismatch
+1697	24	11	move	End	refl-mismatch_rc-mismatch
+1698	24	12	.	End	refl-mismatch_rc-mismatch
+1699	24	13	<eos>	End	refl-mismatch_rc-mismatch
+1700	25	0	The	Antecedent	refl-mismatch_rc-mismatch
+1701	25	1	flight	Antecedent	refl-mismatch_rc-mismatch
+1702	25	2	attendant	Antecedent	refl-mismatch_rc-mismatch
+1703	25	3	who	Relative Clause	refl-mismatch_rc-mismatch
+1704	25	4	gave	Relative Clause	refl-mismatch_rc-mismatch
+1705	25	5	a	Relative Clause	refl-mismatch_rc-mismatch
+1706	25	6	drink	Relative Clause	refl-mismatch_rc-mismatch
+1707	25	7	to	Relative Clause	refl-mismatch_rc-mismatch
+1708	25	8	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1709	25	9	mason	RC Object Mismatch	refl-mismatch_rc-mismatch
+1710	25	10	kicked	Matrix Clause	refl-mismatch_rc-mismatch
+1711	25	11	himself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1712	25	12	for	End	refl-mismatch_rc-mismatch
+1713	25	13	not	End	refl-mismatch_rc-mismatch
+1714	25	14	taking	End	refl-mismatch_rc-mismatch
+1715	25	15	the	End	refl-mismatch_rc-mismatch
+1716	25	16	day	End	refl-mismatch_rc-mismatch
+1717	25	17	off	End	refl-mismatch_rc-mismatch
+1718	25	18	.	End	refl-mismatch_rc-mismatch
+1719	25	19	<eos>	End	refl-mismatch_rc-mismatch
+1720	26	0	The	Antecedent	refl-mismatch_rc-mismatch
+1721	26	1	stylist	Antecedent	refl-mismatch_rc-mismatch
+1722	26	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1723	26	3	talked	Relative Clause	refl-mismatch_rc-mismatch
+1724	26	4	with	Relative Clause	refl-mismatch_rc-mismatch
+1725	26	5	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1726	26	6	lumberjack	RC Object Mismatch	refl-mismatch_rc-mismatch
+1727	26	7	looked	Matrix Clause	refl-mismatch_rc-mismatch
+1728	26	8	at	Matrix Clause	refl-mismatch_rc-mismatch
+1729	26	9	himself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1730	26	10	in	End	refl-mismatch_rc-mismatch
+1731	26	11	the	End	refl-mismatch_rc-mismatch
+1732	26	12	mirror	End	refl-mismatch_rc-mismatch
+1733	26	13	.	End	refl-mismatch_rc-mismatch
+1734	26	14	<eos>	End	refl-mismatch_rc-mismatch
+1735	27	0	The	Antecedent	refl-mismatch_rc-mismatch
+1736	27	1	administrative	Antecedent	refl-mismatch_rc-mismatch
+1737	27	2	assistant	Antecedent	refl-mismatch_rc-mismatch
+1738	27	3	who	Relative Clause	refl-mismatch_rc-mismatch
+1739	27	4	contacted	Relative Clause	refl-mismatch_rc-mismatch
+1740	27	5	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1741	27	6	president	RC Object Mismatch	refl-mismatch_rc-mismatch
+1742	27	7	drafted	Matrix Clause	refl-mismatch_rc-mismatch
+1743	27	8	an	Matrix Clause	refl-mismatch_rc-mismatch
+1744	27	9	email	Matrix Clause	refl-mismatch_rc-mismatch
+1745	27	10	to	Matrix Clause	refl-mismatch_rc-mismatch
+1746	27	11	himself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1747	27	12	.	End	refl-mismatch_rc-mismatch
+1748	27	13	<eos>	End	refl-mismatch_rc-mismatch
+1749	28	0	The	Antecedent	refl-mismatch_rc-mismatch
+1750	28	1	typist	Antecedent	refl-mismatch_rc-mismatch
+1751	28	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1752	28	3	collaborated	Relative Clause	refl-mismatch_rc-mismatch
+1753	28	4	with	Relative Clause	refl-mismatch_rc-mismatch
+1754	28	5	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1755	28	6	quaterback	RC Object Mismatch	refl-mismatch_rc-mismatch
+1756	28	7	had	Matrix Clause	refl-mismatch_rc-mismatch
+1757	28	8	convinced	Matrix Clause	refl-mismatch_rc-mismatch
+1758	28	9	himself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1759	28	10	to	End	refl-mismatch_rc-mismatch
+1760	28	11	take	End	refl-mismatch_rc-mismatch
+1761	28	12	the	End	refl-mismatch_rc-mismatch
+1762	28	13	job	End	refl-mismatch_rc-mismatch
+1763	28	14	.	End	refl-mismatch_rc-mismatch
+1764	28	15	<eos>	End	refl-mismatch_rc-mismatch
+1765	29	0	The	Antecedent	refl-mismatch_rc-mismatch
+1766	29	1	hygienist	Antecedent	refl-mismatch_rc-mismatch
+1767	29	2	who	Relative Clause	refl-mismatch_rc-mismatch
+1768	29	3	met	Relative Clause	refl-mismatch_rc-mismatch
+1769	29	4	with	Relative Clause	refl-mismatch_rc-mismatch
+1770	29	5	the	RC Object Mismatch	refl-mismatch_rc-mismatch
+1771	29	6	surgeon	RC Object Mismatch	refl-mismatch_rc-mismatch
+1772	29	7	saw	Matrix Clause	refl-mismatch_rc-mismatch
+1773	29	8	himself	Reflexive Mismatch	refl-mismatch_rc-mismatch
+1774	29	9	reflected	End	refl-mismatch_rc-mismatch
+1775	29	10	in	End	refl-mismatch_rc-mismatch
+1776	29	11	the	End	refl-mismatch_rc-mismatch
+1777	29	12	glass	End	refl-mismatch_rc-mismatch
+1778	29	13	.	End	refl-mismatch_rc-mismatch
+1779	29	14	<eos>	End	refl-mismatch_rc-mismatch
+1780	0	0	The	Antecedent	refl-match
+1781	0	1	surgeon	Antecedent	refl-match
+1782	0	2	had	Matrix Clause	refl-match
+1783	0	3	pricked	Matrix Clause	refl-match
+1784	0	4	himself	Reflexive Match	refl-match
+1785	0	5	.	End	refl-match
+1786	0	6	<eos>	End	refl-match
+1787	1	0	The	Antecedent	refl-match
+1788	1	1	cheerleader	Antecedent	refl-match
+1789	1	2	had	Matrix Clause	refl-match
+1790	1	3	admired	Matrix Clause	refl-match
+1791	1	4	herself	Reflexive Match	refl-match
+1792	1	5	in	End	refl-match
+1793	1	6	the	End	refl-match
+1794	1	7	mirror	End	refl-match
+1795	1	8	.	End	refl-match
+1796	1	9	<eos>	End	refl-match
+1797	2	0	The	Antecedent	refl-match
+1798	2	1	receptionist	Antecedent	refl-match
+1799	2	2	wrote	Matrix Clause	refl-match
+1800	2	3	a	Matrix Clause	refl-match
+1801	2	4	memo	Matrix Clause	refl-match
+1802	2	5	to	Matrix Clause	refl-match
+1803	2	6	herself	Reflexive Match	refl-match
+1804	2	7	.	End	refl-match
+1805	2	8	<eos>	End	refl-match
+1806	3	0	The	Antecedent	refl-match
+1807	3	1	nurse	Antecedent	refl-match
+1808	3	2	wrote	Matrix Clause	refl-match
+1809	3	3	a	Matrix Clause	refl-match
+1810	3	4	note	Matrix Clause	refl-match
+1811	3	5	to	Matrix Clause	refl-match
+1812	3	6	herself	Reflexive Match	refl-match
+1813	3	7	.	End	refl-match
+1814	3	8	<eos>	End	refl-match
+1815	4	0	The	Antecedent	refl-match
+1816	4	1	quarterback	Antecedent	refl-match
+1817	4	2	had	Matrix Clause	refl-match
+1818	4	3	pinched	Matrix Clause	refl-match
+1819	4	4	himself	Reflexive Match	refl-match
+1820	4	5	.	End	refl-match
+1821	4	6	<eos>	End	refl-match
+1822	5	0	The	Antecedent	refl-match
+1823	5	1	president	Antecedent	refl-match
+1824	5	2	had	Matrix Clause	refl-match
+1825	5	3	blamed	Matrix Clause	refl-match
+1826	5	4	himself	Reflexive Match	refl-match
+1827	5	5	for	End	refl-match
+1828	5	6	the	End	refl-match
+1829	5	7	economic	End	refl-match
+1830	5	8	downturn	End	refl-match
+1831	5	9	.	End	refl-match
+1832	5	10	<eos>	End	refl-match
+1833	6	0	The	Antecedent	refl-match
+1834	6	1	lumberjack	Antecedent	refl-match
+1835	6	2	had	Matrix Clause	refl-match
+1836	6	3	cut	Matrix Clause	refl-match
+1837	6	4	himself	Reflexive Match	refl-match
+1838	6	5	.	End	refl-match
+1839	6	6	<eos>	End	refl-match
+1840	7	0	The	Antecedent	refl-match
+1841	7	1	mason	Antecedent	refl-match
+1842	7	2	had	Matrix Clause	refl-match
+1843	7	3	busied	Matrix Clause	refl-match
+1844	7	4	himself	Reflexive Match	refl-match
+1845	7	5	with	End	refl-match
+1846	7	6	the	End	refl-match
+1847	7	7	new	End	refl-match
+1848	7	8	project	End	refl-match
+1849	7	9	.	End	refl-match
+1850	7	10	<eos>	End	refl-match
+1851	8	0	The	Antecedent	refl-match
+1852	8	1	truck	Antecedent	refl-match
+1853	8	2	driver	Antecedent	refl-match
+1854	8	3	had	Matrix Clause	refl-match
+1855	8	4	amused	Matrix Clause	refl-match
+1856	8	5	himself	Reflexive Match	refl-match
+1857	8	6	with	End	refl-match
+1858	8	7	books	End	refl-match
+1859	8	8	on	End	refl-match
+1860	8	9	tape	End	refl-match
+1861	8	10	.	End	refl-match
+1862	8	11	<eos>	End	refl-match
+1863	9	0	The	Antecedent	refl-match
+1864	9	1	electrician	Antecedent	refl-match
+1865	9	2	had	Matrix Clause	refl-match
+1866	9	3	hurt	Matrix Clause	refl-match
+1867	9	4	himself	Reflexive Match	refl-match
+1868	9	5	while	End	refl-match
+1869	9	6	on	End	refl-match
+1870	9	7	the	End	refl-match
+1871	9	8	job	End	refl-match
+1872	9	9	.	End	refl-match
+1873	9	10	<eos>	End	refl-match
+1874	10	0	The	Antecedent	refl-match
+1875	10	1	carpenter	Antecedent	refl-match
+1876	10	2	had	Matrix Clause	refl-match
+1877	10	3	taught	Matrix Clause	refl-match
+1878	10	4	himself	Reflexive Match	refl-match
+1879	10	5	a	End	refl-match
+1880	10	6	new	End	refl-match
+1881	10	7	skill	End	refl-match
+1882	10	8	.	End	refl-match
+1883	10	9	<eos>	End	refl-match
+1884	11	0	The	Antecedent	refl-match
+1885	11	1	logger	Antecedent	refl-match
+1886	11	2	had	Matrix Clause	refl-match
+1887	11	3	introduced	Matrix Clause	refl-match
+1888	11	4	himself	Reflexive Match	refl-match
+1889	11	5	to	End	refl-match
+1890	11	6	the	End	refl-match
+1891	11	7	new	End	refl-match
+1892	11	8	neighbors	End	refl-match
+1893	11	9	.	End	refl-match
+1894	11	10	<eos>	End	refl-match
+1895	12	0	The	Antecedent	refl-match
+1896	12	1	mechanic	Antecedent	refl-match
+1897	12	2	had	Matrix Clause	refl-match
+1898	12	3	enjoyed	Matrix Clause	refl-match
+1899	12	4	himself	Reflexive Match	refl-match
+1900	12	5	at	End	refl-match
+1901	12	6	the	End	refl-match
+1902	12	7	movies	End	refl-match
+1903	12	8	.	End	refl-match
+1904	12	9	<eos>	End	refl-match
+1905	13	0	The	Antecedent	refl-match
+1906	13	1	taxi	Antecedent	refl-match
+1907	13	2	driver	Antecedent	refl-match
+1908	13	3	had	Matrix Clause	refl-match
+1909	13	4	prepared	Matrix Clause	refl-match
+1910	13	5	himself	Reflexive Match	refl-match
+1911	13	6	for	End	refl-match
+1912	13	7	the	End	refl-match
+1913	13	8	busy	End	refl-match
+1914	13	9	day	End	refl-match
+1915	13	10	.	End	refl-match
+1916	13	11	<eos>	End	refl-match
+1917	14	0	The	Antecedent	refl-match
+1918	14	1	soldier	Antecedent	refl-match
+1919	14	2	had	Matrix Clause	refl-match
+1920	14	3	strained	Matrix Clause	refl-match
+1921	14	4	himself	Reflexive Match	refl-match
+1922	14	5	during	End	refl-match
+1923	14	6	training	End	refl-match
+1924	14	7	.	End	refl-match
+1925	14	8	<eos>	End	refl-match
+1926	15	0	The	Antecedent	refl-match
+1927	15	1	pilot	Antecedent	refl-match
+1928	15	2	had	Matrix Clause	refl-match
+1929	15	3	enjoyed	Matrix Clause	refl-match
+1930	15	4	himself	Reflexive Match	refl-match
+1931	15	5	in	End	refl-match
+1932	15	6	the	End	refl-match
+1933	15	7	foreign	End	refl-match
+1934	15	8	city	End	refl-match
+1935	15	9	.	End	refl-match
+1936	15	10	<eos>	End	refl-match
+1937	16	0	The	Antecedent	refl-match
+1938	16	1	plumber	Antecedent	refl-match
+1939	16	2	had	Matrix Clause	refl-match
+1940	16	3	hurt	Matrix Clause	refl-match
+1941	16	4	himself	Reflexive Match	refl-match
+1942	16	5	.	End	refl-match
+1943	16	6	<eos>	End	refl-match
+1944	17	0	The	Antecedent	refl-match
+1945	17	1	sergeant	Antecedent	refl-match
+1946	17	2	had	Matrix Clause	refl-match
+1947	17	3	shouted	Matrix Clause	refl-match
+1948	17	4	himself	Reflexive Match	refl-match
+1949	17	5	hoarse	End	refl-match
+1950	17	6	.	End	refl-match
+1951	17	7	<eos>	End	refl-match
+1952	18	0	The	Antecedent	refl-match
+1953	18	1	secretary	Antecedent	refl-match
+1954	18	2	had	Matrix Clause	refl-match
+1955	18	3	busied	Matrix Clause	refl-match
+1956	18	4	herself	Reflexive Match	refl-match
+1957	18	5	with	End	refl-match
+1958	18	6	work	End	refl-match
+1959	18	7	.	End	refl-match
+1960	18	8	<eos>	End	refl-match
+1961	19	0	The	Antecedent	refl-match
+1962	19	1	teacher	Antecedent	refl-match
+1963	19	2	had	Matrix Clause	refl-match
+1964	19	3	introduced	Matrix Clause	refl-match
+1965	19	4	herself	Reflexive Match	refl-match
+1966	19	5	to	End	refl-match
+1967	19	6	the	End	refl-match
+1968	19	7	new	End	refl-match
+1969	19	8	principal	End	refl-match
+1970	19	9	.	End	refl-match
+1971	19	10	<eos>	End	refl-match
+1972	20	0	The	Antecedent	refl-match
+1973	20	1	hairdresser	Antecedent	refl-match
+1974	20	2	had	Matrix Clause	refl-match
+1975	20	3	washed	Matrix Clause	refl-match
+1976	20	4	herself	Reflexive Match	refl-match
+1977	20	5	meticulously	End	refl-match
+1978	20	6	.	End	refl-match
+1979	20	7	<eos>	End	refl-match
+1980	21	0	The	Antecedent	refl-match
+1981	21	1	beautician	Antecedent	refl-match
+1982	21	2	had	Matrix Clause	refl-match
+1983	21	3	distinguished	Matrix Clause	refl-match
+1984	21	4	herself	Reflexive Match	refl-match
+1985	21	5	with	End	refl-match
+1986	21	6	fine	End	refl-match
+1987	21	7	work	End	refl-match
+1988	21	8	.	End	refl-match
+1989	21	9	<eos>	End	refl-match
+1990	22	0	The	Antecedent	refl-match
+1991	22	1	librarian	Antecedent	refl-match
+1992	22	2	had	Matrix Clause	refl-match
+1993	22	3	asserted	Matrix Clause	refl-match
+1994	22	4	herself	Reflexive Match	refl-match
+1995	22	5	at	End	refl-match
+1996	22	6	the	End	refl-match
+1997	22	7	meeting	End	refl-match
+1998	22	8	.	End	refl-match
+1999	22	9	<eos>	End	refl-match
+2000	23	0	The	Antecedent	refl-match
+2001	23	1	maid	Antecedent	refl-match
+2002	23	2	had	Matrix Clause	refl-match
+2003	23	3	exerted	Matrix Clause	refl-match
+2004	23	4	herself	Reflexive Match	refl-match
+2005	23	5	on	End	refl-match
+2006	23	6	the	End	refl-match
+2007	23	7	job	End	refl-match
+2008	23	8	.	End	refl-match
+2009	23	9	<eos>	End	refl-match
+2010	24	0	The	Antecedent	refl-match
+2011	24	1	dietitian	Antecedent	refl-match
+2012	24	2	had	Matrix Clause	refl-match
+2013	24	3	convinced	Matrix Clause	refl-match
+2014	24	4	herself	Reflexive Match	refl-match
+2015	24	5	to	End	refl-match
+2016	24	6	move	End	refl-match
+2017	24	7	.	End	refl-match
+2018	24	8	<eos>	End	refl-match
+2019	25	0	The	Antecedent	refl-match
+2020	25	1	flight	Antecedent	refl-match
+2021	25	2	attendant	Antecedent	refl-match
+2022	25	3	kicked	Matrix Clause	refl-match
+2023	25	4	herself	Reflexive Match	refl-match
+2024	25	5	for	End	refl-match
+2025	25	6	not	End	refl-match
+2026	25	7	taking	End	refl-match
+2027	25	8	the	End	refl-match
+2028	25	9	day	End	refl-match
+2029	25	10	off	End	refl-match
+2030	25	11	.	End	refl-match
+2031	25	12	<eos>	End	refl-match
+2032	26	0	The	Antecedent	refl-match
+2033	26	1	stylist	Antecedent	refl-match
+2034	26	2	looked	Matrix Clause	refl-match
+2035	26	3	at	Matrix Clause	refl-match
+2036	26	4	herself	Reflexive Match	refl-match
+2037	26	5	in	End	refl-match
+2038	26	6	the	End	refl-match
+2039	26	7	mirror	End	refl-match
+2040	26	8	.	End	refl-match
+2041	26	9	<eos>	End	refl-match
+2042	27	0	The	Antecedent	refl-match
+2043	27	1	administrative	Antecedent	refl-match
+2044	27	2	assistant	Antecedent	refl-match
+2045	27	3	drafted	Matrix Clause	refl-match
+2046	27	4	an	Matrix Clause	refl-match
+2047	27	5	email	Matrix Clause	refl-match
+2048	27	6	to	Matrix Clause	refl-match
+2049	27	7	herself	Reflexive Match	refl-match
+2050	27	8	.	End	refl-match
+2051	27	9	<eos>	End	refl-match
+2052	28	0	The	Antecedent	refl-match
+2053	28	1	typist	Antecedent	refl-match
+2054	28	2	had	Matrix Clause	refl-match
+2055	28	3	convinced	Matrix Clause	refl-match
+2056	28	4	herself	Reflexive Match	refl-match
+2057	28	5	to	End	refl-match
+2058	28	6	take	End	refl-match
+2059	28	7	the	End	refl-match
+2060	28	8	job	End	refl-match
+2061	28	9	.	End	refl-match
+2062	28	10	<eos>	End	refl-match
+2063	29	0	The	Antecedent	refl-match
+2064	29	1	hygienist	Antecedent	refl-match
+2065	29	2	saw	Matrix Clause	refl-match
+2066	29	3	herself	Reflexive Match	refl-match
+2067	29	4	reflected	End	refl-match
+2068	29	5	in	End	refl-match
+2069	29	6	the	End	refl-match
+2070	29	7	glass	End	refl-match
+2071	29	8	.	End	refl-match
+2072	29	9	<eos>	End	refl-match
+2073	0	0	The	Antecedent	refl-mismatch
+2074	0	1	surgeon	Antecedent	refl-mismatch
+2075	0	2	had	Matrix Clause	refl-mismatch
+2076	0	3	pricked	Matrix Clause	refl-mismatch
+2077	0	4	herself	Reflexive Mismatch	refl-mismatch
+2078	0	5	.	End	refl-mismatch
+2079	0	6	<eos>	End	refl-mismatch
+2080	1	0	The	Antecedent	refl-mismatch
+2081	1	1	cheerleader	Antecedent	refl-mismatch
+2082	1	2	had	Matrix Clause	refl-mismatch
+2083	1	3	admired	Matrix Clause	refl-mismatch
+2084	1	4	himself	Reflexive Mismatch	refl-mismatch
+2085	1	5	in	End	refl-mismatch
+2086	1	6	the	End	refl-mismatch
+2087	1	7	mirror	End	refl-mismatch
+2088	1	8	.	End	refl-mismatch
+2089	1	9	<eos>	End	refl-mismatch
+2090	2	0	The	Antecedent	refl-mismatch
+2091	2	1	receptionist	Antecedent	refl-mismatch
+2092	2	2	wrote	Matrix Clause	refl-mismatch
+2093	2	3	a	Matrix Clause	refl-mismatch
+2094	2	4	memo	Matrix Clause	refl-mismatch
+2095	2	5	to	Matrix Clause	refl-mismatch
+2096	2	6	himself	Reflexive Mismatch	refl-mismatch
+2097	2	7	.	End	refl-mismatch
+2098	2	8	<eos>	End	refl-mismatch
+2099	3	0	The	Antecedent	refl-mismatch
+2100	3	1	nurse	Antecedent	refl-mismatch
+2101	3	2	wrote	Matrix Clause	refl-mismatch
+2102	3	3	a	Matrix Clause	refl-mismatch
+2103	3	4	note	Matrix Clause	refl-mismatch
+2104	3	5	to	Matrix Clause	refl-mismatch
+2105	3	6	himself	Reflexive Mismatch	refl-mismatch
+2106	3	7	.	End	refl-mismatch
+2107	3	8	<eos>	End	refl-mismatch
+2108	4	0	The	Antecedent	refl-mismatch
+2109	4	1	quarterback	Antecedent	refl-mismatch
+2110	4	2	had	Matrix Clause	refl-mismatch
+2111	4	3	pinched	Matrix Clause	refl-mismatch
+2112	4	4	herself	Reflexive Mismatch	refl-mismatch
+2113	4	5	.	End	refl-mismatch
+2114	4	6	<eos>	End	refl-mismatch
+2115	5	0	The	Antecedent	refl-mismatch
+2116	5	1	president	Antecedent	refl-mismatch
+2117	5	2	had	Matrix Clause	refl-mismatch
+2118	5	3	blamed	Matrix Clause	refl-mismatch
+2119	5	4	herself	Reflexive Mismatch	refl-mismatch
+2120	5	5	for	End	refl-mismatch
+2121	5	6	the	End	refl-mismatch
+2122	5	7	economic	End	refl-mismatch
+2123	5	8	downturn	End	refl-mismatch
+2124	5	9	.	End	refl-mismatch
+2125	5	10	<eos>	End	refl-mismatch
+2126	6	0	The	Antecedent	refl-mismatch
+2127	6	1	lumberjack	Antecedent	refl-mismatch
+2128	6	2	had	Matrix Clause	refl-mismatch
+2129	6	3	cut	Matrix Clause	refl-mismatch
+2130	6	4	herself	Reflexive Mismatch	refl-mismatch
+2131	6	5	.	End	refl-mismatch
+2132	6	6	<eos>	End	refl-mismatch
+2133	7	0	The	Antecedent	refl-mismatch
+2134	7	1	mason	Antecedent	refl-mismatch
+2135	7	2	had	Matrix Clause	refl-mismatch
+2136	7	3	busied	Matrix Clause	refl-mismatch
+2137	7	4	herself	Reflexive Mismatch	refl-mismatch
+2138	7	5	with	End	refl-mismatch
+2139	7	6	the	End	refl-mismatch
+2140	7	7	new	End	refl-mismatch
+2141	7	8	project	End	refl-mismatch
+2142	7	9	.	End	refl-mismatch
+2143	7	10	<eos>	End	refl-mismatch
+2144	8	0	The	Antecedent	refl-mismatch
+2145	8	1	truck	Antecedent	refl-mismatch
+2146	8	2	driver	Antecedent	refl-mismatch
+2147	8	3	had	Matrix Clause	refl-mismatch
+2148	8	4	amused	Matrix Clause	refl-mismatch
+2149	8	5	herself	Reflexive Mismatch	refl-mismatch
+2150	8	6	with	End	refl-mismatch
+2151	8	7	books	End	refl-mismatch
+2152	8	8	on	End	refl-mismatch
+2153	8	9	tape	End	refl-mismatch
+2154	8	10	.	End	refl-mismatch
+2155	8	11	<eos>	End	refl-mismatch
+2156	9	0	The	Antecedent	refl-mismatch
+2157	9	1	electrician	Antecedent	refl-mismatch
+2158	9	2	had	Matrix Clause	refl-mismatch
+2159	9	3	hurt	Matrix Clause	refl-mismatch
+2160	9	4	herself	Reflexive Mismatch	refl-mismatch
+2161	9	5	while	End	refl-mismatch
+2162	9	6	on	End	refl-mismatch
+2163	9	7	the	End	refl-mismatch
+2164	9	8	job	End	refl-mismatch
+2165	9	9	.	End	refl-mismatch
+2166	9	10	<eos>	End	refl-mismatch
+2167	10	0	The	Antecedent	refl-mismatch
+2168	10	1	carpenter	Antecedent	refl-mismatch
+2169	10	2	had	Matrix Clause	refl-mismatch
+2170	10	3	taught	Matrix Clause	refl-mismatch
+2171	10	4	herself	Reflexive Mismatch	refl-mismatch
+2172	10	5	a	End	refl-mismatch
+2173	10	6	new	End	refl-mismatch
+2174	10	7	skill	End	refl-mismatch
+2175	10	8	.	End	refl-mismatch
+2176	10	9	<eos>	End	refl-mismatch
+2177	11	0	The	Antecedent	refl-mismatch
+2178	11	1	logger	Antecedent	refl-mismatch
+2179	11	2	had	Matrix Clause	refl-mismatch
+2180	11	3	introduced	Matrix Clause	refl-mismatch
+2181	11	4	herself	Reflexive Mismatch	refl-mismatch
+2182	11	5	to	End	refl-mismatch
+2183	11	6	the	End	refl-mismatch
+2184	11	7	new	End	refl-mismatch
+2185	11	8	neighbors	End	refl-mismatch
+2186	11	9	.	End	refl-mismatch
+2187	11	10	<eos>	End	refl-mismatch
+2188	12	0	The	Antecedent	refl-mismatch
+2189	12	1	mechanic	Antecedent	refl-mismatch
+2190	12	2	had	Matrix Clause	refl-mismatch
+2191	12	3	enjoyed	Matrix Clause	refl-mismatch
+2192	12	4	herself	Reflexive Mismatch	refl-mismatch
+2193	12	5	at	End	refl-mismatch
+2194	12	6	the	End	refl-mismatch
+2195	12	7	movies	End	refl-mismatch
+2196	12	8	.	End	refl-mismatch
+2197	12	9	<eos>	End	refl-mismatch
+2198	13	0	The	Antecedent	refl-mismatch
+2199	13	1	taxi	Antecedent	refl-mismatch
+2200	13	2	driver	Antecedent	refl-mismatch
+2201	13	3	had	Matrix Clause	refl-mismatch
+2202	13	4	prepared	Matrix Clause	refl-mismatch
+2203	13	5	herself	Reflexive Mismatch	refl-mismatch
+2204	13	6	for	End	refl-mismatch
+2205	13	7	the	End	refl-mismatch
+2206	13	8	busy	End	refl-mismatch
+2207	13	9	day	End	refl-mismatch
+2208	13	10	.	End	refl-mismatch
+2209	13	11	<eos>	End	refl-mismatch
+2210	14	0	The	Antecedent	refl-mismatch
+2211	14	1	soldier	Antecedent	refl-mismatch
+2212	14	2	had	Matrix Clause	refl-mismatch
+2213	14	3	strained	Matrix Clause	refl-mismatch
+2214	14	4	herself	Reflexive Mismatch	refl-mismatch
+2215	14	5	during	End	refl-mismatch
+2216	14	6	training	End	refl-mismatch
+2217	14	7	.	End	refl-mismatch
+2218	14	8	<eos>	End	refl-mismatch
+2219	15	0	The	Antecedent	refl-mismatch
+2220	15	1	pilot	Antecedent	refl-mismatch
+2221	15	2	had	Matrix Clause	refl-mismatch
+2222	15	3	enjoyed	Matrix Clause	refl-mismatch
+2223	15	4	herself	Reflexive Mismatch	refl-mismatch
+2224	15	5	in	End	refl-mismatch
+2225	15	6	the	End	refl-mismatch
+2226	15	7	foreign	End	refl-mismatch
+2227	15	8	city	End	refl-mismatch
+2228	15	9	.	End	refl-mismatch
+2229	15	10	<eos>	End	refl-mismatch
+2230	16	0	The	Antecedent	refl-mismatch
+2231	16	1	plumber	Antecedent	refl-mismatch
+2232	16	2	had	Matrix Clause	refl-mismatch
+2233	16	3	hurt	Matrix Clause	refl-mismatch
+2234	16	4	herself	Reflexive Mismatch	refl-mismatch
+2235	16	5	.	End	refl-mismatch
+2236	16	6	<eos>	End	refl-mismatch
+2237	17	0	The	Antecedent	refl-mismatch
+2238	17	1	sergeant	Antecedent	refl-mismatch
+2239	17	2	had	Matrix Clause	refl-mismatch
+2240	17	3	shouted	Matrix Clause	refl-mismatch
+2241	17	4	herself	Reflexive Mismatch	refl-mismatch
+2242	17	5	hoarse	End	refl-mismatch
+2243	17	6	.	End	refl-mismatch
+2244	17	7	<eos>	End	refl-mismatch
+2245	18	0	The	Antecedent	refl-mismatch
+2246	18	1	secretary	Antecedent	refl-mismatch
+2247	18	2	had	Matrix Clause	refl-mismatch
+2248	18	3	busied	Matrix Clause	refl-mismatch
+2249	18	4	himself	Reflexive Mismatch	refl-mismatch
+2250	18	5	with	End	refl-mismatch
+2251	18	6	work	End	refl-mismatch
+2252	18	7	.	End	refl-mismatch
+2253	18	8	<eos>	End	refl-mismatch
+2254	19	0	The	Antecedent	refl-mismatch
+2255	19	1	teacher	Antecedent	refl-mismatch
+2256	19	2	had	Matrix Clause	refl-mismatch
+2257	19	3	introduced	Matrix Clause	refl-mismatch
+2258	19	4	himself	Reflexive Mismatch	refl-mismatch
+2259	19	5	to	End	refl-mismatch
+2260	19	6	the	End	refl-mismatch
+2261	19	7	new	End	refl-mismatch
+2262	19	8	principal	End	refl-mismatch
+2263	19	9	.	End	refl-mismatch
+2264	19	10	<eos>	End	refl-mismatch
+2265	20	0	The	Antecedent	refl-mismatch
+2266	20	1	hairdresser	Antecedent	refl-mismatch
+2267	20	2	had	Matrix Clause	refl-mismatch
+2268	20	3	washed	Matrix Clause	refl-mismatch
+2269	20	4	himself	Reflexive Mismatch	refl-mismatch
+2270	20	5	meticulously	End	refl-mismatch
+2271	20	6	.	End	refl-mismatch
+2272	20	7	<eos>	End	refl-mismatch
+2273	21	0	The	Antecedent	refl-mismatch
+2274	21	1	beautician	Antecedent	refl-mismatch
+2275	21	2	had	Matrix Clause	refl-mismatch
+2276	21	3	distinguished	Matrix Clause	refl-mismatch
+2277	21	4	himself	Reflexive Mismatch	refl-mismatch
+2278	21	5	with	End	refl-mismatch
+2279	21	6	fine	End	refl-mismatch
+2280	21	7	work	End	refl-mismatch
+2281	21	8	.	End	refl-mismatch
+2282	21	9	<eos>	End	refl-mismatch
+2283	22	0	The	Antecedent	refl-mismatch
+2284	22	1	librarian	Antecedent	refl-mismatch
+2285	22	2	had	Matrix Clause	refl-mismatch
+2286	22	3	asserted	Matrix Clause	refl-mismatch
+2287	22	4	himself	Reflexive Mismatch	refl-mismatch
+2288	22	5	at	End	refl-mismatch
+2289	22	6	the	End	refl-mismatch
+2290	22	7	meeting	End	refl-mismatch
+2291	22	8	.	End	refl-mismatch
+2292	22	9	<eos>	End	refl-mismatch
+2293	23	0	The	Antecedent	refl-mismatch
+2294	23	1	maid	Antecedent	refl-mismatch
+2295	23	2	had	Matrix Clause	refl-mismatch
+2296	23	3	exerted	Matrix Clause	refl-mismatch
+2297	23	4	himself	Reflexive Mismatch	refl-mismatch
+2298	23	5	on	End	refl-mismatch
+2299	23	6	the	End	refl-mismatch
+2300	23	7	job	End	refl-mismatch
+2301	23	8	.	End	refl-mismatch
+2302	23	9	<eos>	End	refl-mismatch
+2303	24	0	The	Antecedent	refl-mismatch
+2304	24	1	dietitian	Antecedent	refl-mismatch
+2305	24	2	had	Matrix Clause	refl-mismatch
+2306	24	3	convinced	Matrix Clause	refl-mismatch
+2307	24	4	himself	Reflexive Mismatch	refl-mismatch
+2308	24	5	to	End	refl-mismatch
+2309	24	6	move	End	refl-mismatch
+2310	24	7	.	End	refl-mismatch
+2311	24	8	<eos>	End	refl-mismatch
+2312	25	0	The	Antecedent	refl-mismatch
+2313	25	1	flight	Antecedent	refl-mismatch
+2314	25	2	attendant	Antecedent	refl-mismatch
+2315	25	3	kicked	Matrix Clause	refl-mismatch
+2316	25	4	himself	Reflexive Mismatch	refl-mismatch
+2317	25	5	for	End	refl-mismatch
+2318	25	6	not	End	refl-mismatch
+2319	25	7	taking	End	refl-mismatch
+2320	25	8	the	End	refl-mismatch
+2321	25	9	day	End	refl-mismatch
+2322	25	10	off	End	refl-mismatch
+2323	25	11	.	End	refl-mismatch
+2324	25	12	<eos>	End	refl-mismatch
+2325	26	0	The	Antecedent	refl-mismatch
+2326	26	1	stylist	Antecedent	refl-mismatch
+2327	26	2	looked	Matrix Clause	refl-mismatch
+2328	26	3	at	Matrix Clause	refl-mismatch
+2329	26	4	himself	Reflexive Mismatch	refl-mismatch
+2330	26	5	in	End	refl-mismatch
+2331	26	6	the	End	refl-mismatch
+2332	26	7	mirror	End	refl-mismatch
+2333	26	8	.	End	refl-mismatch
+2334	26	9	<eos>	End	refl-mismatch
+2335	27	0	The	Antecedent	refl-mismatch
+2336	27	1	administrative	Antecedent	refl-mismatch
+2337	27	2	assistant	Antecedent	refl-mismatch
+2338	27	3	drafted	Matrix Clause	refl-mismatch
+2339	27	4	an	Matrix Clause	refl-mismatch
+2340	27	5	email	Matrix Clause	refl-mismatch
+2341	27	6	to	Matrix Clause	refl-mismatch
+2342	27	7	himself	Reflexive Mismatch	refl-mismatch
+2343	27	8	.	End	refl-mismatch
+2344	27	9	<eos>	End	refl-mismatch
+2345	28	0	The	Antecedent	refl-mismatch
+2346	28	1	typist	Antecedent	refl-mismatch
+2347	28	2	had	Matrix Clause	refl-mismatch
+2348	28	3	convinced	Matrix Clause	refl-mismatch
+2349	28	4	himself	Reflexive Mismatch	refl-mismatch
+2350	28	5	to	End	refl-mismatch
+2351	28	6	take	End	refl-mismatch
+2352	28	7	the	End	refl-mismatch
+2353	28	8	job	End	refl-mismatch
+2354	28	9	.	End	refl-mismatch
+2355	28	10	<eos>	End	refl-mismatch
+2356	29	0	The	Antecedent	refl-mismatch
+2357	29	1	hygienist	Antecedent	refl-mismatch
+2358	29	2	saw	Matrix Clause	refl-mismatch
+2359	29	3	himself	Reflexive Mismatch	refl-mismatch
+2360	29	4	reflected	End	refl-mismatch
+2361	29	5	in	End	refl-mismatch
+2362	29	6	the	End	refl-mismatch
+2363	29	7	glass	End	refl-mismatch
+2364	29	8	.	End	refl-mismatch
+2365	29	9	<eos>	End	refl-mismatch
